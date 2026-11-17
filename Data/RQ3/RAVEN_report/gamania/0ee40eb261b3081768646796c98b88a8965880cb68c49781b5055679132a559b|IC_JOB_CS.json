@@ -1,0 +1,67 @@
+{
+    "data":{
+        "id":"34fed254439bd850380416b755ed141bdcce2fa5cbf509424203819f91336d65",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/34fed254439bd850380416b755ed141bdcce2fa5cbf509424203819f91336d65"
+        },
+        "attributes":{
+            "last_modification_date":1750323412,
+            "type_description":"unknown",
+            "type_tags":[],
+            "first_submission_date":1750323209,
+            "last_analysis_results":{},
+            "times_submitted":1,
+            "tags":[],
+            "size":70282,
+            "reputation":0,
+            "filecondis":{
+                "dhash":"7078785060000000",
+                "raw_md5":"9f364cf31f91d34b24e58e24c597177f"
+            },
+            "md5":"6d84729c8d4bbc8378f3a2edd48b068e",
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "names":[],
+            "unique_sources":1,
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "sha256":"34fed254439bd850380416b755ed141bdcce2fa5cbf509424203819f91336d65",
+            "crowdsourced_ids_stats":{
+                "high":0,
+                "medium":0,
+                "low":1,
+                "info":0
+            },
+            "crowdsourced_ids_results":[
+                {
+                    "rule_category":"Misc activity",
+                    "alert_severity":"low",
+                    "rule_msg":"ET INFO DNS Query for Suspicious .ga Domain",
+                    "rule_id":"1:2025105",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET INFO DNS Query for Suspicious .ga Domain\"; threshold: type limit, count 1, track by_src, seconds 120; dns.query; content:\".ga\"; nocase; endswith; classtype:misc-activity; sid:2025105; rev:6; metadata:created_at 2017_12_03, confidence High, signature_severity Informational, updated_at 2022_12_01;)",
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                }
+            ],
+            "last_submission_date":1750323209,
+            "sha1":"a6665cbbb17bec5fb283e892b00e899017aa75d6"
+        }
+    }
+}

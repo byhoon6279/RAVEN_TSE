@@ -1,0 +1,9 @@
+lief==0.12.3
+pefile==2024.8.26
+iced-x86==1.21.0
+capstone==6.0.0a8
+keystone-engine==0.9.2
+pwntools==4.8.0
+pandas==2.3.3
+identify==2.6.19
+colorama==0.4.6

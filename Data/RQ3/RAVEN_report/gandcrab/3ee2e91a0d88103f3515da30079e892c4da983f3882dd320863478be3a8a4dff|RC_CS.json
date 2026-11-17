@@ -1,0 +1,65 @@
+{
+    "data":{
+        "id":"a1bf22b465d18b3afe6e0ab970c6af0e69223ea889c0b04ac2db5b234e6d779d",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/a1bf22b465d18b3afe6e0ab970c6af0e69223ea889c0b04ac2db5b234e6d779d"
+        },
+        "attributes":{
+            "reputation":0,
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"0159d9b883",
+                    "ruleset_version":"0159d9b883|ed91a18f6e6b2c95e1ffca8a5313b3ef3a4447b0",
+                    "ruleset_name":"Windows_Generic_Threat",
+                    "rule_name":"Windows_Generic_Threat_20469956",
+                    "match_date":1749730053,
+                    "author":"Elastic Security",
+                    "source":"https://github.com/elastic/protections-artifacts"
+                },
+                {
+                    "ruleset_id":"008d5ec3a7",
+                    "ruleset_version":"008d5ec3a7|6558c417dcf07146b1309b6acde6be0aa96dea10",
+                    "ruleset_name":"win.gandcrab_auto",
+                    "rule_name":"win_gandcrab_auto",
+                    "match_date":1749730053,
+                    "description":"Detects win.gandcrab.",
+                    "author":"Felix Bilstein - yara-signator at cocacoding dot com",
+                    "source":"https://malpedia.caad.fkie.fraunhofer.de/"
+                }
+            ],
+            "filecondis":{
+                "raw_md5":"d6ce3165a14d8b1f36280ca344b96e30",
+                "dhash":"fc7c785c6c940000"
+            },
+            "names":[],
+            "sha1":"f7b7090e0f70ec03bb9d968abf7e79b7ced4c63c",
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "last_modification_date":1749730070,
+            "times_submitted":1,
+            "unique_sources":1,
+            "last_analysis_results":{},
+            "type_tags":[],
+            "tags":[],
+            "last_submission_date":1749730053,
+            "sha256":"a1bf22b465d18b3afe6e0ab970c6af0e69223ea889c0b04ac2db5b234e6d779d",
+            "size":99840,
+            "type_description":"unknown",
+            "md5":"d9965422cd5e00f1fc41a833fddf55d7",
+            "first_submission_date":1749730053,
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            }
+        }
+    }
+}

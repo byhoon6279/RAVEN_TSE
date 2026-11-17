@@ -1,0 +1,56 @@
+{
+    "data":{
+        "id":"0c1b928b4a1f254329c8793d40756caa361087fac3c648b661a71e932e56d1ab",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/0c1b928b4a1f254329c8793d40756caa361087fac3c648b661a71e932e56d1ab"
+        },
+        "attributes":{
+            "first_submission_date":1750246508,
+            "last_submission_date":1750246508,
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"000c8f1d6e",
+                    "ruleset_version":"000c8f1d6e|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_imphash_detection",
+                    "rule_name":"SUSP_Imphash_Mar23_2",
+                    "match_date":1750246510,
+                    "description":"Detects imphash often found in malware samples (Zero hits with with search for 'imphash:x p:0' on Virustotal)",
+                    "author":"Arnim Rupp (https://github.com/ruppde)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                }
+            ],
+            "md5":"bc1d232aeb88c17c33a022e8fc147155",
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "tags":[],
+            "filecondis":{
+                "raw_md5":"c4f1db64a7d4d732b4be9f3da6535da9",
+                "dhash":"00303c1c1e0f0400"
+            },
+            "last_analysis_results":{},
+            "type_description":"unknown",
+            "unique_sources":1,
+            "size":761344,
+            "last_modification_date":1750246594,
+            "sha256":"0c1b928b4a1f254329c8793d40756caa361087fac3c648b661a71e932e56d1ab",
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "names":[],
+            "type_tags":[],
+            "reputation":0,
+            "sha1":"9889e51333c628129b57fa3d58017851c5954ff7",
+            "times_submitted":1
+        }
+    }
+}

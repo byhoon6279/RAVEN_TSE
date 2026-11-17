@@ -1,0 +1,1769 @@
+{
+    "data":{
+        "id":"b37272eacc475b21cd82702bffda9fc15ec8c0008b37781bd4e72ead50de1697",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/b37272eacc475b21cd82702bffda9fc15ec8c0008b37781bd4e72ead50de1697"
+        },
+        "attributes":{
+            "magic":"PE32+ executable (GUI) x86-64, for MS Windows",
+            "last_analysis_date":1753963757,
+            "vhash":"08503e0f7d1011z11z11z47z1015z1011z101dz",
+            "tags":[
+                "upx",
+                "peexe",
+                "64bits",
+                "corrupt",
+                "overlay"
+            ],
+            "meaningful_name":"RtlUpd.EXE",
+            "times_submitted":1,
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "trid":[
+                {
+                    "file_type":"UPX compressed Win64 Executable",
+                    "probability":63.5
+                },
+                {
+                    "file_type":"UPX compressed Win32 Executable",
+                    "probability":24.5
+                },
+                {
+                    "file_type":"Win16 NE executable (generic)",
+                    "probability":4.5
+                },
+                {
+                    "file_type":"Windows Icons Library (generic)",
+                    "probability":1.8
+                },
+                {
+                    "file_type":"OS/2 Executable (generic)",
+                    "probability":1.8
+                }
+            ],
+            "sha256":"b37272eacc475b21cd82702bffda9fc15ec8c0008b37781bd4e72ead50de1697",
+            "filecondis":{
+                "raw_md5":"1a7473e08f18ec28b1af714409a6b8d1",
+                "dhash":"0000301a19101000"
+            },
+            "type_tag":"peexe",
+            "signature_info":{
+                "product":"Realtek HD Auido Update and remove driver Tool",
+                "description":"Driver Setup API for Realtek HD Audio",
+                "file version":"3, 0, 0, 3",
+                "x509":[
+                    {
+                        "thumbprint_sha256":"766E3FDC0BC1FD22DD9AAFECF8248760E50375FDAD3D8959B2A6D487A8A05FCA",
+                        "name":"DigiCert High Assurance EV Root CA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"F4A38DBE86386C554D25F1CE2557A4FE",
+                        "valid from":"2011-04-15 19:45:33",
+                        "valid to":"2021-04-15 19:55:33",
+                        "serial number":"61 20 4D B4 00 00 00 00 00 27",
+                        "cert issuer":"Microsoft Code Verification Root",
+                        "thumbprint":"2F2513AF3992DB0A3F79709FF8143B3F7BD2D143"
+                    },
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"B08CF4E204D1BA2BA8642D7709499D61CFF8CF7AA75CCD832A6BA1D7F1B82DF7",
+                        "name":"Realtek Semiconductor Corp.",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"7B0CA4029E3A73373CE0BD3DF12A08C1",
+                        "valid from":"2016-06-13 00:00:00",
+                        "valid to":"2019-01-24 12:00:00",
+                        "serial number":"03 20 BE 3E B8 66 52 69 27 F9 99 B9 7B 04 34 6E",
+                        "cert issuer":"DigiCert EV Code Signing CA",
+                        "thumbprint":"37A0BACB152A547382195095AB33601929877364"
+                    },
+                    {
+                        "valid usage":"ff",
+                        "thumbprint_sha256":"34BB219C2589B1D7658503E1246B013606D00F6B00310E7A4087EA2098832596",
+                        "name":"DigiCert Timestamp Responder",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"76D5EF42898AB2DFA55451926CA5CA0F",
+                        "valid from":"2014-10-22 00:00:00",
+                        "valid to":"2024-10-22 00:00:00",
+                        "serial number":"03 01 9A 02 3A FF 58 B1 6B D6 D5 EA E6 17 F0 66",
+                        "cert issuer":"DigiCert Assured ID CA-1",
+                        "thumbprint":"614D271D9102E30169822487FDE5DE00A352B01D"
+                    },
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"376377FD1FAF4B8A5B1472647A70B941039A62D74CFE99447E48616F8D63A978",
+                        "name":"DigiCert EV Code Signing CA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"98AB93E534F94B4CC31D22BF027B48F3",
+                        "valid from":"2012-04-18 12:00:00",
+                        "valid to":"2027-04-18 12:00:00",
+                        "serial number":"0D D0 E3 37 4A C9 5B DB FA 6B 43 4B 2A 48 EC 06",
+                        "cert issuer":"DigiCert High Assurance EV Root CA",
+                        "thumbprint":"846896AB1BCF45734855C61B63634DFD8719625B"
+                    },
+                    {
+                        "valid usage":"Server Auth, Client Auth, Code Signing, 0.5.5.7.3.4, Timestamp Signing",
+                        "thumbprint_sha256":"425E72C87FF22855D9908B71AB4C64B0D2F248287097690C62FE733F631DE38F",
+                        "name":"DigiCert Assured ID CA-1",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"F313AC549DE5668958A480DA76970EBC",
+                        "valid from":"2006-11-10 00:00:00",
+                        "valid to":"2021-11-10 00:00:00",
+                        "serial number":"06 FD F9 03 96 03 AD EA 00 0A EB 3F 27 BB BA 1B",
+                        "cert issuer":"DigiCert Assured ID Root CA",
+                        "thumbprint":"19A09B5A36F4DD99727DF783C17A51231A56C117"
+                    },
+                    {
+                        "valid usage":"Code Signing, 0.4.1.311.10.3",
+                        "thumbprint_sha256":"1660D0413BCAA7D72C44CC499CE1C785FED68026B410620759DE01A086666DBF",
+                        "name":"Microsoft Windows Hardware Compatibility Publisher",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"F3E037624FB86A84B4FE6FDDEDE010A3",
+                        "valid from":"2016-01-06 19:41:40",
+                        "valid to":"2017-04-06 19:41:40",
+                        "serial number":"33 00 00 00 2D 4E 7A EC 99 B0 F0 5F 73 00 00 00 00 00 2D",
+                        "cert issuer":"Microsoft Windows Third Party Component CA 2012",
+                        "thumbprint":"431FA5538299F973C06FDE9D6E97CC81C047AB0E"
+                    },
+                    {
+                        "thumbprint_sha256":"9D08973E4D108DA40A1A0B274180E17371134B4DD1621FA5C1F131B739B4B823",
+                        "name":"Microsoft Windows Third Party Component CA 2012",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"FD52D6A03BB47F69A25CC4B06DB8B8CC",
+                        "valid from":"2012-04-18 23:48:38",
+                        "valid to":"2027-04-18 23:58:38",
+                        "serial number":"61 0B AA C1 00 00 00 00 00 09",
+                        "cert issuer":"Microsoft Root Certificate Authority 2010",
+                        "thumbprint":"77A10EBF07542725218CD83A01B521C57BC67F73"
+                    },
+                    {
+                        "thumbprint_sha256":"86EC118D1EE69670A46E2BE29C4B4208BE043E36600D4E1DD3F3D515CA119020",
+                        "name":"Microsoft Time-Stamp PCA 2010",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"02F4BF5A04D8EA2321537D606C55507D",
+                        "valid from":"2010-07-01 21:36:55",
+                        "valid to":"2025-07-01 21:46:55",
+                        "serial number":"61 09 81 2A 00 00 00 00 00 02",
+                        "cert issuer":"Microsoft Root Certificate Authority 2010",
+                        "thumbprint":"2AA752FE64C49ABE82913C463529CF10FF2F04EE"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"6D9F2A60722031EDAAA8A559EE478FD0BEF27717D92B56219BFD9E83F6BF6CC3",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"F8A5FF351599A908838D137A3753067F",
+                        "valid from":"2016-03-30 19:24:26",
+                        "valid to":"2017-06-30 19:24:26",
+                        "serial number":"33 00 00 00 89 49 F5 0C E4 F1 8B 94 B3 00 00 00 00 00 89",
+                        "cert issuer":"Microsoft Time-Stamp PCA 2010",
+                        "thumbprint":"86589244E93E817BE7A0D90078E042FB7CA2CAE8"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"F5E05E46D53F0726682FBE3C6D8B9DC3287A2B78A02D971CA13D9722415B5649",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"5E65C9752F59BE33BF89446427EEE91A",
+                        "valid from":"2016-03-30 19:24:24",
+                        "valid to":"2017-06-30 19:24:24",
+                        "serial number":"33 00 00 00 85 DF D6 58 09 14 2E C7 BB 00 00 00 00 00 85",
+                        "cert issuer":"Microsoft Time-Stamp PCA 2010",
+                        "thumbprint":"5E44CEA132523AB1F88A80E077E674C9B3BABA5E"
+                    }
+                ],
+                "original name":"RtlUpd.EXE",
+                "comments":"Developed  by Archeng",
+                "internal name":"RtlUpd",
+                "copyright":"Copyright (C) 2016 Realtek Semiconductor Corp."
+            },
+            "pe_info":{
+                "timestamp":1469602354,
+                "imphash":"0c2602675febbd3608d1864cfec8f378",
+                "machine_type":34404,
+                "entry_point":1807392,
+                "resource_details":[
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":-1.0,
+                        "filetype":"unknown",
+                        "entropy":0.0,
+                        "sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "type":"DIFX64"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":-1.0,
+                        "filetype":"unknown",
+                        "entropy":0.0,
+                        "sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                        "type":"DIFX86"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":410.13,
+                        "filetype":"unknown",
+                        "entropy":7.045905113220215,
+                        "sha256":"82c00de836221f5f2ec260466a57434f17ea2a563d2e57de81d03df97200372f",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":363.29,
+                        "filetype":"unknown",
+                        "entropy":6.615105152130127,
+                        "sha256":"6ca964cdce41104b5332c25b2ff0d127be261109d9fb6259fcce6264ebdae058",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":411.79,
+                        "filetype":"unknown",
+                        "entropy":7.015262126922607,
+                        "sha256":"fa013c34b628df426762f44304401563cef1286a676a80e10c54f8088e848fab",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":481.61,
+                        "filetype":"unknown",
+                        "entropy":6.920583248138428,
+                        "sha256":"90207dbfe22e8c3356c75dba12bbb4ca53c12a343985e8d69071642dad5a7ae6",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":456.68,
+                        "filetype":"unknown",
+                        "entropy":6.929640769958496,
+                        "sha256":"f28e06b3850fa6ba7b25228184c72e518ea6117c26e8e26a5acda5722875ad26",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":503.22,
+                        "filetype":"unknown",
+                        "entropy":6.936398983001709,
+                        "sha256":"29bd5e72963997713420a44d757233b1327c159f912e93d1fd37f9665f4a501f",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":458.34,
+                        "filetype":"unknown",
+                        "entropy":6.992125034332275,
+                        "sha256":"1514a0f6f2bc380833ccdb3781b1cea3471c16bbe01992ebfd3e725d411cb5a8",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":932.1,
+                        "filetype":"unknown",
+                        "entropy":6.578910827636719,
+                        "sha256":"1f44bf9ce9a9caf918461fca32716ec8fe21026ebc4808e399c31785a05e02a8",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":895.53,
+                        "filetype":"unknown",
+                        "entropy":6.482405662536621,
+                        "sha256":"3bb303afd1129106680e03db3a85f77a6c785ac627bade354163107611fef21e",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":885.56,
+                        "filetype":"unknown",
+                        "entropy":6.587027072906494,
+                        "sha256":"15e9f2881862d51a81f640eba2b0db2ccd5fdf78b9e14f19d1125b0adbbd521a",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":853.97,
+                        "filetype":"unknown",
+                        "entropy":6.576745986938477,
+                        "sha256":"7ce938a052347a0d5b3e4e94ccf98fd7be2e52600be52854aae2f09deb17e88a",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":945.4,
+                        "filetype":"unknown",
+                        "entropy":6.571074962615967,
+                        "sha256":"6bb8c805a0974e24c58a7379b697ff67964272f7ba43c2bbae15ea8231d86fd7",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":662.81,
+                        "filetype":"unknown",
+                        "entropy":6.7247314453125,
+                        "sha256":"30e102444bfb030fd3945e89b9afd800cfa291af6f1d4ea13182ef288ab5e1be",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":714.34,
+                        "filetype":"unknown",
+                        "entropy":6.751594543457031,
+                        "sha256":"bac3cf15ee279fd167e54fd24c48b71f254ccfd6a88228ec9fb331ce5adfd652",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":634.55,
+                        "filetype":"unknown",
+                        "entropy":6.799774169921875,
+                        "sha256":"060c2f05800cd22236f6264e46d8c67a23c3053abcd861a2995ddd45204761d3",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":711.01,
+                        "filetype":"unknown",
+                        "entropy":6.7495880126953125,
+                        "sha256":"5c25fe1a1f0150b84cfe28286b9e7a35abf644e1e86317caedf2c1fadb62bcf5",
+                        "type":"RT_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":3452.07,
+                        "filetype":"unknown",
+                        "entropy":7.8795318603515625,
+                        "sha256":"108e217d6811acbd8b7ccd939e7f398029174e39d3db8260098f83022bef774d",
+                        "type":"RT_BITMAP"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":272.35,
+                        "filetype":"unknown",
+                        "entropy":6.873833656311035,
+                        "sha256":"b7372fe155fe7cebcec3f875dbede6275af72478080297286eeafbdac91d772d",
+                        "type":"RT_BITMAP"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":344.44,
+                        "filetype":"unknown",
+                        "entropy":7.203790664672852,
+                        "sha256":"223ce274c4684e603feb3ac1de3d9f4e8bcf21b12de06b73013c2a368253db75",
+                        "type":"RT_BITMAP"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":48601416.0,
+                        "filetype":"unknown",
+                        "entropy":0.8667531609535217,
+                        "sha256":"2e332e7493d7f095658ab29c7294fff2ed62d0d1dd8b894fae55b96bae78dbdc",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1469244.75,
+                        "filetype":"unknown",
+                        "entropy":1.7408645153045654,
+                        "sha256":"5ca693c3520a7cc6a78f8cc3bb3ea040c69477e69c6fdc87f9811e7ab82b2066",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":608545.12,
+                        "filetype":"unknown",
+                        "entropy":2.013577938079834,
+                        "sha256":"755764fe50803906a50f9cb3c86b46d3ff2c6ad6763eeb96828d187fa7fe2cf2",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":134842.06,
+                        "filetype":"unknown",
+                        "entropy":2.454998016357422,
+                        "sha256":"127bee25a1da2c33ee8af734592181ddd90e93590be5438430b8385038a89deb",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":485.66,
+                        "filetype":"unknown",
+                        "entropy":6.497823238372803,
+                        "sha256":"59d20a04abc3fc08d7a6cb07bed10dcb4f071e156faa78764ae6b0e0aa9344ce",
+                        "type":"RT_DIALOG"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":368.28,
+                        "filetype":"unknown",
+                        "entropy":6.897181510925293,
+                        "sha256":"191085f2eae6309ce414093e51c78562ed637ecc9648a1d2878e62fe74d0a34f",
+                        "type":"RT_DIALOG"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":341.85,
+                        "filetype":"unknown",
+                        "entropy":5.1859235763549805,
+                        "sha256":"8411b439eb8750af3571e3920bc4beb7a72f9882bddcbe1d86296e3ea2bb656f",
+                        "type":"RT_DIALOG"
+                    },
+                    {
+                        "lang":"SPANISH NEUTRAL",
+                        "chi2":1184.62,
+                        "filetype":"unknown",
+                        "entropy":6.915034770965576,
+                        "sha256":"50121e652f6d420d8ec7856233fa6e16b484c4a0fce6cbf4886a652197274276",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"NORWEGIAN NEUTRAL",
+                        "chi2":432.0,
+                        "filetype":"unknown",
+                        "entropy":7.393096446990967,
+                        "sha256":"ecf87309c7c4b7fe32e1873714b117ba4c199ba0931cf89e2a2a151a06f7fd4a",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"CATALAN DEFAULT",
+                        "chi2":370.33,
+                        "filetype":"unknown",
+                        "entropy":7.449445724487305,
+                        "sha256":"bf397af9fd0d8e80662f1d68737236bd0811b65859852516a7cde5618820c617",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"CHINESE TRADITIONAL",
+                        "chi2":337.04,
+                        "filetype":"unknown",
+                        "entropy":7.076033115386963,
+                        "sha256":"5e23e9d18e9a3722f4a594443a0d90dcb3f6f72d0238eee780b6088d2830547d",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"CZECH DEFAULT",
+                        "chi2":351.91,
+                        "filetype":"unknown",
+                        "entropy":7.3320512771606445,
+                        "sha256":"c2d5e523916a6ef1ff69747415786880304a0618c92cfeba1c6e660c8be2dfa3",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"DANISH DEFAULT",
+                        "chi2":397.2,
+                        "filetype":"unknown",
+                        "entropy":7.346862316131592,
+                        "sha256":"d83dca6f3cfd43d0e48c4b4357ffcc24a99983b05002f133fe535365c9d44060",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"GERMAN",
+                        "chi2":424.03,
+                        "filetype":"unknown",
+                        "entropy":7.2700300216674805,
+                        "sha256":"483c7e19820ae92873a7317a1c34cc653075f3ec6f5c19233ac2d479deb58bba",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"GREEK DEFAULT",
+                        "chi2":667.49,
+                        "filetype":"unknown",
+                        "entropy":7.321465492248535,
+                        "sha256":"9e68ebbae61f677060dae7c4f8c52fd5d867586a0a68389cc4a8d8a18af20737",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1325.78,
+                        "filetype":"unknown",
+                        "entropy":7.142858982086182,
+                        "sha256":"28778f53f4dead36f6f797ea062fe391689f846340306d64dafd5ba9e2c1f3ad",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"FINNISH DEFAULT",
+                        "chi2":422.71,
+                        "filetype":"unknown",
+                        "entropy":7.469024658203125,
+                        "sha256":"730a535b607733e6c9ed7803b5bdf00ed79e8068022760e411e4acdf6cfdd68c",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"FRENCH",
+                        "chi2":549.87,
+                        "filetype":"unknown",
+                        "entropy":7.335018634796143,
+                        "sha256":"d08f6b59c63997486a7a4699c7fcffb7be61e620aa33a3089ab9032a4d9ef93f",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"HUNGARIAN DEFAULT",
+                        "chi2":3736.8,
+                        "filetype":"unknown",
+                        "entropy":6.126679420471191,
+                        "sha256":"2bbb7464899aec6a9b36a5ac8e6cf6b160b41dc50c8a39291d6c645130ce4d95",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ITALIAN",
+                        "chi2":2030.82,
+                        "filetype":"unknown",
+                        "entropy":6.425942420959473,
+                        "sha256":"73e21686c67380f49ca91b68a896881c3b11fac182faf0f3eb1e421d97c5ff76",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"JAPANESE DEFAULT",
+                        "chi2":1126.4,
+                        "filetype":"unknown",
+                        "entropy":6.546294689178467,
+                        "sha256":"b413b431f4e17dbf49e8d1400e4c8b4568c701f77c3485e7fb83a5ce8af1dcda",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"KOREAN",
+                        "chi2":953.43,
+                        "filetype":"unknown",
+                        "entropy":6.326685905456543,
+                        "sha256":"c70fa66894ec62e123d53926fe69511903046193212998060ee9db9520587470",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"DUTCH",
+                        "chi2":1340.62,
+                        "filetype":"unknown",
+                        "entropy":6.892422199249268,
+                        "sha256":"94ad05901d92fd12d64502967c414ba51d568f2e5809297cdac10192edd7fcf6",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"POLISH DEFAULT",
+                        "chi2":1102.42,
+                        "filetype":"unknown",
+                        "entropy":6.9093546867370605,
+                        "sha256":"35afd605b50ebec15b185257818350c5c27f3bd65b2a37f0737b565b9742f4bf",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"PORTUGUESE BRAZILIAN",
+                        "chi2":1013.92,
+                        "filetype":"unknown",
+                        "entropy":6.97075891494751,
+                        "sha256":"a3d40276428e485df4eaa8362f8f5e97209d5454306406c2e21b1e38d1392351",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"RUSSIAN",
+                        "chi2":651.77,
+                        "filetype":"unknown",
+                        "entropy":7.055018901824951,
+                        "sha256":"ea5593a27e0fdbb36d2ff858cd19f473c506d22153e3651de6f002d3462893a6",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"SERBIAN DEFAULT",
+                        "chi2":1013.17,
+                        "filetype":"unknown",
+                        "entropy":7.170713424682617,
+                        "sha256":"01bbb992dadafed40f52d2a6e2c5bd81e579c6c28ac13a2e958f41b919e72167",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"SLOVAK DEFAULT",
+                        "chi2":709.06,
+                        "filetype":"unknown",
+                        "entropy":7.18648624420166,
+                        "sha256":"8907072c0a6bb42bb13b6b62cc4b8d4cf9270e873913df962b8ec89220a04793",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"SWEDISH",
+                        "chi2":1015.26,
+                        "filetype":"unknown",
+                        "entropy":6.93109655380249,
+                        "sha256":"859f7ce1803d5d18ec8bd0157a6368219f513d9b10904871acf99fad1d8bec35",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"THAI DEFAULT",
+                        "chi2":862.17,
+                        "filetype":"unknown",
+                        "entropy":7.096267223358154,
+                        "sha256":"3c8180756cda8db2ce7a2042f8b8298ab724501e48fb2d6e2fa1e2cf0c96ab67",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"TURKISH DEFAULT",
+                        "chi2":677.04,
+                        "filetype":"unknown",
+                        "entropy":7.237506866455078,
+                        "sha256":"93191eb96a545c5e1b2d627442245f42cd90583a0901b3c139e07ff43de06547",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"INDONESIAN DEFAULT",
+                        "chi2":635.21,
+                        "filetype":"unknown",
+                        "entropy":7.341574668884277,
+                        "sha256":"57ed5c58f0020e2c8a5870bdf8deb8a099b0739703d8215a93af40711ee448a3",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"SLOVENIAN DEFAULT",
+                        "chi2":554.3,
+                        "filetype":"unknown",
+                        "entropy":7.2627668380737305,
+                        "sha256":"db1bf8a47de92875ba2602851989b5f5bf07b3568630affe253b4132d0cce0d7",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"BASQUE DEFAULT",
+                        "chi2":541.42,
+                        "filetype":"unknown",
+                        "entropy":7.306787490844727,
+                        "sha256":"994d8a1655c213763e93ab9d10aa611b568c6bfaf6cb2a1a71d4d97bc1937041",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"CHINESE SIMPLIFIED",
+                        "chi2":455.54,
+                        "filetype":"unknown",
+                        "entropy":6.777581691741943,
+                        "sha256":"51ea0fd121eff403ff381fa6f67c158ed9eb7656233690895e3d45949432b8e9",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"PORTUGUESE",
+                        "chi2":595.34,
+                        "filetype":"unknown",
+                        "entropy":7.184263706207275,
+                        "sha256":"3a4195a3cbf37300d7cb8044c623b735a0bfac09d94fc669e8ced2c72597f1ac",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"FRENCH CANADIAN",
+                        "chi2":608.46,
+                        "filetype":"unknown",
+                        "entropy":7.245853424072266,
+                        "sha256":"b57f84a6f3a563dbf13a55ffc820ad653cca0e735330dad50dbb2f485ed8c4b1",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":354.43,
+                        "filetype":"unknown",
+                        "entropy":6.289407730102539,
+                        "sha256":"ae098ee455e56e047609a47417b4823f39e2a8f4d25f2b618b91805efb26eba7",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":335.9,
+                        "filetype":"unknown",
+                        "entropy":5.011363506317139,
+                        "sha256":"3bf13394ac14944c606a6ab334dab5c07c401d04f89a09e60846825bb1b2040e",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":360.91,
+                        "filetype":"unknown",
+                        "entropy":7.301032543182373,
+                        "sha256":"ddd66c64f1a395622e83141072c59018eb1174b208e980360977e3e8696af259",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1321.47,
+                        "filetype":"unknown",
+                        "entropy":7.560336589813232,
+                        "sha256":"492bd293c7558a946d4f289927076f12f189f494b503fd138e925ec70e5450d2",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1397.15,
+                        "filetype":"unknown",
+                        "entropy":7.505376815795898,
+                        "sha256":"c9fc115c51e3eaf3fa10d1ed02784ffb8567719f4c89102f9453a52b4ffc6578",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1243.26,
+                        "filetype":"unknown",
+                        "entropy":7.50344181060791,
+                        "sha256":"fdc49b2e27ad79d2a558bda98e664fbbcd7cb963c7b0f10fec948903df97d145",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":348.03,
+                        "filetype":"unknown",
+                        "entropy":6.562978267669678,
+                        "sha256":"55b5629709f752b414c34aed98f286f79ce1a1138a3b383ee1cb39de4ca02dc7",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":527.54,
+                        "filetype":"unknown",
+                        "entropy":6.555154323577881,
+                        "sha256":"a4d2f10a35c47144d558cee0cfb52c6000bd9e0bb0a41e11b198cd89165c325f",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":532.16,
+                        "filetype":"unknown",
+                        "entropy":6.8652262687683105,
+                        "sha256":"c7dd46915dc3411bb6ed578fc24413a5362ebd368220b9db84e2fd68a4a4fd2f",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1476.81,
+                        "filetype":"unknown",
+                        "entropy":7.639161109924316,
+                        "sha256":"62795bb52f86fea820fe5aa249a284438cbae96ced3e1825930a9e12712dee3c",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":887.19,
+                        "filetype":"unknown",
+                        "entropy":7.357018947601318,
+                        "sha256":"b47b5814650c9fb6463f103f07afbd5c0e7374e7ea449897ae14eb35f1e555d4",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":305.09,
+                        "filetype":"unknown",
+                        "entropy":5.124091625213623,
+                        "sha256":"9da2c97d61d75e2b2052dbae5a5d73548474d7fceda0bedae48b81ecdad14254",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":290.85,
+                        "filetype":"unknown",
+                        "entropy":5.669322490692139,
+                        "sha256":"4882af382897e3c854dbc82f3efecbf9b6d9ff3d8742a575235783e979bbc4d1",
+                        "type":"RT_STRING"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":252.12,
+                        "filetype":"unknown",
+                        "entropy":4.969814300537109,
+                        "sha256":"4a15c70f0fbfa693eac126b34fa92a9e2872b6590a501604df6daec26c9f6199",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":517.6,
+                        "filetype":"unknown",
+                        "entropy":3.641446113586426,
+                        "sha256":"778580ad642a4f6b9ac08fcaac9c5c47c733db6d38917d1c852aa51f62a7fc2d",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":415.2,
+                        "filetype":"unknown",
+                        "entropy":3.6841838359832764,
+                        "sha256":"cd7fc341fb94cc6b80ee6323b966ac6deaf1fea39e20af151ef59aeddec0dbd7",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":415.2,
+                        "filetype":"unknown",
+                        "entropy":3.8219282627105713,
+                        "sha256":"2ca60f9f8943c6740a5366e54e90db5c11534542622bea3634389c1d19ef6ad5",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":261.6,
+                        "filetype":"unknown",
+                        "entropy":4.221928119659424,
+                        "sha256":"150e702bb5696ceea4077e25d8c3a15986f4401792a849a5531b6d8a06712329",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":261.6,
+                        "filetype":"unknown",
+                        "entropy":4.221928119659424,
+                        "sha256":"b61be2eb9d697f2021f07e9b30d6f71d9547e10a6bfde262ac466fb9da0deb91",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":287.2,
+                        "filetype":"unknown",
+                        "entropy":4.1219282150268555,
+                        "sha256":"da2d6ae918c3750fb8ffa093ad402dddbbeef1128762980fa25bf7c0d1f79cdf",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":236.0,
+                        "filetype":"unknown",
+                        "entropy":4.321928024291992,
+                        "sha256":"485439da796bffeb8d4604558a52b756347732805bcf15854382e93085559915",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":261.6,
+                        "filetype":"unknown",
+                        "entropy":4.221928119659424,
+                        "sha256":"602caa88a71fbc79a7756b10c23ebc337fe2eaf9c1fca9dbe365af8d5339e3b4",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":287.2,
+                        "filetype":"unknown",
+                        "entropy":4.1219282150268555,
+                        "sha256":"010efe8b3ebde359e9aef52451e976ec4d130e3c5a1ae1d88baf8feb9649a037",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":261.6,
+                        "filetype":"unknown",
+                        "entropy":4.221928119659424,
+                        "sha256":"bd374da7d1a13c07068c7ef53d8d2bc49f055d687ce5fb69d5338f978aab47c5",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":236.0,
+                        "filetype":"unknown",
+                        "entropy":4.321928024291992,
+                        "sha256":"56db50e740164a208e7eb5f8b0c246b107bebbb97b5bf825fab1a7c28bd31ece",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":287.2,
+                        "filetype":"unknown",
+                        "entropy":4.1219282150268555,
+                        "sha256":"449aeb6352ef76b21c14fdd2d706dbd5e5763040725eb5da7787e2555e644b2c",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":312.8,
+                        "filetype":"unknown",
+                        "entropy":4.021928310394287,
+                        "sha256":"176dcaaf3bc4bfa3965dd8947ea1ed0d5991235ae6ecc46ab01880ec086876b4",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":287.2,
+                        "filetype":"unknown",
+                        "entropy":4.1219282150268555,
+                        "sha256":"9796835f73ecf718126a9d5102c406e1981175a54fcc0e3c9d0312ac7848d7ec",
+                        "type":"RT_GROUP_CURSOR"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":4942.39,
+                        "filetype":"ICO",
+                        "entropy":2.431919574737549,
+                        "sha256":"7a8c3cc464084801dd02d698431889c226289831e19182fe37be988976f72ca4",
+                        "type":"RT_GROUP_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":76869.03,
+                        "filetype":"unknown",
+                        "entropy":3.4273078441619873,
+                        "sha256":"442bb25f6278907c3771087049cb59ff4a3fb0f4043d353836fa1fbec0bd9bdc",
+                        "type":"RT_VERSION"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":7593.41,
+                        "filetype":"unknown",
+                        "entropy":5.199745178222656,
+                        "sha256":"da2a18face7942040b7ed3318f4d9d5949d171906b48d78303a371006c75c314",
+                        "type":"RT_MANIFEST"
+                    }
+                ],
+                "resource_langs":{
+                    "SWEDISH":1,
+                    "PORTUGUESE":1,
+                    "CZECH DEFAULT":1,
+                    "FRENCH":1,
+                    "CHINESE SIMPLIFIED":1,
+                    "SLOVENIAN DEFAULT":1,
+                    "INDONESIAN DEFAULT":1,
+                    "DUTCH":1,
+                    "ITALIAN":1,
+                    "CATALAN DEFAULT":1,
+                    "FINNISH DEFAULT":1,
+                    "SPANISH NEUTRAL":1,
+                    "PORTUGUESE BRAZILIAN":1,
+                    "ENGLISH US":60,
+                    "FRENCH CANADIAN":1,
+                    "KOREAN":1,
+                    "BASQUE DEFAULT":1,
+                    "HUNGARIAN DEFAULT":1,
+                    "GERMAN":1,
+                    "POLISH DEFAULT":1,
+                    "JAPANESE DEFAULT":1,
+                    "DANISH DEFAULT":1,
+                    "SLOVAK DEFAULT":1,
+                    "GREEK DEFAULT":1,
+                    "TURKISH DEFAULT":1,
+                    "CHINESE TRADITIONAL":1,
+                    "THAI DEFAULT":1,
+                    "SERBIAN DEFAULT":1,
+                    "RUSSIAN":1,
+                    "NORWEGIAN NEUTRAL":1
+                },
+                "resource_types":{
+                    "DIFX86":1,
+                    "RT_DIALOG":3,
+                    "RT_GROUP_CURSOR":15,
+                    "RT_ICON":4,
+                    "DIFX64":1,
+                    "RT_MANIFEST":1,
+                    "RT_STRING":43,
+                    "RT_BITMAP":3,
+                    "RT_CURSOR":16,
+                    "RT_VERSION":1,
+                    "RT_GROUP_ICON":1
+                },
+                "overlay":{
+                    "chi2":46672.32,
+                    "filetype":"unknown",
+                    "entropy":7.295425891876221,
+                    "offset":868864,
+                    "md5":"84216a7f5de60c56011c8ea7e91d720e",
+                    "size":26656
+                },
+                "sections":[
+                    {
+                        "name":"UPX0",
+                        "chi2":-1.0,
+                        "virtual_address":4096,
+                        "entropy":0.0,
+                        "raw_size":0,
+                        "flags":"rwx",
+                        "virtual_size":1228800,
+                        "md5":"d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "name":"UPX1",
+                        "chi2":85988.58,
+                        "virtual_address":1232896,
+                        "entropy":7.91,
+                        "raw_size":575488,
+                        "flags":"rwx",
+                        "virtual_size":577536,
+                        "md5":"81b4e726eeab2b31a373dfacd5b65763"
+                    },
+                    {
+                        "name":".rsrc",
+                        "chi2":51074336.0,
+                        "virtual_address":1810432,
+                        "entropy":1.07,
+                        "raw_size":292352,
+                        "flags":"rw",
+                        "virtual_size":294912,
+                        "md5":"1944246314a1c1ff44624613d20a2e07"
+                    }
+                ],
+                "compiler_product_versions":[
+                    "[ C ] Windows Server 2003 SP1 DDK (for AMD64) build 40310 count=10",
+                    "[ C ] VS2005 build 50727 count=156",
+                    "[ASM] VS2005 build 50727 count=9",
+                    "[IMP] VS2005 build 50727 count=2",
+                    "[IMP] Windows Server 2003 SP1 DDK (for AMD64) build 40310 count=27",
+                    "[---] Unmarked objects count=592",
+                    "[C++] VS2005 build 50727 count=157",
+                    "[RES] VS2005 build 50727 count=1",
+                    "[LNK] VS2005 build 50727 count=1"
+                ],
+                "rich_pe_header_hash":"0a89ba60dd165524919e5b4865059325",
+                "import_list":[
+                    {
+                        "library_name":"ADVAPI32.dll",
+                        "imported_functions":[
+                            "RegEnumKeyW"
+                        ]
+                    },
+                    {
+                        "library_name":"comdlg32.dll",
+                        "imported_functions":[
+                            "GetFileTitleW"
+                        ]
+                    },
+                    {
+                        "library_name":"GDI32.dll",
+                        "imported_functions":[
+                            "SaveDC"
+                        ]
+                    },
+                    {
+                        "library_name":"KERNEL32.DLL",
+                        "imported_functions":[
+                            "ExitProcess",
+                            "GetProcAddress",
+                            "LoadLibraryA",
+                            "VirtualProtect"
+                        ]
+                    },
+                    {
+                        "library_name":"newdev.dll",
+                        "imported_functions":[
+                            "UpdateDriverForPlugAndPlayDevicesW"
+                        ]
+                    },
+                    {
+                        "library_name":"ole32.dll",
+                        "imported_functions":[
+                            "CoTaskMemFree"
+                        ]
+                    },
+                    {
+                        "library_name":"OLEAUT32.dll",
+                        "imported_functions":[
+                            "SysAllocStringLen"
+                        ]
+                    },
+                    {
+                        "library_name":"oledlg.dll",
+                        "imported_functions":[
+                            "OleUIBusyW"
+                        ]
+                    },
+                    {
+                        "library_name":"SETUPAPI.dll",
+                        "imported_functions":[
+                            "SetupCopyOEMInfW"
+                        ]
+                    },
+                    {
+                        "library_name":"SHELL32.dll",
+                        "imported_functions":[
+                            "ShellExecuteW"
+                        ]
+                    },
+                    {
+                        "library_name":"SHLWAPI.dll",
+                        "imported_functions":[
+                            "PathIsUNCW"
+                        ]
+                    },
+                    {
+                        "library_name":"USER32.dll",
+                        "imported_functions":[
+                            "GetDC"
+                        ]
+                    },
+                    {
+                        "library_name":"VERSION.dll",
+                        "imported_functions":[
+                            "VerQueryValueW"
+                        ]
+                    },
+                    {
+                        "library_name":"WINSPOOL.DRV",
+                        "imported_functions":[
+                            "ClosePrinter"
+                        ]
+                    }
+                ]
+            },
+            "size":895520,
+            "magika":"PEBIN",
+            "last_analysis_stats":{
+                "malicious":4,
+                "suspicious":0,
+                "undetected":68,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":4
+            },
+            "reputation":0,
+            "detectiteasy":{
+                "filetype":"PE64",
+                "values":[
+                    {
+                        "info":"NRV,brute",
+                        "version":"3.94",
+                        "type":"Packer",
+                        "name":"UPX"
+                    },
+                    {
+                        "info":"C++/book",
+                        "version":"14.00.50727",
+                        "type":"Compiler",
+                        "name":"Microsoft Visual C/C++"
+                    },
+                    {
+                        "version":"8.00.50727",
+                        "type":"Linker",
+                        "name":"Microsoft Linker"
+                    },
+                    {
+                        "version":"2005",
+                        "type":"Tool",
+                        "name":"Visual Studio"
+                    },
+                    {
+                        "info":"PKCS #7",
+                        "version":"2.0",
+                        "type":"Sign tool",
+                        "name":"Windows Authenticode"
+                    }
+                ]
+            },
+            "type_extension":"exe",
+            "type_tags":[
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "peexe"
+            ],
+            "type_description":"Win32 EXE",
+            "first_submission_date":1753963757,
+            "md5":"0762d2f1f7965a39b9ef1ef7b942d385",
+            "authentihash":"0f0f24b0d9ae1f2bd3c89a2c1c4465615457da1de9d84884ae1b653503a11971",
+            "names":[
+                "file.exe",
+                "RtlUpd",
+                "RtlUpd.EXE"
+            ],
+            "tlsh":"T152151244BB889849FB1FDE7C6968C8B0AA25BE911CD4B6C67BC1B74F1E737130E24119",
+            "unique_sources":1,
+            "creation_date":1469602354,
+            "sha1":"76a0070a4b98ff4ee4057ba993dced488cb91129",
+            "last_modification_date":1753963791,
+            "ssdeep":"12288:3a6Yjbfnk3ORPn/0+xnvorzN/dcUabMT7bhPNXLjx:qXfk30k+xvmldcUr/hdv",
+            "last_analysis_results":{
+                "Bkav":{
+                    "method":"blacklist",
+                    "engine_name":"Bkav",
+                    "engine_version":"2.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"malicious",
+                    "result":"W64.AIDetectMalware"
+                },
+                "Lionic":{
+                    "method":"blacklist",
+                    "engine_name":"Lionic",
+                    "engine_version":"8.16",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Elastic":{
+                    "method":"blacklist",
+                    "engine_name":"Elastic",
+                    "engine_version":"4.0.219",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MicroWorld-eScan":{
+                    "method":"blacklist",
+                    "engine_name":"MicroWorld-eScan",
+                    "engine_version":"14.0.409.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CTX":{
+                    "method":"blacklist",
+                    "engine_name":"CTX",
+                    "engine_version":"2024.8.29.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CAT-QuickHeal":{
+                    "method":"blacklist",
+                    "engine_name":"CAT-QuickHeal",
+                    "engine_version":"22.00",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Skyhigh":{
+                    "method":"blacklist",
+                    "engine_name":"Skyhigh",
+                    "engine_version":"v2021.2.0+4045",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ALYac":{
+                    "method":"blacklist",
+                    "engine_name":"ALYac",
+                    "engine_version":"2.0.0.10",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cylance":{
+                    "method":"blacklist",
+                    "engine_name":"Cylance",
+                    "engine_version":"3.0.0.0",
+                    "engine_update":"20250710",
+                    "category":"malicious",
+                    "result":"Unsafe"
+                },
+                "Zillya":{
+                    "method":"blacklist",
+                    "engine_name":"Zillya",
+                    "engine_version":"2.0.0.5414",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sangfor":{
+                    "method":"blacklist",
+                    "engine_name":"Sangfor",
+                    "engine_version":"2.22.3.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7AntiVirus":{
+                    "method":"blacklist",
+                    "engine_name":"K7AntiVirus",
+                    "engine_version":"12.250.56545",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Alibaba":{
+                    "method":"blacklist",
+                    "engine_name":"Alibaba",
+                    "engine_version":"0.3.0.5",
+                    "engine_update":"20190527",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7GW":{
+                    "method":"blacklist",
+                    "engine_name":"K7GW",
+                    "engine_version":"12.250.56546",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CrowdStrike":{
+                    "method":"blacklist",
+                    "engine_name":"CrowdStrike",
+                    "engine_version":"1.0",
+                    "engine_update":"20231026",
+                    "category":"malicious",
+                    "result":"win/malicious_confidence_60% (D)"
+                },
+                "huorong":{
+                    "method":"blacklist",
+                    "engine_name":"huorong",
+                    "engine_version":"8c96600:8c96600:acf95f9:acf95f9",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Baidu":{
+                    "method":"blacklist",
+                    "engine_name":"Baidu",
+                    "engine_version":"1.0.0.2",
+                    "engine_update":"20190318",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VirIT":{
+                    "method":"blacklist",
+                    "engine_name":"VirIT",
+                    "engine_version":"9.5.1008",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Symantec":{
+                    "method":"blacklist",
+                    "engine_name":"Symantec",
+                    "engine_version":"1.22.0.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "tehtris":{
+                    "method":"blacklist",
+                    "engine_name":"tehtris",
+                    "engine_version":"v0.1.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ESET-NOD32":{
+                    "method":"blacklist",
+                    "engine_name":"ESET-NOD32",
+                    "engine_version":"31615",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "APEX":{
+                    "method":"blacklist",
+                    "engine_name":"APEX",
+                    "engine_version":"6.681",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro-HouseCall":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro-HouseCall",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Paloalto":{
+                    "method":"blacklist",
+                    "engine_name":"Paloalto",
+                    "engine_version":"0.9.0.1003",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ClamAV":{
+                    "method":"blacklist",
+                    "engine_name":"ClamAV",
+                    "engine_version":"1.4.3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kaspersky":{
+                    "method":"blacklist",
+                    "engine_name":"Kaspersky",
+                    "engine_version":"22.0.1.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "BitDefender":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefender",
+                    "engine_version":"7.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "NANO-Antivirus":{
+                    "method":"blacklist",
+                    "engine_name":"NANO-Antivirus",
+                    "engine_version":"1.0.170.26895",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SUPERAntiSpyware":{
+                    "method":"blacklist",
+                    "engine_name":"SUPERAntiSpyware",
+                    "engine_version":"5.6.0.1032",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avast":{
+                    "method":"blacklist",
+                    "engine_name":"Avast",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Rising":{
+                    "method":"blacklist",
+                    "engine_name":"Rising",
+                    "engine_version":"25.0.0.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Emsisoft":{
+                    "method":"blacklist",
+                    "engine_name":"Emsisoft",
+                    "engine_version":"2024.8.0.61147",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Google":{
+                    "method":"blacklist",
+                    "engine_name":"Google",
+                    "engine_version":"1753961443",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "F-Secure":{
+                    "method":"blacklist",
+                    "engine_name":"F-Secure",
+                    "engine_version":"18.10.1547.307",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DrWeb":{
+                    "method":"blacklist",
+                    "engine_name":"DrWeb",
+                    "engine_version":"7.0.69.6040",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VIPRE":{
+                    "method":"blacklist",
+                    "engine_name":"VIPRE",
+                    "engine_version":"6.0.0.35",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "McAfeeD":{
+                    "method":"blacklist",
+                    "engine_name":"McAfeeD",
+                    "engine_version":"1.2.0.10275",
+                    "engine_update":"20250731",
+                    "category":"malicious",
+                    "result":"ti!B37272EACC47"
+                },
+                "Trapmine":{
+                    "method":"blacklist",
+                    "engine_name":"Trapmine",
+                    "engine_version":"4.0.4.0",
+                    "engine_update":"20250721",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CMC":{
+                    "method":"blacklist",
+                    "engine_name":"CMC",
+                    "engine_version":"2.4.2022.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sophos":{
+                    "method":"blacklist",
+                    "engine_name":"Sophos",
+                    "engine_version":"3.0.3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Ikarus":{
+                    "method":"blacklist",
+                    "engine_name":"Ikarus",
+                    "engine_version":"6.4.16.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "GData":{
+                    "method":"blacklist",
+                    "engine_name":"GData",
+                    "engine_version":"GD:27.41253AVA:64.29572",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Jiangmin":{
+                    "method":"blacklist",
+                    "engine_name":"Jiangmin",
+                    "engine_version":"16.0.100",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Webroot":{
+                    "method":"blacklist",
+                    "engine_name":"Webroot",
+                    "engine_version":"1.10.0.2",
+                    "engine_update":"20250227",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Varist":{
+                    "method":"blacklist",
+                    "engine_name":"Varist",
+                    "engine_version":"6.6.1.3",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avira":{
+                    "method":"blacklist",
+                    "engine_name":"Avira",
+                    "engine_version":"8.3.3.22",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Antiy-AVL":{
+                    "method":"blacklist",
+                    "engine_name":"Antiy-AVL",
+                    "engine_version":"3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kingsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Kingsoft",
+                    "engine_version":"None",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Gridinsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Gridinsoft",
+                    "engine_version":"1.0.222.174",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Xcitium":{
+                    "method":"blacklist",
+                    "engine_name":"Xcitium",
+                    "engine_version":"37922",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Arcabit":{
+                    "method":"blacklist",
+                    "engine_name":"Arcabit",
+                    "engine_version":"2025.0.0.23",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ViRobot":{
+                    "method":"blacklist",
+                    "engine_name":"ViRobot",
+                    "engine_version":"2014.3.20.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ZoneAlarm":{
+                    "method":"blacklist",
+                    "engine_name":"ZoneAlarm",
+                    "engine_version":"6.18-106783055",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Microsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Microsoft",
+                    "engine_version":"1.1.25060.6",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cynet":{
+                    "method":"blacklist",
+                    "engine_name":"Cynet",
+                    "engine_version":"4.0.3.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AhnLab-V3":{
+                    "method":"blacklist",
+                    "engine_name":"AhnLab-V3",
+                    "engine_version":"3.28.0.10568",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Acronis":{
+                    "method":"blacklist",
+                    "engine_name":"Acronis",
+                    "engine_version":"1.2.0.121",
+                    "engine_update":"20240328",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VBA32":{
+                    "method":"blacklist",
+                    "engine_name":"VBA32",
+                    "engine_version":"5.3.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TACHYON":{
+                    "method":"blacklist",
+                    "engine_name":"TACHYON",
+                    "engine_version":"2025-07-31.02",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Malwarebytes":{
+                    "method":"blacklist",
+                    "engine_name":"Malwarebytes",
+                    "engine_version":"4.5.5.54",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Panda":{
+                    "method":"blacklist",
+                    "engine_name":"Panda",
+                    "engine_version":"4.6.4.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zoner":{
+                    "method":"blacklist",
+                    "engine_name":"Zoner",
+                    "engine_version":"2.2.2.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Tencent":{
+                    "method":"blacklist",
+                    "engine_name":"Tencent",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Yandex":{
+                    "method":"blacklist",
+                    "engine_name":"Yandex",
+                    "engine_version":"5.5.2.24",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrellixENS":{
+                    "method":"blacklist",
+                    "engine_name":"TrellixENS",
+                    "engine_version":"6.0.6.653",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SentinelOne":{
+                    "method":"blacklist",
+                    "engine_name":"SentinelOne",
+                    "engine_version":"25.1.1.1",
+                    "engine_update":"20250114",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MaxSecure":{
+                    "method":"blacklist",
+                    "engine_name":"MaxSecure",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Fortinet":{
+                    "method":"blacklist",
+                    "engine_name":"Fortinet",
+                    "engine_version":"7.0.30.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AVG":{
+                    "method":"blacklist",
+                    "engine_name":"AVG",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DeepInstinct":{
+                    "method":"blacklist",
+                    "engine_name":"DeepInstinct",
+                    "engine_version":"5.0.0.8",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "alibabacloud":{
+                    "method":"blacklist",
+                    "engine_name":"alibabacloud",
+                    "engine_version":"2.2.0",
+                    "engine_update":"20250321",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Trustlook":{
+                    "method":"blacklist",
+                    "engine_name":"Trustlook",
+                    "engine_version":"1.0",
+                    "engine_update":"20250731",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "SymantecMobileInsight":{
+                    "method":"blacklist",
+                    "engine_name":"SymantecMobileInsight",
+                    "engine_version":"2.0",
+                    "engine_update":"20250124",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "BitDefenderFalx":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefenderFalx",
+                    "engine_version":"2.0.936",
+                    "engine_update":"20250416",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "Avast-Mobile":{
+                    "method":"blacklist",
+                    "engine_name":"Avast-Mobile",
+                    "engine_version":"250731-02",
+                    "engine_update":"20250731",
+                    "category":"type-unsupported",
+                    "result":null
+                }
+            },
+            "last_submission_date":1753963757
+        }
+    }
+}

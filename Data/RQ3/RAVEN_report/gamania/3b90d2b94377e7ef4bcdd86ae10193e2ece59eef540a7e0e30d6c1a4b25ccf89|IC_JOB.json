@@ -1,0 +1,76 @@
+{
+    "data":{
+        "id":"c7015203e873127661a7842f137ad95599b6d69a398e17d731f441ac72d2d4ab",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/c7015203e873127661a7842f137ad95599b6d69a398e17d731f441ac72d2d4ab"
+        },
+        "attributes":{
+            "type_tags":[],
+            "filecondis":{
+                "raw_md5":"fb4c6c0dfc37c31d62af4685988eb2f5",
+                "dhash":"f07838786a000040"
+            },
+            "last_modification_date":1750198865,
+            "size":5412009,
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"00cc803bdc",
+                    "ruleset_version":"00cc803bdc|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"malware",
+                    "rule_name":"MALWARE_Win_PCRat",
+                    "match_date":1750198677,
+                    "description":"Detects PCRat / Gh0st",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                },
+                {
+                    "ruleset_id":"0001440f8a",
+                    "ruleset_version":"0001440f8a|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_transformed_strings",
+                    "rule_name":"Typical_Malware_String_Transforms",
+                    "match_date":1750198677,
+                    "description":"Detects typical strings in a reversed or otherwise modified form",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_EXE_RegKeyComb_RDP",
+                    "match_date":1750198677,
+                    "description":"Detects executables embedding registry key / value combination manipulating RDP / Terminal Services",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                }
+            ],
+            "type_description":"unknown",
+            "last_submission_date":1750198674,
+            "reputation":0,
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "tags":[],
+            "last_analysis_results":{},
+            "sha1":"b7f6f984c376a9be4e34db90cf036f8942eca1a0",
+            "names":[],
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "sha256":"c7015203e873127661a7842f137ad95599b6d69a398e17d731f441ac72d2d4ab",
+            "first_submission_date":1750198674,
+            "md5":"84cfed4eb824c4ff20bde74c3d1e072d",
+            "unique_sources":1,
+            "times_submitted":1
+        }
+    }
+}

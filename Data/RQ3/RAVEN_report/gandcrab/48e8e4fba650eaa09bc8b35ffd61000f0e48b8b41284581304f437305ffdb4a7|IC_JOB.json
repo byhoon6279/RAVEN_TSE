@@ -1,0 +1,180 @@
+{
+    "data":{
+        "id":"efe24060cad29dc034e0648f2ce3624415de83fe9c3f4ed2a293ec201b5ad364",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/efe24060cad29dc034e0648f2ce3624415de83fe9c3f4ed2a293ec201b5ad364"
+        },
+        "attributes":{
+            "type_description":"unknown",
+            "sandbox_verdicts":{
+                "CAPE Sandbox":{
+                    "category":"malicious",
+                    "malware_classification":[
+                        "MALWARE"
+                    ],
+                    "sandbox_name":"CAPE Sandbox",
+                    "malware_names":[
+                        "Gandcrab"
+                    ]
+                }
+            },
+            "crowdsourced_ids_results":[
+                {
+                    "rule_category":"Device Retrieving External IP Address Detected",
+                    "alert_severity":"medium",
+                    "rule_msg":"ET INFO External IP Lookup Domain in DNS Lookup (whatismyipaddress .com)",
+                    "rule_id":"1:2054170",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET INFO External IP Lookup Domain in DNS Lookup (whatismyipaddress .com)\"; dns.query; dotprefix; content:\".whatismyipaddress.com\"; nocase; endswith; reference:url,github.com/chubin/awesome-console-services; classtype:external-ip-check; sid:2054170; rev:1; metadata:affected_product Any, attack_target Client_Endpoint, created_at 2024_06_28, deployment Perimeter, performance_impact Low, confidence High, signature_severity Informational, tag External_IP_Lookup, updated_at 2024_06_28, reviewed_at 2024_10_04, mitre_tactic_id TA0043, mitre_tactic_name Reconnaissance, mitre_technique_id T1590, mitre_technique_name Gather_Victim_Network_Information;)",
+                    "rule_references":[
+                        "https://github.com/chubin/awesome-console-services"
+                    ],
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                }
+            ],
+            "sigma_analysis_summary":{
+                "Sigma Integrated Rule Set (GitHub)":{
+                    "critical":0,
+                    "high":1,
+                    "medium":1,
+                    "low":0
+                }
+            },
+            "sha1":"7e33e3ac29d5b4ca11770c029d9771583eaf9b7e",
+            "md5":"518588b5ae122546c3b6ad8e35201850",
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749543469,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"000a7d3924",
+                    "ruleset_version":"000a7d3924|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"crime_ransom_generic",
+                    "rule_name":"SUSP_RANSOMWARE_Indicator_Jul20",
+                    "match_date":1749543469,
+                    "description":"Detects ransomware indicator",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00b3f0004b",
+                    "ruleset_version":"00b3f0004b|b488c511a7c48ed6c425bf38811bf08e87b0ddbf",
+                    "ruleset_name":"Gandcrab",
+                    "rule_name":"Gandcrab",
+                    "match_date":1749543469,
+                    "description":"Gandcrab Payload",
+                    "author":"kevoreilly",
+                    "source":"https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749543469,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                }
+            ],
+            "last_modification_date":1749543619,
+            "tags":[],
+            "first_submission_date":1749543468,
+            "sha256":"efe24060cad29dc034e0648f2ce3624415de83fe9c3f4ed2a293ec201b5ad364",
+            "sigma_analysis_stats":{
+                "critical":0,
+                "high":1,
+                "medium":1,
+                "low":0
+            },
+            "times_submitted":1,
+            "type_tags":[],
+            "reputation":0,
+            "names":[],
+            "crowdsourced_ids_stats":{
+                "high":0,
+                "medium":1,
+                "low":0,
+                "info":0
+            },
+            "sigma_analysis_results":[
+                {
+                    "rule_level":"high",
+                    "rule_id":"27b72c2678411f21ba21bd10b44b7e9c45594d5a5f61f14223b81a8906675039",
+                    "rule_source":"Sigma Integrated Rule Set (GitHub)",
+                    "rule_title":"New RUN Key Pointing to Suspicious Folder",
+                    "rule_description":"Detects suspicious new RUN key element pointing to an executable in a suspicious folder",
+                    "rule_author":"Florian Roth (Nextron Systems), Markus Neis, Sander Wiebing, Swachchhanda Shrawan Poudel (Nextron Systems)",
+                    "match_context":[
+                        {
+                            "values":{
+                                "RuleName":"T1060,RunKey",
+                                "Details":"\"C:\\Users\\Bruno\\AppData\\Roaming\\Microsoft\\dpdxpo.exe\"",
+                                "EventID":"13",
+                                "Image":"C:\\Users\\Bruno\\Desktop\\file.exe",
+                                "EventType":"SetValue",
+                                "TargetObject":"HKU\\S-1-5-21-4005801669-2598574594-602355426-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\nbbclnwojgt"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "rule_level":"medium",
+                    "rule_id":"8b5db9da5732dc549b0e8b56fe5933d7c95ed760f3ac20568ab95347ef8c5bcc",
+                    "rule_source":"Sigma Integrated Rule Set (GitHub)",
+                    "rule_title":"CurrentVersion Autorun Keys Modification",
+                    "rule_description":"Detects modification of autostart extensibility point (ASEP) in registry.",
+                    "rule_author":"Victor Sergeev, Daniil Yugoslavskiy, Gleb Sukhodolskiy, Timur Zinniatullin, oscd.community, Tim Shelton, frack113 (split)",
+                    "match_context":[
+                        {
+                            "values":{
+                                "RuleName":"T1060,RunKey",
+                                "EventType":"SetValue",
+                                "EventID":"13",
+                                "Image":"C:\\Users\\Bruno\\Desktop\\file.exe",
+                                "Details":"\"C:\\Users\\Bruno\\AppData\\Roaming\\Microsoft\\dpdxpo.exe\"",
+                                "TargetObject":"HKU\\S-1-5-21-4005801669-2598574594-602355426-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\nbbclnwojgt"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "filecondis":{
+                "raw_md5":"afaff496df2c3080c9664f780ada1867",
+                "dhash":"fc7a7c5c5c542000"
+            },
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "last_analysis_results":{},
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "size":75776,
+            "last_submission_date":1749543468,
+            "unique_sources":1
+        }
+    }
+}

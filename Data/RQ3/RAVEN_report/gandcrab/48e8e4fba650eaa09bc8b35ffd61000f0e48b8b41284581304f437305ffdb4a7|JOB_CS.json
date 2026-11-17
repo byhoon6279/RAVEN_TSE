@@ -1,0 +1,115 @@
+{
+    "data":{
+        "id":"e3dccfc8ec51923e10d611e16aae8d4bea541007e53e1748d2f3cb06427ef84d",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/e3dccfc8ec51923e10d611e16aae8d4bea541007e53e1748d2f3cb06427ef84d"
+        },
+        "attributes":{
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"0159d9b883",
+                    "ruleset_version":"0159d9b883|ed91a18f6e6b2c95e1ffca8a5313b3ef3a4447b0",
+                    "ruleset_name":"Windows_Generic_Threat",
+                    "rule_name":"Windows_Generic_Threat_20469956",
+                    "match_date":1749543721,
+                    "author":"Elastic Security",
+                    "source":"https://github.com/elastic/protections-artifacts"
+                },
+                {
+                    "ruleset_id":"000a7d3924",
+                    "ruleset_version":"000a7d3924|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"crime_ransom_generic",
+                    "rule_name":"SUSP_RANSOMWARE_Indicator_Jul20",
+                    "match_date":1749543721,
+                    "description":"Detects ransomware indicator",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749543721,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00b3f0004b",
+                    "ruleset_version":"00b3f0004b|b488c511a7c48ed6c425bf38811bf08e87b0ddbf",
+                    "ruleset_name":"Gandcrab",
+                    "rule_name":"Gandcrab",
+                    "match_date":1749543721,
+                    "description":"Gandcrab Payload",
+                    "author":"kevoreilly",
+                    "source":"https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "ruleset_id":"0058dd345c",
+                    "ruleset_version":"0058dd345c|073879b10edf4bf4c9d95198b10a4728e2397b51",
+                    "ruleset_name":"Win32.Ransomware.GandCrab",
+                    "rule_name":"Win32_Ransomware_GandCrab",
+                    "match_date":1749543721,
+                    "description":"Yara rule that detects GandCrab ransomware.",
+                    "author":"ReversingLabs",
+                    "source":"https://github.com/reversinglabs/reversinglabs-yara-rules"
+                },
+                {
+                    "ruleset_id":"008d5ec3a7",
+                    "ruleset_version":"008d5ec3a7|6558c417dcf07146b1309b6acde6be0aa96dea10",
+                    "ruleset_name":"win.gandcrab_auto",
+                    "rule_name":"win_gandcrab_auto",
+                    "match_date":1749543721,
+                    "description":"Detects win.gandcrab.",
+                    "author":"Felix Bilstein - yara-signator at cocacoding dot com",
+                    "source":"https://malpedia.caad.fkie.fraunhofer.de/"
+                },
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749543721,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                }
+            ],
+            "type_description":"unknown",
+            "size":104448,
+            "sha256":"e3dccfc8ec51923e10d611e16aae8d4bea541007e53e1748d2f3cb06427ef84d",
+            "filecondis":{
+                "dhash":"f87c785868200000",
+                "raw_md5":"65aed6bbcc9c93ca26e7799ab063d9a5"
+            },
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "unique_sources":1,
+            "type_tags":[],
+            "first_submission_date":1749543721,
+            "last_analysis_results":{},
+            "tags":[],
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "md5":"c62dcffb3e958afd2e72ce0fae8b0049",
+            "sha1":"5adbdf6f1b9fa6991a920c1d97264b97127a14f3",
+            "reputation":0,
+            "times_submitted":1,
+            "last_modification_date":1749543741,
+            "names":[],
+            "last_submission_date":1749543721
+        }
+    }
+}

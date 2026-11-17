@@ -1,0 +1,105 @@
+{
+    "data":{
+        "id":"89d33454eac5465aabdc37375b6499f643d1c2515be8db2f43ab44a63fa812fa",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/89d33454eac5465aabdc37375b6499f643d1c2515be8db2f43ab44a63fa812fa"
+        },
+        "attributes":{
+            "type_tags":[],
+            "reputation":0,
+            "first_submission_date":1749655205,
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "sha256":"89d33454eac5465aabdc37375b6499f643d1c2515be8db2f43ab44a63fa812fa",
+            "md5":"261671ed2af003faa9d6ff5e4b4ffae8",
+            "last_modification_date":1749655292,
+            "names":[],
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749655206,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749655206,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                },
+                {
+                    "ruleset_id":"0159d9b883",
+                    "ruleset_version":"0159d9b883|ed91a18f6e6b2c95e1ffca8a5313b3ef3a4447b0",
+                    "ruleset_name":"Windows_Generic_Threat",
+                    "rule_name":"Windows_Generic_Threat_20469956",
+                    "match_date":1749655206,
+                    "author":"Elastic Security",
+                    "source":"https://github.com/elastic/protections-artifacts"
+                },
+                {
+                    "ruleset_id":"00b99a8c22",
+                    "ruleset_version":"00b99a8c22|b488c511a7c48ed6c425bf38811bf08e87b0ddbf",
+                    "ruleset_name":"HeavensGate",
+                    "rule_name":"HeavensGate",
+                    "match_date":1749655206,
+                    "description":"Heaven's Gate: Switch from 32-bit to 64-mode",
+                    "author":"kevoreilly",
+                    "source":"https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "ruleset_id":"0058dd345c",
+                    "ruleset_version":"0058dd345c|073879b10edf4bf4c9d95198b10a4728e2397b51",
+                    "ruleset_name":"Win32.Ransomware.GandCrab",
+                    "rule_name":"Win32_Ransomware_GandCrab",
+                    "match_date":1749655206,
+                    "description":"Yara rule that detects GandCrab ransomware.",
+                    "author":"ReversingLabs",
+                    "source":"https://github.com/reversinglabs/reversinglabs-yara-rules"
+                },
+                {
+                    "ruleset_id":"008d5ec3a7",
+                    "ruleset_version":"008d5ec3a7|6558c417dcf07146b1309b6acde6be0aa96dea10",
+                    "ruleset_name":"win.gandcrab_auto",
+                    "rule_name":"win_gandcrab_auto",
+                    "match_date":1749655206,
+                    "description":"Detects win.gandcrab.",
+                    "author":"Felix Bilstein - yara-signator at cocacoding dot com",
+                    "source":"https://malpedia.caad.fkie.fraunhofer.de/"
+                }
+            ],
+            "unique_sources":1,
+            "times_submitted":1,
+            "last_submission_date":1749655205,
+            "tags":[],
+            "filecondis":{
+                "raw_md5":"18a7620bb8619ed775122ab9fe7a0615",
+                "dhash":"7c783c3c2c540800"
+            },
+            "type_description":"unknown",
+            "size":163328,
+            "last_analysis_results":{},
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "sha1":"e4bcd0bdf45e22e0d9727858545f48d5218b9922"
+        }
+    }
+}

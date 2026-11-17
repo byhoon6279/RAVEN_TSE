@@ -1,0 +1,1773 @@
+{
+  "n_perturbations": 14,
+  "n_av_features": 72,
+  "modes": {
+    "raw": {
+      "k=2": {
+        "silhouette": 0.31025603028450277,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "SAP",
+              "CS",
+              "JOB",
+              "IC",
+              "PSC",
+              "SIN"
+            ],
+            "size": 6,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "IC": 20.1404,
+              "JOB": 17.2021,
+              "SAP": 16.6677,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": true,
+            "target_overlap": [
+              "CS",
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "MDH",
+              "EDS",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 8,
+            "mean_asr_desc": {
+              "EDS": 12.6204,
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958,
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293,
+              "RH": 2.4266
+            },
+            "centroid_nearest": "OAP",
+            "medoid": "OAP",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=3": {
+        "silhouette": 0.25214960510737405,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "IC": 20.1404,
+              "JOB": 17.2021,
+              "SAP": 16.6677
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "EDS": 12.6204,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958,
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293,
+              "RH": 2.4266
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=4": {
+        "silhouette": 0.26240417189128634,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 6,
+            "mean_asr_desc": {
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958,
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "EDS",
+              "CS",
+              "JOB",
+              "SIN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "JOB": 17.2021,
+              "EDS": 12.6204,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS",
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "RH"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "RH": 2.4266
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "RH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAP",
+              "IC",
+              "PSC"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "IC": 20.1404,
+              "SAP": 16.6677
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "PSC"
+            ]
+          }
+        ]
+      },
+      "k=5": {
+        "silhouette": 0.24147895277435602,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 12.6204
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP",
+              "CS",
+              "JOB",
+              "SIN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "JOB": 17.2021,
+              "SAP": 16.6677,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS",
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 6,
+            "mean_asr_desc": {
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958,
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "IC",
+              "PSC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "IC": 20.1404
+            },
+            "centroid_nearest": "IC",
+            "medoid": "IC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "RH"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "RH": 2.4266
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "RH",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=6": {
+        "silhouette": 0.253713990323336,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "RH"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "RH": 2.4266
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "RH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 6,
+            "mean_asr_desc": {
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958,
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "SAP",
+              "PSC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "SAP": 16.6677
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 12.6204
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "CS",
+              "JOB",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "JOB": 17.2021,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS",
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "IC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "IC": 20.1404
+            },
+            "centroid_nearest": "IC",
+            "medoid": "IC",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC"
+            ]
+          }
+        ]
+      },
+      "k=7": {
+        "silhouette": 0.26187609670829437,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "OH"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "OH": 8.5095,
+              "CH": 7.9271,
+              "MDH": 7.6958
+            },
+            "centroid_nearest": "OH",
+            "medoid": "OH",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "CS",
+              "JOB",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "JOB": 17.2021,
+              "SIN": 11.832,
+              "CS": 11.2936
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS",
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "IC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "IC": 20.1404
+            },
+            "centroid_nearest": "IC",
+            "medoid": "IC",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SAD": 6.7298,
+              "SRN": 6.5355,
+              "OAP": 6.2293
+            },
+            "centroid_nearest": "OAP",
+            "medoid": "OAP",
+            "highest_mean_asr": "SAD",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "SAP",
+              "PSC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "PSC": 20.1718,
+              "SAP": 16.6677
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "RH"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "RH": 2.4266
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "RH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 6,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 12.6204
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      }
+    },
+    "zscore": {
+      "k=2": {
+        "silhouette": 0.4497062655460325,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "EDS",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "CS",
+              "OAP",
+              "SIN"
+            ],
+            "size": 10,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "EDS": 0.0097,
+              "CS": -0.0146,
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 1.2316,
+              "SAP": 0.9993,
+              "IC": 0.9609,
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          }
+        ]
+      },
+      "k=3": {
+        "silhouette": 0.2688831555451908,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 1.2316,
+              "SAP": 0.9993,
+              "IC": 0.9609,
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "EDS": 0.0097,
+              "CS": -0.0146
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          }
+        ]
+      },
+      "k=4": {
+        "silhouette": 0.27082974295199186,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP",
+              "PSC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "PSC": 1.2316,
+              "SAP": 0.9993
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "EDS": 0.0097,
+              "CS": -0.0146
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "JOB",
+              "IC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "IC": 0.9609,
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "JOB",
+            "medoid": "JOB",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB"
+            ]
+          }
+        ]
+      },
+      "k=5": {
+        "silhouette": 0.25681569631973805,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "JOB",
+              "IC"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "IC": 0.9609,
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "JOB",
+            "medoid": "JOB",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "EDS": 0.0097,
+              "CS": -0.0146
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "PSC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "PSC": 1.2316
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "SAP"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAP": 0.9993
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "SAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=6": {
+        "silhouette": 0.2411417388755138,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "JOB"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "JOB",
+            "medoid": "JOB",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "IC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "IC": 0.9609
+            },
+            "centroid_nearest": "IC",
+            "medoid": "IC",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAP"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAP": 0.9993
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "SAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "PSC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "PSC": 1.2316
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "EDS": 0.0097,
+              "CS": -0.0146
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          }
+        ]
+      },
+      "k=7": {
+        "silhouette": 0.24535029345707202,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": -0.3705,
+              "CH": -0.4743,
+              "MDH": -0.4881,
+              "SAD": -0.5173,
+              "SRN": -0.5929,
+              "OAP": -0.6737,
+              "RH": -0.9618
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "IC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "IC": 0.9609
+            },
+            "centroid_nearest": "IC",
+            "medoid": "IC",
+            "highest_mean_asr": "IC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "PSC"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "PSC": 1.2316
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAP"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAP": 0.9993
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "SAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "JOB"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "JOB": 0.8159
+            },
+            "centroid_nearest": "JOB",
+            "medoid": "JOB",
+            "highest_mean_asr": "JOB",
+            "contains_target_set": false,
+            "target_overlap": [
+              "JOB"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "CS",
+              "SIN"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "SIN": 0.0758,
+              "CS": -0.0146
+            },
+            "centroid_nearest": "CS",
+            "medoid": "CS",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 6,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 0.0097
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      }
+    },
+    "rank": {
+      "k=2": {
+        "silhouette": 0.40356402383081624,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SAD": 0.3552,
+              "SRN": 0.3373,
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "EDS",
+              "SAP",
+              "CS",
+              "JOB",
+              "IC",
+              "PSC",
+              "SIN"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852,
+              "SAP": 0.7748,
+              "SIN": 0.6682,
+              "CS": 0.629,
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": true,
+            "target_overlap": [
+              "CS",
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          }
+        ]
+      },
+      "k=3": {
+        "silhouette": 0.23570049092906345,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852,
+              "SAP": 0.7748
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "MDH",
+              "CH",
+              "RH",
+              "OH",
+              "SRN",
+              "SAD",
+              "OAP"
+            ],
+            "size": 7,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SAD": 0.3552,
+              "SRN": 0.3373,
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "SRN",
+            "medoid": "SRN",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.6682,
+              "CS": 0.629,
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          }
+        ]
+      },
+      "k=4": {
+        "silhouette": 0.16375698372527372,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SRN": 0.3373
+            },
+            "centroid_nearest": "CH",
+            "medoid": "CH",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "EDS",
+              "CS",
+              "SIN"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SIN": 0.6682,
+              "CS": 0.629,
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "SIN",
+            "medoid": "SIN",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "RH",
+              "SAD",
+              "OAP"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SAD": 0.3552,
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "OAP",
+            "medoid": "OAP",
+            "highest_mean_asr": "SAD",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852,
+              "SAP": 0.7748
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          }
+        ]
+      },
+      "k=5": {
+        "silhouette": 0.15886508267708147,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SRN": 0.3373
+            },
+            "centroid_nearest": "CH",
+            "medoid": "CH",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "RH",
+              "SAD",
+              "OAP"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "SAD": 0.3552,
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "OAP",
+            "medoid": "OAP",
+            "highest_mean_asr": "SAD",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "CS",
+              "SIN"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "SIN": 0.6682,
+              "CS": 0.629
+            },
+            "centroid_nearest": "CS",
+            "medoid": "CS",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852,
+              "SAP": 0.7748
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=6": {
+        "silhouette": 0.15619430177831536,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SRN": 0.3373
+            },
+            "centroid_nearest": "CH",
+            "medoid": "CH",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP",
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852,
+              "SAP": 0.7748
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "RH",
+              "OAP"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "OAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "SAD"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAD": 0.3552
+            },
+            "centroid_nearest": "SAD",
+            "medoid": "SAD",
+            "highest_mean_asr": "SAD",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "CS",
+              "SIN"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "SIN": 0.6682,
+              "CS": 0.629
+            },
+            "centroid_nearest": "CS",
+            "medoid": "CS",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      },
+      "k=7": {
+        "silhouette": 0.14372396299560855,
+        "clusters": [
+          {
+            "cluster_id": 0,
+            "members": [
+              "RH",
+              "OAP"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "OAP": 0.2356,
+              "RH": 0.1458
+            },
+            "centroid_nearest": "RH",
+            "medoid": "RH",
+            "highest_mean_asr": "OAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 1,
+            "members": [
+              "SAP"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAP": 0.7748
+            },
+            "centroid_nearest": "SAP",
+            "medoid": "SAP",
+            "highest_mean_asr": "SAP",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 2,
+            "members": [
+              "JOB",
+              "IC",
+              "PSC"
+            ],
+            "size": 3,
+            "mean_asr_desc": {
+              "PSC": 0.8626,
+              "IC": 0.8085,
+              "JOB": 0.7852
+            },
+            "centroid_nearest": "PSC",
+            "medoid": "PSC",
+            "highest_mean_asr": "PSC",
+            "contains_target_set": false,
+            "target_overlap": [
+              "IC",
+              "JOB",
+              "PSC"
+            ]
+          },
+          {
+            "cluster_id": 3,
+            "members": [
+              "MDH",
+              "CH",
+              "OH",
+              "SRN"
+            ],
+            "size": 4,
+            "mean_asr_desc": {
+              "OH": 0.4921,
+              "MDH": 0.4097,
+              "CH": 0.3829,
+              "SRN": 0.3373
+            },
+            "centroid_nearest": "CH",
+            "medoid": "CH",
+            "highest_mean_asr": "OH",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 4,
+            "members": [
+              "CS",
+              "SIN"
+            ],
+            "size": 2,
+            "mean_asr_desc": {
+              "SIN": 0.6682,
+              "CS": 0.629
+            },
+            "centroid_nearest": "CS",
+            "medoid": "CS",
+            "highest_mean_asr": "SIN",
+            "contains_target_set": false,
+            "target_overlap": [
+              "CS"
+            ]
+          },
+          {
+            "cluster_id": 5,
+            "members": [
+              "EDS"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "EDS": 0.6131
+            },
+            "centroid_nearest": "EDS",
+            "medoid": "EDS",
+            "highest_mean_asr": "EDS",
+            "contains_target_set": false,
+            "target_overlap": []
+          },
+          {
+            "cluster_id": 6,
+            "members": [
+              "SAD"
+            ],
+            "size": 1,
+            "mean_asr_desc": {
+              "SAD": 0.3552
+            },
+            "centroid_nearest": "SAD",
+            "medoid": "SAD",
+            "highest_mean_asr": "SAD",
+            "contains_target_set": false,
+            "target_overlap": []
+          }
+        ]
+      }
+    }
+  }
+}

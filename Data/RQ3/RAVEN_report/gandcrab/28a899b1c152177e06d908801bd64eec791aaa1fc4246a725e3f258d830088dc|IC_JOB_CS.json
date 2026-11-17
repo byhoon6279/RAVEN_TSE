@@ -1,0 +1,200 @@
+{
+    "data":{
+        "id":"db4dbda745ca19eb60d92c2ba2b256ecbe995923edd86bb1840d160c266566df",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/db4dbda745ca19eb60d92c2ba2b256ecbe995923edd86bb1840d160c266566df"
+        },
+        "attributes":{
+            "unique_sources":1,
+            "last_modification_date":1749535053,
+            "sha256":"db4dbda745ca19eb60d92c2ba2b256ecbe995923edd86bb1840d160c266566df",
+            "size":103936,
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749534837,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                },
+                {
+                    "ruleset_id":"000a7d3924",
+                    "ruleset_version":"000a7d3924|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"crime_ransom_generic",
+                    "rule_name":"SUSP_RANSOMWARE_Indicator_Jul20",
+                    "match_date":1749534837,
+                    "description":"Detects ransomware indicator",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749534837,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00b3f0004b",
+                    "ruleset_version":"00b3f0004b|b488c511a7c48ed6c425bf38811bf08e87b0ddbf",
+                    "ruleset_name":"Gandcrab",
+                    "rule_name":"Gandcrab",
+                    "match_date":1749534837,
+                    "description":"Gandcrab Payload",
+                    "author":"kevoreilly",
+                    "source":"https://github.com/kevoreilly/CAPEv2"
+                }
+            ],
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "crowdsourced_ids_results":[
+                {
+                    "rule_category":"A Network Trojan was detected",
+                    "alert_severity":"high",
+                    "rule_msg":"ET MALWARE Observed GandCrab Domain (gandcrab .bit)",
+                    "rule_id":"1:2026737",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET MALWARE Observed GandCrab Domain (gandcrab .bit)\"; dns.query; content:\"gandcrab.bit\"; nocase; endswith; reference:md5,023f078d5eb70bcbf4c5ad5b87df9710; classtype:trojan-activity; sid:2026737; rev:3; metadata:affected_product Windows_XP_Vista_7_8_10_Server_32_64_Bit, attack_target Client_Endpoint, created_at 2018_12_18, deployment Perimeter, malware_family GandCrab, performance_impact Low, confidence High, signature_severity Major, updated_at 2020_09_16;)",
+                    "rule_references":[
+                        "https://www.virustotal.com/gui/search/023f078d5eb70bcbf4c5ad5b87df9710"
+                    ],
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                },
+                {
+                    "rule_category":"trojan-activity",
+                    "alert_severity":"high",
+                    "rule_msg":"MALWARE-CNC DNS suspicious .bit dns query",
+                    "rule_id":"1:41083",
+                    "rule_source":"Snort registered user ruleset",
+                    "rule_url":"https://www.snort.org/downloads/#rule-downloads",
+                    "rule_raw":"alert udp $HOME_NET any -> any 53 ( msg:\"MALWARE-CNC DNS suspicious .bit dns query\"; flow:to_server; byte_test:1,!&,0xF8,2; content:\"|03|bit|00|\",fast_pattern,nocase; metadata:impact_flag red,policy balanced-ips drop,policy max-detect-ips drop,policy security-ips drop; service:dns; classtype:trojan-activity; sid:41083; rev:4; )",
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                },
+                {
+                    "rule_category":"Device Retrieving External IP Address Detected",
+                    "alert_severity":"medium",
+                    "rule_msg":"ET INFO External IP Lookup Domain in DNS Lookup (whatismyipaddress .com)",
+                    "rule_id":"1:2054170",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET INFO External IP Lookup Domain in DNS Lookup (whatismyipaddress .com)\"; dns.query; dotprefix; content:\".whatismyipaddress.com\"; nocase; endswith; reference:url,github.com/chubin/awesome-console-services; classtype:external-ip-check; sid:2054170; rev:1; metadata:affected_product Any, attack_target Client_Endpoint, created_at 2024_06_28, deployment Perimeter, performance_impact Low, confidence High, signature_severity Informational, tag External_IP_Lookup, updated_at 2024_06_28, reviewed_at 2024_10_04, mitre_tactic_id TA0043, mitre_tactic_name Reconnaissance, mitre_technique_id T1590, mitre_technique_name Gather_Victim_Network_Information;)",
+                    "rule_references":[
+                        "https://github.com/chubin/awesome-console-services"
+                    ],
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                },
+                {
+                    "rule_category":"Potentially Bad Traffic",
+                    "alert_severity":"low",
+                    "rule_msg":"ET INFO DNS Query Domain .bit",
+                    "rule_id":"1:2017645",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET INFO DNS Query Domain .bit\"; dns.query; content:\".bit\"; nocase; endswith; reference:url,www.normanshark.com/blog/necurs-cc-domains-non-censorable/; classtype:bad-unknown; sid:2017645; rev:5; metadata:created_at 2013_10_30, confidence High, signature_severity Informational, updated_at 2020_09_15, reviewed_at 2024_04_23;)",
+                    "rule_references":[
+                        "https://www.normanshark.com/blog/necurs-cc-domains-non-censorable/"
+                    ],
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                },
+                {
+                    "rule_category":"Potentially Bad Traffic",
+                    "alert_severity":"low",
+                    "rule_msg":"ET HUNTING Observed DNS Query for EmerDNS TLD (.coin)",
+                    "rule_id":"1:2029971",
+                    "rule_source":"Proofpoint Emerging Threats Open",
+                    "rule_url":"https://rules.emergingthreats.net/",
+                    "rule_raw":"alert dns $HOME_NET any -> any any (msg:\"ET HUNTING Observed DNS Query for EmerDNS TLD (.coin)\"; dns.query; content:\".coin\"; nocase; endswith; reference:url,wiki.opennic.org/opennic/dot; reference:url,emercoin.com/en/documentation/blockchain-services/emerdns/emerdns-introduction; classtype:bad-unknown; sid:2029971; rev:2; metadata:attack_target Client_Endpoint, created_at 2020_04_20, deployment Perimeter, confidence High, signature_severity Informational, updated_at 2020_11_16;)",
+                    "rule_references":[
+                        "https://wiki.opennic.org/opennic/dot",
+                        "https://emercoin.com/en/documentation/blockchain-services/emerdns/emerdns-introduction"
+                    ],
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                },
+                {
+                    "rule_category":"misc-activity",
+                    "alert_severity":"low",
+                    "rule_msg":"INDICATOR-COMPROMISE suspicious .coin dns query",
+                    "rule_id":"1:48682",
+                    "rule_source":"Snort registered user ruleset",
+                    "rule_url":"https://www.snort.org/downloads/#rule-downloads",
+                    "rule_raw":"alert udp $HOME_NET any -> $EXTERNAL_NET 53 ( msg:\"INDICATOR-COMPROMISE suspicious .coin dns query\"; flow:to_server; byte_test:1,!&,0xF8,2; content:\"|04|coin|00|\",offset 11,nocase; metadata:policy max-detect-ips drop,policy security-ips drop; service:dns; classtype:misc-activity; sid:48682; rev:3; )",
+                    "alert_context":[
+                        {
+                            "dest_ip":"8.8.8.8",
+                            "dest_port":53
+                        }
+                    ]
+                }
+            ],
+            "last_analysis_results":{},
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "type_tags":[],
+            "reputation":0,
+            "sha1":"9f7e41389b785ca3fa1e19da7f550575ca9ca46b",
+            "first_submission_date":1749534836,
+            "crowdsourced_ids_stats":{
+                "high":2,
+                "medium":1,
+                "low":3,
+                "info":0
+            },
+            "filecondis":{
+                "raw_md5":"d1271597184dcf1c7f29538460c2d224",
+                "dhash":"f87c78586c280000"
+            },
+            "last_submission_date":1749534836,
+            "times_submitted":1,
+            "names":[],
+            "tags":[
+                "persistence",
+                "malware"
+            ],
+            "type_description":"unknown",
+            "md5":"78a58f8f89fd2b6cd3e536eee82cfeda"
+        }
+    }
+}

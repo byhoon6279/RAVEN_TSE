@@ -1,0 +1,134 @@
+{
+    "data":{
+        "id":"cd8f255799d309df6d0a8285e1401af3c782db529b1cfce7ca4290f6a41e59be",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/cd8f255799d309df6d0a8285e1401af3c782db529b1cfce7ca4290f6a41e59be"
+        },
+        "attributes":{
+            "names":[],
+            "last_submission_date":1749631806,
+            "sigma_analysis_summary":{
+                "Sigma Integrated Rule Set (GitHub)":{
+                    "critical":0,
+                    "high":2,
+                    "medium":1,
+                    "low":0
+                }
+            },
+            "sigma_analysis_results":[
+                {
+                    "rule_level":"high",
+                    "rule_id":"27b72c2678411f21ba21bd10b44b7e9c45594d5a5f61f14223b81a8906675039",
+                    "rule_source":"Sigma Integrated Rule Set (GitHub)",
+                    "rule_title":"New RUN Key Pointing to Suspicious Folder",
+                    "rule_description":"Detects suspicious new RUN key element pointing to an executable in a suspicious folder",
+                    "rule_author":"Florian Roth (Nextron Systems), Markus Neis, Sander Wiebing, Swachchhanda Shrawan Poudel (Nextron Systems)",
+                    "match_context":[
+                        {
+                            "values":{
+                                "RuleName":"T1060,RunKey",
+                                "EventType":"SetValue",
+                                "EventID":"13",
+                                "Image":"C:\\Users\\azure\\Downloads\\file.exe",
+                                "Details":"\"C:\\Users\\azure\\AppData\\Roaming\\Microsoft\\khtdze.exe\"",
+                                "TargetObject":"HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\ksdlpcuwaco"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "rule_level":"high",
+                    "rule_id":"9bc88dec9bf37149ee55ca532e26602ba2ef11e86aa846ab6e0e461f12768b4c",
+                    "rule_source":"Sigma Integrated Rule Set (GitHub)",
+                    "rule_title":"Suspicious Run Key from Download",
+                    "rule_description":"Detects the suspicious RUN keys created by software located in Download or temporary Outlook/Internet Explorer directories",
+                    "rule_author":"Florian Roth (Nextron Systems), Swachchhanda Shrawan Poude (Nextron Systems)",
+                    "match_context":[
+                        {
+                            "values":{
+                                "RuleName":"T1060,RunKey",
+                                "EventID":"13",
+                                "EventType":"SetValue",
+                                "Image":"C:\\Users\\azure\\Downloads\\file.exe",
+                                "Details":"\"C:\\Users\\azure\\AppData\\Roaming\\Microsoft\\khtdze.exe\"",
+                                "TargetObject":"HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\ksdlpcuwaco"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "rule_level":"medium",
+                    "rule_id":"18842e32896dd83b8aca4d5e1ac78c1f66b1d252479c0023cdd02f108c42c8cd",
+                    "rule_source":"Sigma Integrated Rule Set (GitHub)",
+                    "rule_title":"Wow6432Node CurrentVersion Autorun Keys Modification",
+                    "rule_description":"Detects modification of autostart extensibility point (ASEP) in registry.",
+                    "rule_author":"Victor Sergeev, Daniil Yugoslavskiy, Gleb Sukhodolskiy, Timur Zinniatullin, oscd.community, Tim Shelton, frack113 (split)",
+                    "match_context":[
+                        {
+                            "values":{
+                                "RuleName":"T1060,RunKey",
+                                "EventType":"SetValue",
+                                "EventID":"13",
+                                "Image":"C:\\Users\\azure\\Downloads\\file.exe",
+                                "Details":"\"C:\\Users\\azure\\AppData\\Roaming\\Microsoft\\khtdze.exe\"",
+                                "TargetObject":"HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\ksdlpcuwaco"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "unique_sources":1,
+            "sha256":"cd8f255799d309df6d0a8285e1401af3c782db529b1cfce7ca4290f6a41e59be",
+            "type_tags":[],
+            "last_analysis_results":{},
+            "sha1":"37d46e24fefa35bffa8c4a91adfa7186bfe66049",
+            "size":292691,
+            "tags":[
+                "persistence"
+            ],
+            "last_modification_date":1749631984,
+            "times_submitted":1,
+            "type_description":"unknown",
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "reputation":0,
+            "filecondis":{
+                "raw_md5":"e9b12d97a64667713e912fcb0fd4868e",
+                "dhash":"00203c3c1d2c0800"
+            },
+            "md5":"410d5e3860bc030d7d76dedc2dc5333b",
+            "sandbox_verdicts":{
+                "CAPE Sandbox":{
+                    "category":"malicious",
+                    "malware_classification":[
+                        "MALWARE"
+                    ],
+                    "sandbox_name":"CAPE Sandbox",
+                    "malware_names":[
+                        "Gandcrab"
+                    ]
+                }
+            },
+            "first_submission_date":1749631806,
+            "sigma_analysis_stats":{
+                "critical":0,
+                "high":2,
+                "medium":1,
+                "low":0
+            },
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            }
+        }
+    }
+}

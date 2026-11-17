@@ -1,0 +1,1799 @@
+{
+    "data":{
+        "id":"aa144b2a0303a5740f87a24b8a906c0f54828390bc333d146c07aa35f21962bf",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/aa144b2a0303a5740f87a24b8a906c0f54828390bc333d146c07aa35f21962bf"
+        },
+        "attributes":{
+            "type_tags":[
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "pedll"
+            ],
+            "sandbox_verdicts":{
+                "Zenbox":{
+                    "category":"harmless",
+                    "malware_classification":[
+                        "CLEAN"
+                    ],
+                    "sandbox_name":"Zenbox",
+                    "confidence":100
+                }
+            },
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":72,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":4
+            },
+            "magika":"PEBIN",
+            "total_votes":{
+                "harmless":3,
+                "malicious":1
+            },
+            "packers":{
+                "PEiD":"Microsoft Visual C++ vx.x DLL"
+            },
+            "last_analysis_results":{
+                "Bkav":{
+                    "method":"blacklist",
+                    "engine_name":"Bkav",
+                    "engine_version":"2.0.0.1",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Lionic":{
+                    "method":"blacklist",
+                    "engine_name":"Lionic",
+                    "engine_version":"8.16",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AVG":{
+                    "method":"blacklist",
+                    "engine_name":"AVG",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Elastic":{
+                    "method":"blacklist",
+                    "engine_name":"Elastic",
+                    "engine_version":"4.0.219",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MicroWorld-eScan":{
+                    "method":"blacklist",
+                    "engine_name":"MicroWorld-eScan",
+                    "engine_version":"14.0.409.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CTX":{
+                    "method":"blacklist",
+                    "engine_name":"CTX",
+                    "engine_version":"2024.8.29.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CAT-QuickHeal":{
+                    "method":"blacklist",
+                    "engine_name":"CAT-QuickHeal",
+                    "engine_version":"22.00",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Skyhigh":{
+                    "method":"blacklist",
+                    "engine_name":"Skyhigh",
+                    "engine_version":"v2021.2.0+4045",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ALYac":{
+                    "method":"blacklist",
+                    "engine_name":"ALYac",
+                    "engine_version":"2.0.0.10",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Malwarebytes":{
+                    "method":"blacklist",
+                    "engine_name":"Malwarebytes",
+                    "engine_version":"4.5.5.54",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zillya":{
+                    "method":"blacklist",
+                    "engine_name":"Zillya",
+                    "engine_version":"2.0.0.5414",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sangfor":{
+                    "method":"blacklist",
+                    "engine_name":"Sangfor",
+                    "engine_version":"2.22.3.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7AntiVirus":{
+                    "method":"blacklist",
+                    "engine_name":"K7AntiVirus",
+                    "engine_version":"12.250.56542",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Alibaba":{
+                    "method":"blacklist",
+                    "engine_name":"Alibaba",
+                    "engine_version":"0.3.0.5",
+                    "engine_update":"20190527",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7GW":{
+                    "method":"blacklist",
+                    "engine_name":"K7GW",
+                    "engine_version":"12.250.56543",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CrowdStrike":{
+                    "method":"blacklist",
+                    "engine_name":"CrowdStrike",
+                    "engine_version":"1.0",
+                    "engine_update":"20231026",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Baidu":{
+                    "method":"blacklist",
+                    "engine_name":"Baidu",
+                    "engine_version":"1.0.0.2",
+                    "engine_update":"20190318",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VirIT":{
+                    "method":"blacklist",
+                    "engine_name":"VirIT",
+                    "engine_version":"9.5.1008",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Symantec":{
+                    "method":"blacklist",
+                    "engine_name":"Symantec",
+                    "engine_version":"1.22.0.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "tehtris":{
+                    "method":"blacklist",
+                    "engine_name":"tehtris",
+                    "engine_version":"v0.1.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ESET-NOD32":{
+                    "method":"blacklist",
+                    "engine_name":"ESET-NOD32",
+                    "engine_version":"31614",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cynet":{
+                    "method":"blacklist",
+                    "engine_name":"Cynet",
+                    "engine_version":"4.0.3.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "APEX":{
+                    "method":"blacklist",
+                    "engine_name":"APEX",
+                    "engine_version":"6.680",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Paloalto":{
+                    "method":"blacklist",
+                    "engine_name":"Paloalto",
+                    "engine_version":"0.9.0.1003",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ClamAV":{
+                    "method":"blacklist",
+                    "engine_name":"ClamAV",
+                    "engine_version":"1.4.3.0",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kaspersky":{
+                    "method":"blacklist",
+                    "engine_name":"Kaspersky",
+                    "engine_version":"22.0.1.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "BitDefender":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefender",
+                    "engine_version":"7.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "NANO-Antivirus":{
+                    "method":"blacklist",
+                    "engine_name":"NANO-Antivirus",
+                    "engine_version":"1.0.170.26895",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SUPERAntiSpyware":{
+                    "method":"blacklist",
+                    "engine_name":"SUPERAntiSpyware",
+                    "engine_version":"5.6.0.1032",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avast":{
+                    "method":"blacklist",
+                    "engine_name":"Avast",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Rising":{
+                    "method":"blacklist",
+                    "engine_name":"Rising",
+                    "engine_version":"25.0.0.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Emsisoft":{
+                    "method":"blacklist",
+                    "engine_name":"Emsisoft",
+                    "engine_version":"2024.8.0.61147",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "F-Secure":{
+                    "method":"blacklist",
+                    "engine_name":"F-Secure",
+                    "engine_version":"18.10.1547.307",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DrWeb":{
+                    "method":"blacklist",
+                    "engine_name":"DrWeb",
+                    "engine_version":"7.0.69.6040",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VIPRE":{
+                    "method":"blacklist",
+                    "engine_name":"VIPRE",
+                    "engine_version":"6.0.0.35",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "McAfeeD":{
+                    "method":"blacklist",
+                    "engine_name":"McAfeeD",
+                    "engine_version":"1.2.0.10275",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SentinelOne":{
+                    "method":"blacklist",
+                    "engine_name":"SentinelOne",
+                    "engine_version":"25.1.1.1",
+                    "engine_update":"20250114",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Trapmine":{
+                    "method":"blacklist",
+                    "engine_name":"Trapmine",
+                    "engine_version":"4.0.4.0",
+                    "engine_update":"20250721",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CMC":{
+                    "method":"blacklist",
+                    "engine_name":"CMC",
+                    "engine_version":"2.4.2022.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sophos":{
+                    "method":"blacklist",
+                    "engine_name":"Sophos",
+                    "engine_version":"3.0.3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Ikarus":{
+                    "method":"blacklist",
+                    "engine_name":"Ikarus",
+                    "engine_version":"6.4.16.0",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Jiangmin":{
+                    "method":"blacklist",
+                    "engine_name":"Jiangmin",
+                    "engine_version":"16.0.100",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Webroot":{
+                    "method":"blacklist",
+                    "engine_name":"Webroot",
+                    "engine_version":"1.9.0.8",
+                    "engine_update":"20250227",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Varist":{
+                    "method":"blacklist",
+                    "engine_name":"Varist",
+                    "engine_version":"6.6.1.3",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avira":{
+                    "method":"blacklist",
+                    "engine_name":"Avira",
+                    "engine_version":"8.3.3.22",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Antiy-AVL":{
+                    "method":"blacklist",
+                    "engine_name":"Antiy-AVL",
+                    "engine_version":"3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kingsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Kingsoft",
+                    "engine_version":"None",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Microsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Microsoft",
+                    "engine_version":"1.1.25060.6",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Gridinsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Gridinsoft",
+                    "engine_version":"1.0.222.174",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Xcitium":{
+                    "method":"blacklist",
+                    "engine_name":"Xcitium",
+                    "engine_version":"37920",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Arcabit":{
+                    "method":"blacklist",
+                    "engine_name":"Arcabit",
+                    "engine_version":"2025.0.0.23",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ViRobot":{
+                    "method":"blacklist",
+                    "engine_name":"ViRobot",
+                    "engine_version":"2014.3.20.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ZoneAlarm":{
+                    "method":"blacklist",
+                    "engine_name":"ZoneAlarm",
+                    "engine_version":"6.18-106783023",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "GData":{
+                    "method":"blacklist",
+                    "engine_name":"GData",
+                    "engine_version":"GD:27.41250AVA:64.29571",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Google":{
+                    "method":"blacklist",
+                    "engine_name":"Google",
+                    "engine_version":"1753939846",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AhnLab-V3":{
+                    "method":"blacklist",
+                    "engine_name":"AhnLab-V3",
+                    "engine_version":"3.28.0.10568",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Acronis":{
+                    "method":"blacklist",
+                    "engine_name":"Acronis",
+                    "engine_version":"1.2.0.121",
+                    "engine_update":"20240328",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VBA32":{
+                    "method":"blacklist",
+                    "engine_name":"VBA32",
+                    "engine_version":"5.3.2",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TACHYON":{
+                    "method":"blacklist",
+                    "engine_name":"TACHYON",
+                    "engine_version":"2025-07-31.02",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cylance":{
+                    "method":"blacklist",
+                    "engine_name":"Cylance",
+                    "engine_version":"3.0.0.0",
+                    "engine_update":"20250710",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Panda":{
+                    "method":"blacklist",
+                    "engine_name":"Panda",
+                    "engine_version":"4.6.4.2",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro-HouseCall":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro-HouseCall",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Tencent":{
+                    "method":"blacklist",
+                    "engine_name":"Tencent",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Yandex":{
+                    "method":"blacklist",
+                    "engine_name":"Yandex",
+                    "engine_version":"5.5.2.24",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrellixENS":{
+                    "method":"blacklist",
+                    "engine_name":"TrellixENS",
+                    "engine_version":"6.0.6.653",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "huorong":{
+                    "method":"blacklist",
+                    "engine_name":"huorong",
+                    "engine_version":"8c96600:8c96600:acf95f9:acf95f9",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MaxSecure":{
+                    "method":"blacklist",
+                    "engine_name":"MaxSecure",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Fortinet":{
+                    "method":"blacklist",
+                    "engine_name":"Fortinet",
+                    "engine_version":"7.0.30.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zoner":{
+                    "method":"blacklist",
+                    "engine_name":"Zoner",
+                    "engine_version":"2.2.2.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DeepInstinct":{
+                    "method":"blacklist",
+                    "engine_name":"DeepInstinct",
+                    "engine_version":"5.0.0.8",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "alibabacloud":{
+                    "method":"blacklist",
+                    "engine_name":"alibabacloud",
+                    "engine_version":"2.2.0",
+                    "engine_update":"20250321",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Trustlook":{
+                    "method":"blacklist",
+                    "engine_name":"Trustlook",
+                    "engine_version":"1.0",
+                    "engine_update":"20250731",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "SymantecMobileInsight":{
+                    "method":"blacklist",
+                    "engine_name":"SymantecMobileInsight",
+                    "engine_version":"2.0",
+                    "engine_update":"20250124",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "BitDefenderFalx":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefenderFalx",
+                    "engine_version":"2.0.936",
+                    "engine_update":"20250416",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "Avast-Mobile":{
+                    "method":"blacklist",
+                    "engine_name":"Avast-Mobile",
+                    "engine_version":"250730-04",
+                    "engine_update":"20250730",
+                    "category":"type-unsupported",
+                    "result":null
+                }
+            },
+            "ssdeep":"24576:29hebUD+zf9/ktq18GlyOPyOCBhyOJG+vfvzHmJvzHmBG+WYryOwL9VaBxE/KtH1:AheQD+zBktqWGljPjwjJGsDGlGBG1Yr/",
+            "unique_sources":147,
+            "meaningful_name":"icons.exe",
+            "sha1":"136e1e672f1d3dd5cfe3b69f9baf8bac8b847120",
+            "last_modification_date":1753946425,
+            "reputation":-8,
+            "magic":"PE32 executable (DLL) (GUI) Intel 80386, for MS Windows",
+            "times_submitted":179,
+            "pe_info":{
+                "timestamp":1269487063,
+                "machine_type":332,
+                "resource_details":[
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":28093.84,
+                        "filetype":"unknown",
+                        "entropy":3.530958414077759,
+                        "sha256":"f650fa18eaefd4a74772c338417afdb3cb3e07630c81597a7c52aeb2c8afad17",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":12796.33,
+                        "filetype":"unknown",
+                        "entropy":3.4023869037628174,
+                        "sha256":"6fd1f361e8ec95e037b2bb667b3a84367ae8c77bde31d56766519a85cfe40e43",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":53815.8,
+                        "filetype":"unknown",
+                        "entropy":5.956089019775391,
+                        "sha256":"a2a0ad3beef29a524e9caac20b1e977fa89dc0b80eba1c215d740a9434028381",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25248.03,
+                        "filetype":"unknown",
+                        "entropy":6.383310794830322,
+                        "sha256":"09f446afd96bc024cc822436be832a48801a56f0e2761ee53b439ebc4c44bbe3",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":95705.39,
+                        "filetype":"unknown",
+                        "entropy":4.458652019500732,
+                        "sha256":"cb9c3397b13d276dff8d670c6f78c52c8f9136922f32754ccd73cdda42a6e86e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1250.32,
+                        "filetype":"PNG",
+                        "entropy":7.983365535736084,
+                        "sha256":"e3ea575ae587f5d487e1d0344db7039d45a6b2293e2be19e3060785a1520e35d",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":2699048.75,
+                        "filetype":"unknown",
+                        "entropy":5.246428966522217,
+                        "sha256":"10c80f68434824824761ffec412e01d1ccccfcec5e6f8bafef18220c8d642edc",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1535360.5,
+                        "filetype":"unknown",
+                        "entropy":5.15854549407959,
+                        "sha256":"e10c920eab2bd70a2646bf8db39b8a85245da8be1ec910679b5f46f093e82b81",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":339452.81,
+                        "filetype":"unknown",
+                        "entropy":5.170802593231201,
+                        "sha256":"db70323278ffc4d8dcdb5c119e8263c0dcf9a3706789b80f2abcbfa05efcae75",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":135335.03,
+                        "filetype":"unknown",
+                        "entropy":5.30841064453125,
+                        "sha256":"b53d2b8c260845bb3f4b68bac3bf5e82ef4e56478f04f7c92a126bdb3bb1af53",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":33888.62,
+                        "filetype":"unknown",
+                        "entropy":5.5120954513549805,
+                        "sha256":"955547f6746a57dddf79e4df02b956087c998feef029500a37490ed8466fd345",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":37327.05,
+                        "filetype":"unknown",
+                        "entropy":3.2156498432159424,
+                        "sha256":"ed129f40a266bf0bd576ee580bc52e14ae1100927f513daf4f9a2f0e0c3f0e13",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":19780.97,
+                        "filetype":"unknown",
+                        "entropy":2.9911956787109375,
+                        "sha256":"08752e5d6facba1ece6c27ac8a02684f490c29557853d81b9c9384fce8568a30",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":92514.3,
+                        "filetype":"unknown",
+                        "entropy":5.545578479766846,
+                        "sha256":"39c4bde1e38581176b31a0a1f3f510aa0ee8408dc9f9c739f890e6f4cfa81c07",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":48359.64,
+                        "filetype":"unknown",
+                        "entropy":5.990826606750488,
+                        "sha256":"a39f79798d7aa0ab77fb646d8656c51c03752a19d28d08d8405dbf631b82327e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":126669.6,
+                        "filetype":"unknown",
+                        "entropy":3.846292018890381,
+                        "sha256":"0583c2dbfe9ba62cadc00a940f0e5185d5a74c87426f39dc7ec02f0a464414ad",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1003.77,
+                        "filetype":"PNG",
+                        "entropy":7.983816146850586,
+                        "sha256":"21512ec98869d096753999528f90c5fdd09e0ed22371d65c84f68b392256ad1b",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":319068.94,
+                        "filetype":"unknown",
+                        "entropy":4.976639747619629,
+                        "sha256":"4d22cc9d6a2eeb4905d7c9191967f0a87dec17b0ca6afea2ce6ac4103ad9a924",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":112911.08,
+                        "filetype":"unknown",
+                        "entropy":5.300173759460449,
+                        "sha256":"55825ddcf978d7b48f5bf16f59cfec4bd0e9f44f96a727ea71c4fdf82c7263b7",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25615.83,
+                        "filetype":"unknown",
+                        "entropy":5.473642826080322,
+                        "sha256":"6ae4e975c1ca094a08824a7fc3e3823ec6057e8615c115ae58a1d0f1ad7ee192",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25669.9,
+                        "filetype":"unknown",
+                        "entropy":2.81982684135437,
+                        "sha256":"a21a82a7443088ca29dc24e047ca41643c2020f96b4edf80f7e6c92fedb0bbb2",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":69702.11,
+                        "filetype":"unknown",
+                        "entropy":2.6027352809906006,
+                        "sha256":"21d5dfd1b0450d0d2e3257d4118b731e7a81a94675cdc369e2afae35dd9c9d1f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":36914.15,
+                        "filetype":"unknown",
+                        "entropy":3.2625772953033447,
+                        "sha256":"f3cfef091b0b4f0554a37c30f047a85c7b9764c42319fa1cf9f468d1b93e1546",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":19867.45,
+                        "filetype":"unknown",
+                        "entropy":3.0157506465911865,
+                        "sha256":"829202357cecf8978d7d8631985eb9e6a112e9327d0893451e22b86348aef467",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":87281.4,
+                        "filetype":"unknown",
+                        "entropy":5.737005233764648,
+                        "sha256":"5f7a2cb6c6795a2220af33980c967971711a3d3b78a5dffbf311fa34cee7e129",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":39820.8,
+                        "filetype":"unknown",
+                        "entropy":6.351076602935791,
+                        "sha256":"7ed4ad9027783b0649f545c0c2bd0d5c44958c2e5b99ab5f0e3ff2fb1cfb9eb1",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":107177.7,
+                        "filetype":"unknown",
+                        "entropy":4.331907749176025,
+                        "sha256":"38fa8b10d19dd3beeaa91d0ea03ab33350e399930017af4fda047c411d9b7131",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1912.31,
+                        "filetype":"PNG",
+                        "entropy":7.973158836364746,
+                        "sha256":"aa8bf13acb68c4a1d1b71e9a050d64b5cef023e8cd0bad67e140276d61dcf32f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":302042.78,
+                        "filetype":"unknown",
+                        "entropy":5.236654758453369,
+                        "sha256":"58f36e5dd8d7ef72c735df6c9c8fa90e65c6013400c2dd47bb35e22aaed4fc9f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":111016.11,
+                        "filetype":"unknown",
+                        "entropy":5.500701904296875,
+                        "sha256":"8ab6ffcca874be7886748e1bf48ea3a45db53e3da13279601d261f2e31aef96c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25310.81,
+                        "filetype":"unknown",
+                        "entropy":5.631119728088379,
+                        "sha256":"a25056f6b980ce82856090e5c0a8c5a172ee4722e0c146576c473efdd4a30609",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":26535.83,
+                        "filetype":"unknown",
+                        "entropy":3.7800841331481934,
+                        "sha256":"ac5b068d2eb97db0425835252840eb45ab8dbaa69dcf119f933161b78a542618",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":17665.51,
+                        "filetype":"unknown",
+                        "entropy":3.278175115585327,
+                        "sha256":"e7fe9c6b8609578d8f4742d44e67480ef0fad13d5dc7c463a9a54ccdfd2d53de",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":74752.49,
+                        "filetype":"unknown",
+                        "entropy":6.02195930480957,
+                        "sha256":"85cda79b1325825f2a8599fc76504e89bb765a590230b394b4659c2a4d7cd992",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":28759.95,
+                        "filetype":"unknown",
+                        "entropy":6.495649337768555,
+                        "sha256":"6d408e08c8726455d3b1ccce87a1aed718f16a5a29dd65a0da0f852722cbdd37",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":97255.44,
+                        "filetype":"unknown",
+                        "entropy":4.546879768371582,
+                        "sha256":"3f73227b56962e0d33bb52324883b1652d01fa183610f4db7a532eb5badb423c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":2288.52,
+                        "filetype":"PNG",
+                        "entropy":7.9564127922058105,
+                        "sha256":"fed3d0a32b3c4d82b9c10d733fd204536b2dda2b1b84a8f50288dcd258192037",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":283167.19,
+                        "filetype":"unknown",
+                        "entropy":5.372149467468262,
+                        "sha256":"93dd46eea98f6311f6e9cd68b555bf5074f0473ede6fe3a4c93c45ace47f3ac0",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":86680.23,
+                        "filetype":"unknown",
+                        "entropy":5.8545918464660645,
+                        "sha256":"14c464fe2b88f103c5f8ca5dcf14ff44a79f714a39ac01142359c3346df379fd",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":24023.09,
+                        "filetype":"unknown",
+                        "entropy":5.818361759185791,
+                        "sha256":"b9b02cf134076cf9bca0dd83f42f0215977f941656c63e85375652773ae2a2d6",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":35310.71,
+                        "filetype":"unknown",
+                        "entropy":3.480574607849121,
+                        "sha256":"0044305e35ed555735b26443b217ec831ec039b83ceccb260d8d6aa811e18a67",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":21320.43,
+                        "filetype":"unknown",
+                        "entropy":3.05367112159729,
+                        "sha256":"0f9b938a1f5797fcb4bfaedb43707c904ef9c9834d3c234097043652785beb00",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":132310.08,
+                        "filetype":"unknown",
+                        "entropy":5.244358062744141,
+                        "sha256":"bea554f2394601441e568cf85fe03b76a43cd9422c2d66cda6001767f9d19dd8",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":42326.52,
+                        "filetype":"unknown",
+                        "entropy":6.094606399536133,
+                        "sha256":"e4149aba20dc5f70549b7420742a0e2423d0f148350f6cbdd5f7b644fd05ade5",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":120284.76,
+                        "filetype":"unknown",
+                        "entropy":4.0225725173950195,
+                        "sha256":"1e5bfa330f1abc41c0a95ba2662850dd14493dc370a7898f7e81ef464173e7a4",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1204.25,
+                        "filetype":"PNG",
+                        "entropy":7.982929706573486,
+                        "sha256":"55949328c2ece4515c485d47ff0402b84c3502fb29db38589ad8d640b809c12c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":438914.69,
+                        "filetype":"unknown",
+                        "entropy":4.4677534103393555,
+                        "sha256":"d716aee1d7c66b44d4b7ec315d71aff2f76f3b461a9aa5cfd25097c46a5358ff",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":111975.8,
+                        "filetype":"unknown",
+                        "entropy":5.2902398109436035,
+                        "sha256":"f79ac79637fcd51bc42e7581756bda9cfe9651520981b9ff13dbd5aec1d8676b",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25789.68,
+                        "filetype":"unknown",
+                        "entropy":5.6014275550842285,
+                        "sha256":"1a719a5bde9f52102b019766c292307c588aaf17c2feb13db357c3b24554a61a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":45571.35,
+                        "filetype":"unknown",
+                        "entropy":3.1017799377441406,
+                        "sha256":"c1fc0257f9b4f05687184693f0089341ddfec65b5f05a955433420794488d842",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":21758.05,
+                        "filetype":"unknown",
+                        "entropy":3.061418056488037,
+                        "sha256":"b23c5e12de43582771f7a945079b904de5be91d37f04edb740bdc6897912b988",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":165570.62,
+                        "filetype":"unknown",
+                        "entropy":5.090933322906494,
+                        "sha256":"0843bd1a58ec9344fb4b6e8f1c578d0f7023b0b70705dad64d2857324058d3b3",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":60180.21,
+                        "filetype":"unknown",
+                        "entropy":5.921260356903076,
+                        "sha256":"d0b070d2b65e0a2ec1043da8a894032bea7456393c120b81643fa123ff09f9b7",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":141670.12,
+                        "filetype":"unknown",
+                        "entropy":3.5909769535064697,
+                        "sha256":"f8e560d1b5977a0649881a45ae16a8fadf390964aa7cd4a74d1f539d8dcc1672",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":463883.31,
+                        "filetype":"unknown",
+                        "entropy":4.573281288146973,
+                        "sha256":"9fa290ed19ecd9c7c92e24f3dc28368f381cce5e94a56bd353192fdc5f3e0a78",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":152461.53,
+                        "filetype":"unknown",
+                        "entropy":5.074950695037842,
+                        "sha256":"e626d5729237135b032d3e0d3e02d22636df04c8b924965c0f5a39d381eab90a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":37311.51,
+                        "filetype":"unknown",
+                        "entropy":5.037629127502441,
+                        "sha256":"fa1df3ec1e7840124b358b68ab78912e18856068de6037ebc2ee1f8ebd11c4ae",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":31472.78,
+                        "filetype":"unknown",
+                        "entropy":3.5300607681274414,
+                        "sha256":"0ab8e59b4d1387bae3f8edae022edb498e5eafdd6df21e5fc79c58fde462762e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":19488.64,
+                        "filetype":"unknown",
+                        "entropy":3.1028473377227783,
+                        "sha256":"684a72dd58b2bdd92da56f01e28de7d4fa062ba900ad3be7e4b730b284d977a2",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":85766.66,
+                        "filetype":"unknown",
+                        "entropy":5.714732646942139,
+                        "sha256":"03a76dd7f1dceb0fa0d10502607b3005c8e2b84f7275a182177b2fcf3dc1945b",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":47330.81,
+                        "filetype":"unknown",
+                        "entropy":6.061837673187256,
+                        "sha256":"3fb1435f437dc2edc5b7a64bee4cd80cfd1d1c7be7ac4eede43bf5770d71678c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":136035.45,
+                        "filetype":"unknown",
+                        "entropy":3.655395746231079,
+                        "sha256":"69ab623274c3b6e91057376828034dc0afa7045f02f785da790c42c021bdf25d",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1024.17,
+                        "filetype":"PNG",
+                        "entropy":7.974008083343506,
+                        "sha256":"aa203defed7ac2e8a9c4787a214a42a17e2de1e1c36f88ca80dc5efc7f02dbf5",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":326900.81,
+                        "filetype":"unknown",
+                        "entropy":4.989703178405762,
+                        "sha256":"77fb7c3366300376e5d753dc58a05ddd8e6a611ed4d19ab3d87c49aa4cdad94e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":117500.02,
+                        "filetype":"unknown",
+                        "entropy":5.350478172302246,
+                        "sha256":"50b0ffa7570d3047735094f6dae17b8a44ac1f599344cc28f9039ffdf7842064",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":33131.06,
+                        "filetype":"unknown",
+                        "entropy":5.147435665130615,
+                        "sha256":"ca5fdcbf47dc23b83368e50432731eb350f1d22f824b2c41ca8a06c8bb3cf34e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":42422.96,
+                        "filetype":"unknown",
+                        "entropy":3.300283670425415,
+                        "sha256":"9b2706cf87d3b596f3610b2fe57eaee9cb5abf02b42723341dbdc3b23b0fe61c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":17741.62,
+                        "filetype":"unknown",
+                        "entropy":3.2850773334503174,
+                        "sha256":"49bd7c5cde995803ab1aebf166e269a6857f5f8f2b5322199eecf0a004e8231f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":164183.97,
+                        "filetype":"unknown",
+                        "entropy":5.12316370010376,
+                        "sha256":"f4b591dc5c6f03ee32baff8674370de46652042abe9cf50ecde1ef1879411a6d",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":61215.31,
+                        "filetype":"unknown",
+                        "entropy":5.884786128997803,
+                        "sha256":"7ec468468548ce2b38ae97a0147e00b384cd5211faa3540d71de64ae767b8d55",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":133675.41,
+                        "filetype":"unknown",
+                        "entropy":3.7557857036590576,
+                        "sha256":"12667956ae3b76f103858a78fe45e761c56dbd91931925b68d23781bf2dcfd9c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":458965.19,
+                        "filetype":"unknown",
+                        "entropy":4.625859260559082,
+                        "sha256":"76af3f220b099ed1ed01cd9c1859d312646610e5b59a461e2610b0d13cec82d2",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":135638.12,
+                        "filetype":"unknown",
+                        "entropy":5.234385013580322,
+                        "sha256":"61afacedac8bba311bcdb909c8f1561f28e2a222220347cdeca6d7366d78b710",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":33043.93,
+                        "filetype":"unknown",
+                        "entropy":5.176004409790039,
+                        "sha256":"cad7d8e862206478786c9c5e5d1ec91ddc5304cfa38f30f1f7037a1fee1b107c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":48409.38,
+                        "filetype":"unknown",
+                        "entropy":2.8308539390563965,
+                        "sha256":"0df1180698f4033d5155c8570af2d482899968ea7d78033844c75e46e7c03bee",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":21060.97,
+                        "filetype":"unknown",
+                        "entropy":2.8582491874694824,
+                        "sha256":"f9e93ffb46fd28e06f418af189dd855cbcc45a03bfe02589735eca564af793a9",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":101363.23,
+                        "filetype":"unknown",
+                        "entropy":5.383054733276367,
+                        "sha256":"54919b5e5f8cafe024a44d1ba0fa628acee6543c0a3c374778ff8f2c17d3be5f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":42401.62,
+                        "filetype":"unknown",
+                        "entropy":6.100550651550293,
+                        "sha256":"4a3d369c0e32cbc863b86fefd1be464cba280020670de95dfba22c1d8e602d0d",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":128498.23,
+                        "filetype":"unknown",
+                        "entropy":3.8065614700317383,
+                        "sha256":"f2cfeaccee9b7c8bb5e0cce8dd04c2188fb3f1b0493052ad32b5eef63094190d",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1126.88,
+                        "filetype":"PNG",
+                        "entropy":7.983978271484375,
+                        "sha256":"dc8448660ba81aaefda076fafbf03c715574c5f8aff14adebbeded09d21d0c1e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":329477.62,
+                        "filetype":"unknown",
+                        "entropy":4.886849880218506,
+                        "sha256":"ffd2e830cd97a4e595afec15cae61fba102ed1591c16110a625aedfa5d6ca043",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":115355.72,
+                        "filetype":"unknown",
+                        "entropy":5.243340015411377,
+                        "sha256":"80162acc24b5eb3e040e7ab682fc07f1f5bf58f92696e79e0f65eb6ec0ee272a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25545.93,
+                        "filetype":"unknown",
+                        "entropy":5.496696949005127,
+                        "sha256":"a402871c13ea85bde84ae1abbbc6a3eded7b77a633268fec91ea45b95f4f46ee",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":46110.88,
+                        "filetype":"unknown",
+                        "entropy":2.9085772037506104,
+                        "sha256":"5edce7715c8c142ef2b98cf2106d42131060bf302b06b9aa09c3d11d70d92098",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":20246.27,
+                        "filetype":"unknown",
+                        "entropy":2.954225778579712,
+                        "sha256":"a93834a972cc6735b54c07a28137efc2d20d15a1046c8d40743f532239000f79",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":99273.51,
+                        "filetype":"unknown",
+                        "entropy":5.414356231689453,
+                        "sha256":"4e2a10074dc26ebc1e5e93b5181ef6c603c20ddef0ee2ee4a1d3f46ef4d01ccd",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":41673.83,
+                        "filetype":"unknown",
+                        "entropy":6.126699447631836,
+                        "sha256":"8096678dec464c2bbb46c4bd8faf1a3141170ac4876b4163c7d2d4fd9cd782da",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":122069.38,
+                        "filetype":"unknown",
+                        "entropy":3.9790966510772705,
+                        "sha256":"b09c380388237dd557c95f9f2bbcc11d25e419b6892025ffd310f0797787775e",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":1140.36,
+                        "filetype":"PNG",
+                        "entropy":7.983874320983887,
+                        "sha256":"de7c00d713559275a23362a126aeaaf7155f94b67fb695fa6bdb59c2efcc04d2",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":329884.12,
+                        "filetype":"unknown",
+                        "entropy":4.876847743988037,
+                        "sha256":"a8fc74f68752f03eb340ec9f329820da6a7ac77ecd6b5cc5acdf27e52be97e81",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":115593.92,
+                        "filetype":"unknown",
+                        "entropy":5.241982460021973,
+                        "sha256":"8d87644d0c3dd114ed4bff2124b363b3e1d5766518f5e15dbb14d52149e89f61",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25500.09,
+                        "filetype":"unknown",
+                        "entropy":5.521274089813232,
+                        "sha256":"1bb8843ed8ee7989a32eb76d505f23facd1535b4a8825fee98005d53ee2cc91a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":42525.51,
+                        "filetype":"unknown",
+                        "entropy":3.1377196311950684,
+                        "sha256":"1f22b008dd9c329e3b277024d00aab6ddb9afec5018e91cd4f481008626c4475",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":20635.46,
+                        "filetype":"unknown",
+                        "entropy":3.0158424377441406,
+                        "sha256":"976c69f1b17224fde095393c98b25d5d3ae05a0855ca1595a104f3fd0f6fe42a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":103835.17,
+                        "filetype":"unknown",
+                        "entropy":5.413341999053955,
+                        "sha256":"f17251390a175e9e8e4029d760e9d0f91f89df8fecbfbf790b0d4d2247eb03c3",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":42069.61,
+                        "filetype":"unknown",
+                        "entropy":6.129575729370117,
+                        "sha256":"c5d7ad74773db1ee4d8573053ab85dd427626ec7e4d9f55619a81b84f8a364c4",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":120262.2,
+                        "filetype":"unknown",
+                        "entropy":4.010927677154541,
+                        "sha256":"5911d1830d38ca73c62ea2d24ab0bf9732e329e388b4050d0521acb23d23019f",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":939.22,
+                        "filetype":"PNG",
+                        "entropy":7.986392021179199,
+                        "sha256":"75e07c9e3f99851471eb74362c729cfdd40cf2658d81bda03dc96dafcfb994ff",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":331103.62,
+                        "filetype":"unknown",
+                        "entropy":4.899469375610352,
+                        "sha256":"cd1ebca4a85fd6c176a15002ec501e2c2344f8ed459ec66f3588a6a85ac74f18",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":110101.83,
+                        "filetype":"unknown",
+                        "entropy":5.358017444610596,
+                        "sha256":"c4b4916e9ea85f2e3978efa0c472e53eae8ef98aac1927e8230ab7586994cf7a",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":25363.01,
+                        "filetype":"unknown",
+                        "entropy":5.58891487121582,
+                        "sha256":"ef76eb612e9576c366f66c592a78618c10830b6a65216cc982ce75de585957ea",
+                        "type":"RT_ICON"
+                    }
+                ],
+                "resource_langs":{
+                    "ENGLISH US":256
+                },
+                "resource_types":{
+                    "RT_ICON":221,
+                    "RT_MANIFEST":1,
+                    "RT_VERSION":1,
+                    "RT_GROUP_ICON":33
+                },
+                "overlay":{
+                    "chi2":8725.81,
+                    "filetype":"unknown",
+                    "entropy":7.3879265785217285,
+                    "offset":1473536,
+                    "md5":"dbd36d3b50267b42eac24d2c8f9ebb92",
+                    "size":5984
+                },
+                "sections":[
+                    {
+                        "name":".rsrc",
+                        "chi2":8202377.0,
+                        "virtual_address":4096,
+                        "entropy":7.21,
+                        "raw_size":1473024,
+                        "flags":"r",
+                        "virtual_size":1472584,
+                        "md5":"ff998e8762387a2d944e20f82517979b"
+                    }
+                ],
+                "compiler_product_versions":[
+                    "[RES] VS2008 SP1 [9.0] build 30729 count=1",
+                    "[LNK] VS2008 SP1 build 30729 count=1"
+                ],
+                "rich_pe_header_hash":"22957df831f1f9221f88b55b88617d1c"
+            },
+            "first_submission_date":1271850234,
+            "names":[
+                "icons.exe",
+                "File724.exe",
+                "Icon.xlicons.exe",
+                "xlicons.exe",
+                "Icon.EAC3FBFB.4EB9.46DF.8A81.A8BA1F12A834",
+                "aa144b2a0303a5740f87a24b8a906c0f54828390bc333d146c07aa35f21962bf.exe",
+                "Icon.7C92BEA7.FA2C.4A67.8DF8.1C2EC2363FFD",
+                "Icon.7AC8A786.DF30.4DD1.AFE5.FCA34A36551C",
+                "Icon.5F88B940.0A81.4A6C.B6AE.EA982D2603FE",
+                "Icon.1DC57176.63BC.4A1F.A7A3.7704C246A651.exe",
+                "Icon.F099B3B9.6653.49FE.972E.FC842EAA23B8",
+                "eqs209C.tmp",
+                "eqsB19C.tmp",
+                "Icon.871BFC24.B1F6.42AC.BE93.B118FF66FAD7",
+                "XLICONS.EXE",
+                "Icon.E99675B2.D704.4B05.A1D4.BF4E099716A8",
+                "3d15cdb5708632d469a43b7c4369aa8e|CUST.CAB|Icon.7AC8A786.DF30.4DD1.AFE5.FCA34A36551C",
+                "test",
+                "b50d2.rbf",
+                "Icon.87066B4F.FD30.433E.9018.CD7E4452282D",
+                "Icon.33EBB8D3.E5BA.4CBB.AB9F.B52C1A0AF191.exe",
+                "753523613.exe",
+                "Icon.C7B1781F.3F0A.4597.9CD6.44A7AF4DBFBD.exe",
+                "3236727409.exe",
+                "Icon.2BEDECF5.6BC0.4161.BDD1.F9D88F60EE74",
+                "558364798.exe",
+                "317732439.exe",
+                "Icon.61365894.61FA.47B4.92BE.FD34E40ACC6B",
+                "xlicons_20160606041412216210.exe",
+                "xlicons.exe---3247001256",
+                "AllWindows.Persistence.Wow64cpu.csv",
+                "file.~tmp",
+                "SFTAC5F.tmp",
+                "xlicons.peogr",
+                "29b7a49088b365fa386e3afde7c13c667ee241426396df4382ed117db209524b",
+                "aa144b2a0303a574_XLICONS.EXE",
+                "69c62f80c5e9302e955181215248a0fb752f78039c4e48ced685cd3127ec0c78",
+                "XLICONS.EXE.exe",
+                "Icon.DFD878FC.32AD.4057.A503.4F8B350DC10E",
+                "83fb3d5730e2950412498a24ea357841.virus.tmp",
+                "8440f088_XLICONS.EXE",
+                "aa144b2a0303a5740f87a24b8a906c0f54828390bc333d146c07aa35f21962bf.dll",
+                "Icon.B6F840A8.7017.4949.9F27.388A197DAF5F",
+                "dev1F52.tmp",
+                "b688.exe",
+                "Icon.95ABF960.E124.41D8.94E6.3E820DDBCE02.exe;filename*=UTF-8''Icon.95ABF960.E124.41D8.94E6.3E820DDBCE02.exe",
+                "SFT8016.tmp",
+                "icon.eb3d8a29.55f2.4a02.811d.97dcecdd8904.exe",
+                "3b591.exe",
+                "xlicons.exe:flinched",
+                "d6a1d0db76dc3a24_xlicons.usr",
+                "ef3634cba0cea03e5f2d29c9a976e43a.virus.~tmp",
+                "aa144b2a0303a574_cuckoo-ecc32ea4328953c073d16fdaae429bda04cf4a37418b9e2d602b5580f219c877.exe",
+                "dev93de.tmp",
+                "Icon.Icon.B1F6CCA3.72D1.4520.9322.FDD4B20DB74D.exe",
+                "8442a088_XLICONS.EXE",
+                "3F3A768CFD323E9D03465D05C244A134.EXE.exe.exe",
+                "840b9880_XLICONS.EXE",
+                "89c0231d8af0724fed21361ba0827562.tmp",
+                "8443e088_XLICONS.EXE",
+                "dev2332.tmp",
+                "Icon.6340ABC6.8B29.4656.9D14.450DEE5DC751.exe",
+                "8326e63cb07450233a29052cf5997dc8d0dfa23be85a4718945bdf69f79e2c93",
+                "SFT47D5.tmp",
+                "987F87F2D218599FF05C855E05B52E5EE0B89D55408F6EC58E4A44923F7E4220"
+            ],
+            "first_seen_itw_date":1246439626,
+            "last_analysis_date":1753946394,
+            "trid":[
+                {
+                    "file_type":"Win32 Executable (generic)",
+                    "probability":35.7
+                },
+                {
+                    "file_type":"Windows Icons Library (generic)",
+                    "probability":16.3
+                },
+                {
+                    "file_type":"OS/2 Executable (generic)",
+                    "probability":16.1
+                },
+                {
+                    "file_type":"Generic Win/DOS Executable",
+                    "probability":15.8
+                },
+                {
+                    "file_type":"DOS Executable Generic",
+                    "probability":15.8
+                }
+            ],
+            "creation_date":1269487063,
+            "authentihash":"5ca9a00618f36c0baec0782a7c2f1c64670f4a9b91ae18efc7befade3e97652b",
+            "last_submission_date":1752944130,
+            "signature_info":{
+                "product":"Microsoft Office 2010",
+                "verified":"Signed",
+                "description":"Microsoft Office 2010 component",
+                "file version":"14.0.4761.1000",
+                "signing date":"03:30 AM 03/25/2010",
+                "x509":[
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"DBD5BD417B78886EDC1574F5E872F3E1C0B07522B6881B95B6DD872AEDBEB30D",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"1.3.14.3.2.29",
+                        "thumbprint_md5":"33140FBBD4F78B3264BDAF83994C6790",
+                        "valid from":"2007-08-22 22:31:02",
+                        "valid to":"2012-08-25 07:00:00",
+                        "serial number":"2E AB 11 DC 50 FF 5C 9D CB C0",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"3036E3B25B88A55B86FC90E6E9EAAD5081445166"
+                    },
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"277D42066A68326BA10B1874D393327404287C14A9C9DB1C09D50698952A17DD",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"E3FEDB37F4874E84CDB82A789FFDCD67",
+                        "valid from":"2009-12-07 22:40:29",
+                        "valid to":"2011-03-07 22:40:29",
+                        "serial number":"61 01 CF 3E 00 00 00 00 00 0F",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"9617094A1CFB59AE7C1F7DFDB6739E4E7C40508F"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"5D8197FD2E2CA5A4B1106C4FBEBFD0BD50FBCAEA2979B72C4F2BEAD320BE3082",
+                        "name":"Microsoft Timestamping PCA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"B956D5DA6080B34272D19D0803A4E7AA",
+                        "valid from":"2006-09-16 01:04:47",
+                        "valid to":"2019-09-15 07:00:00",
+                        "serial number":"6A 0B 99 4F C0 00 25 AB 11 DB 45 1F 58 7A 67 A2",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"3EA99A60058275E0ED83B892A909449F8C33B245"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"41249C982756E2A8EF0F7CC978133C8F52C83DD5755C0EE94857A8100873570C",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"91E8797330EE592CD156166D1D424D10",
+                        "valid from":"2008-07-25 19:02:17",
+                        "valid to":"2013-07-25 19:12:17",
+                        "serial number":"61 06 94 2D 00 00 00 00 00 09",
+                        "cert issuer":"Microsoft Timestamping PCA",
+                        "thumbprint":"05FECB745F7F3B1A0E262A73435CCB7EAAED8B37"
+                    }
+                ],
+                "original name":"icons.exe",
+                "signers":"Microsoft Corporation; Microsoft Code Signing PCA; Microsoft Root Authority",
+                "counter signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "valid from":"07:02 PM 07/25/2008",
+                        "valid to":"07:12 PM 07/25/2013",
+                        "serial number":"61 06 94 2D 00 00 00 00 00 09",
+                        "cert issuer":"Microsoft Timestamping PCA",
+                        "thumbprint":"05FECB745F7F3B1A0E262A73435CCB7EAAED8B37"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Timestamping PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"01:04 AM 09/16/2006",
+                        "valid to":"07:00 AM 09/15/2019",
+                        "serial number":"6A 0B 99 4F C0 00 25 AB 11 DB 45 1F 58 7A 67 A2",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"3EA99A60058275E0ED83B892A909449F8C33B245"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Authority",
+                        "algorithm":"md5RSA",
+                        "valid from":"07:00 AM 01/10/1997",
+                        "valid to":"07:00 AM 12/31/2020",
+                        "serial number":"00 C1 00 8B 3C 3C 88 11 D1 3E F6 63 EC DF 40",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"A43489159A520F0D93D032CCAF37E7FE20A8B419"
+                    }
+                ],
+                "counter signers":"Microsoft Time-Stamp Service; Microsoft Timestamping PCA; Microsoft Root Authority",
+                "internal name":"icons.exe",
+                "copyright":"\u00a9 2010 Microsoft Corporation.  All rights reserved.",
+                "signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Code Signing",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "valid from":"10:40 PM 12/07/2009",
+                        "valid to":"10:40 PM 03/07/2011",
+                        "serial number":"61 01 CF 3E 00 00 00 00 00 0F",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"9617094A1CFB59AE7C1F7DFDB6739E4E7C40508F"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Code Signing",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"10:31 PM 08/22/2007",
+                        "valid to":"07:00 AM 08/25/2012",
+                        "serial number":"2E AB 11 DC 50 FF 5C 9D CB C0",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"3036E3B25B88A55B86FC90E6E9EAAD5081445166"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Authority",
+                        "algorithm":"md5RSA",
+                        "valid from":"07:00 AM 01/10/1997",
+                        "valid to":"07:00 AM 12/31/2020",
+                        "serial number":"00 C1 00 8B 3C 3C 88 11 D1 3E F6 63 EC DF 40",
+                        "cert issuer":"Microsoft Root Authority",
+                        "thumbprint":"A43489159A520F0D93D032CCAF37E7FE20A8B419"
+                    }
+                ],
+                "pkcs7":{
+                    "opusinfo":[
+                        {
+                            "moreInfo":"http://office.microsoft.com ",
+                            "programName":"Microsoft Office"
+                        }
+                    ]
+                }
+            },
+            "type_tag":"pedll",
+            "md5":"4ba6116a63c53a64aaf044bcca71feda",
+            "type_extension":"dll",
+            "vhash":"1160157\"z",
+            "type_description":"Win32 DLL",
+            "known_distributors":{
+                "distributors":[
+                    "Microsoft"
+                ],
+                "filenames":[
+                    "Icon.xlicons.exe"
+                ],
+                "products":[
+                    "Excel 2010",
+                    "Microsoft Office Professional 2010"
+                ],
+                "data_sources":[
+                    "National Software Reference Library (NSRL)"
+                ]
+            },
+            "tags":[
+                "idle",
+                "attachment",
+                "signed",
+                "overlay",
+                "known-distributor",
+                "pedll",
+                "checks-user-input"
+            ],
+            "size":1479520,
+            "sha256":"aa144b2a0303a5740f87a24b8a906c0f54828390bc333d146c07aa35f21962bf",
+            "filecondis":{
+                "dhash":"0000001c1c0d0404",
+                "raw_md5":"364a59b6cc05e4ea7d0544f77ca19498"
+            },
+            "tlsh":"T19765D0D6F2019490ECAA0E30943FCF440567BE36AD90251B3AED7B5B0EB3382E55795B",
+            "detectiteasy":{
+                "filetype":"PE32",
+                "values":[
+                    {
+                        "version":"9.00.30729",
+                        "type":"Linker",
+                        "name":"Microsoft Linker"
+                    },
+                    {
+                        "info":"PKCS #7",
+                        "version":"2.0",
+                        "type":"Sign tool",
+                        "name":"Windows Authenticode"
+                    }
+                ]
+            }
+        }
+    }
+}

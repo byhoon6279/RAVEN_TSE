@@ -1,0 +1,117 @@
+{
+    "data":{
+        "id":"883c4a05478122aae8f5aa37f17719f20a2bef4325033c51547a9d09ccd35070",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/883c4a05478122aae8f5aa37f17719f20a2bef4325033c51547a9d09ccd35070"
+        },
+        "attributes":{
+            "filecondis":{
+                "dhash":"787c381c5d140000",
+                "raw_md5":"0d65adf3a09c97c4f94cec5dccd69e08"
+            },
+            "sha1":"c101934ae10a97ea4279a61a781196f1b9bb07ba",
+            "type_description":"unknown",
+            "size":173056,
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "sandbox_verdicts":{
+                "CAPE Sandbox":{
+                    "category":"malicious",
+                    "malware_classification":[
+                        "MALWARE"
+                    ],
+                    "sandbox_name":"CAPE Sandbox",
+                    "malware_names":[
+                        "Gandcrab"
+                    ]
+                }
+            },
+            "times_submitted":1,
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "last_analysis_results":{},
+            "unique_sources":1,
+            "last_submission_date":1749554877,
+            "reputation":0,
+            "tags":[],
+            "sha256":"883c4a05478122aae8f5aa37f17719f20a2bef4325033c51547a9d09ccd35070",
+            "names":[],
+            "md5":"f52fb4454ec4e6429ca2ab58a1e50897",
+            "last_modification_date":1749554982,
+            "type_tags":[],
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"00b3f0004b",
+                    "ruleset_version":"00b3f0004b|b488c511a7c48ed6c425bf38811bf08e87b0ddbf",
+                    "ruleset_name":"Gandcrab",
+                    "rule_name":"Gandcrab",
+                    "match_date":1749554878,
+                    "description":"Gandcrab Payload",
+                    "author":"kevoreilly",
+                    "source":"https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749554878,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749554878,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                },
+                {
+                    "ruleset_id":"0159d9b883",
+                    "ruleset_version":"0159d9b883|ed91a18f6e6b2c95e1ffca8a5313b3ef3a4447b0",
+                    "ruleset_name":"Windows_Generic_Threat",
+                    "rule_name":"Windows_Generic_Threat_20469956",
+                    "match_date":1749554878,
+                    "author":"Elastic Security",
+                    "source":"https://github.com/elastic/protections-artifacts"
+                },
+                {
+                    "ruleset_id":"000a7d3924",
+                    "ruleset_version":"000a7d3924|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"crime_ransom_generic",
+                    "rule_name":"SUSP_RANSOMWARE_Indicator_Jul20",
+                    "match_date":1749554878,
+                    "description":"Detects ransomware indicator",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"008d5ec3a7",
+                    "ruleset_version":"008d5ec3a7|6558c417dcf07146b1309b6acde6be0aa96dea10",
+                    "ruleset_name":"win.gandcrab_auto",
+                    "rule_name":"win_gandcrab_auto",
+                    "match_date":1749554878,
+                    "description":"Detects win.gandcrab.",
+                    "author":"Felix Bilstein - yara-signator at cocacoding dot com",
+                    "source":"https://malpedia.caad.fkie.fraunhofer.de/"
+                }
+            ],
+            "first_submission_date":1749554877
+        }
+    }
+}

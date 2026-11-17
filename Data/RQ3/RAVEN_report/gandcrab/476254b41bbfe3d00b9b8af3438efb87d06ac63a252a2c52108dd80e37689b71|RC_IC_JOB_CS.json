@@ -1,0 +1,85 @@
+{
+    "data":{
+        "id":"b2de0cdfca975e7c857d8d019e2ec5ecd0d3f91017b27e9646ea892097e4ae8a",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/b2de0cdfca975e7c857d8d019e2ec5ecd0d3f91017b27e9646ea892097e4ae8a"
+        },
+        "attributes":{
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "sha256":"b2de0cdfca975e7c857d8d019e2ec5ecd0d3f91017b27e9646ea892097e4ae8a",
+            "filecondis":{
+                "raw_md5":"3432e85663e5bc0ef91dcf14df957f83",
+                "dhash":"787c381c5d180000"
+            },
+            "md5":"ebea6a00a69ffdd520b49b2c12b89b9e",
+            "last_analysis_results":{},
+            "first_submission_date":1749558361,
+            "reputation":0,
+            "last_modification_date":1749558447,
+            "last_submission_date":1749558361,
+            "type_tags":[],
+            "sha1":"fda07c2f30657c240fd92043dca9a1fe07033f18",
+            "type_description":"unknown",
+            "crowdsourced_yara_results":[
+                {
+                    "ruleset_id":"00c3b8eb5d",
+                    "ruleset_version":"00c3b8eb5d|e76c93dcdedff04076380ffc60ea54e45b313635",
+                    "ruleset_name":"indicator_suspicious",
+                    "rule_name":"INDICATOR_SUSPICIOUS_ReflectiveLoader",
+                    "match_date":1749558369,
+                    "description":"Detects Reflective DLL injection artifacts",
+                    "author":"ditekSHen",
+                    "source":"https://github.com/ditekshen/detection"
+                },
+                {
+                    "ruleset_id":"0159d9b883",
+                    "ruleset_version":"0159d9b883|ed91a18f6e6b2c95e1ffca8a5313b3ef3a4447b0",
+                    "ruleset_name":"Windows_Generic_Threat",
+                    "rule_name":"Windows_Generic_Threat_20469956",
+                    "match_date":1749558369,
+                    "author":"Elastic Security",
+                    "source":"https://github.com/elastic/protections-artifacts"
+                },
+                {
+                    "ruleset_id":"000d9e5fac",
+                    "ruleset_version":"000d9e5fac|1d926845269a3ac8de0431da133950390b5cced3",
+                    "ruleset_name":"gen_loaders",
+                    "rule_name":"ReflectiveLoader",
+                    "match_date":1749558369,
+                    "description":"Detects a unspecified hack tool, crack or malware using a reflective loader - no hard match - further investigation recommended",
+                    "author":"Florian Roth (Nextron Systems)",
+                    "source":"https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id":"008d5ec3a7",
+                    "ruleset_version":"008d5ec3a7|6558c417dcf07146b1309b6acde6be0aa96dea10",
+                    "ruleset_name":"win.gandcrab_auto",
+                    "rule_name":"win_gandcrab_auto",
+                    "match_date":1749558369,
+                    "description":"Detects win.gandcrab.",
+                    "author":"Felix Bilstein - yara-signator at cocacoding dot com",
+                    "source":"https://malpedia.caad.fkie.fraunhofer.de/"
+                }
+            ],
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":0,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":0
+            },
+            "tags":[],
+            "times_submitted":1,
+            "unique_sources":1,
+            "names":[],
+            "size":173056
+        }
+    }
+}

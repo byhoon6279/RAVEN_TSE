@@ -1,0 +1,1332 @@
+{
+    "data":{
+        "id":"963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b"
+        },
+        "attributes":{
+            "pe_info":{
+                "timestamp":1328933657,
+                "imphash":"24b5f2e6d3675e31370b5a180d433cbf",
+                "machine_type":34404,
+                "entry_point":69996,
+                "resource_details":[
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":89673.57,
+                        "filetype":"unknown",
+                        "entropy":3.5166871547698975,
+                        "sha256":"e88b1236468ecf0320b551c60a89b8b42cef262abd020b3f590cb60f03819dfd",
+                        "type":"RT_VERSION"
+                    },
+                    {
+                        "lang":"ENGLISH US",
+                        "chi2":3958.65,
+                        "filetype":"unknown",
+                        "entropy":4.795973777770996,
+                        "sha256":"49a60be4b95b6d30da355a0c124af82b35000bce8f24f957d1c09ead47544a1e",
+                        "type":"RT_MANIFEST"
+                    }
+                ],
+                "resource_langs":{
+                    "ENGLISH US":2
+                },
+                "resource_types":{
+                    "RT_MANIFEST":1,
+                    "RT_VERSION":1
+                },
+                "overlay":{
+                    "chi2":22738.4,
+                    "filetype":"unknown",
+                    "entropy":7.384917259216309,
+                    "offset":94208,
+                    "md5":"63bb7749d5e0bbc8c8337c2c1b5f315d",
+                    "size":15448
+                },
+                "sections":[
+                    {
+                        "name":".text",
+                        "chi2":1770412.12,
+                        "virtual_address":4096,
+                        "entropy":5.78,
+                        "raw_size":86528,
+                        "flags":"rx",
+                        "virtual_size":86296,
+                        "md5":"263d9807123bb0e93c55a21ed5e21da2"
+                    },
+                    {
+                        "name":".data",
+                        "chi2":199323.5,
+                        "virtual_address":94208,
+                        "entropy":1.1,
+                        "raw_size":1024,
+                        "flags":"rw",
+                        "virtual_size":161960,
+                        "md5":"bf133bdae34baf4a6f02d754da8be51f"
+                    },
+                    {
+                        "name":".pdata",
+                        "chi2":130898.57,
+                        "virtual_address":258048,
+                        "entropy":4.94,
+                        "raw_size":3072,
+                        "flags":"r",
+                        "virtual_size":2940,
+                        "md5":"29d9262e40e77f29065ada72cba9d96b"
+                    },
+                    {
+                        "name":".rsrc",
+                        "chi2":76265.25,
+                        "virtual_address":262144,
+                        "entropy":4.44,
+                        "raw_size":2048,
+                        "flags":"r",
+                        "virtual_size":1688,
+                        "md5":"0eeb1808b147d3b17b2580e2141ef672"
+                    },
+                    {
+                        "name":".reloc",
+                        "chi2":92288.0,
+                        "virtual_address":266240,
+                        "entropy":1.31,
+                        "raw_size":512,
+                        "flags":"r",
+                        "virtual_size":456,
+                        "md5":"2d44c8712075755542f1591251fef930"
+                    }
+                ],
+                "compiler_product_versions":[
+                    "[ C ] VS2005 build 50727 count=1",
+                    "[C++] VS2005 build 50727 count=2",
+                    "[IMP] VS2010 build 30319 count=2",
+                    "[ASM] VS2010 build 30319 count=2",
+                    "[ C ] VS2010 build 30319 count=17",
+                    "[C++] VS2010 build 30319 count=2",
+                    "[IMP] VS2008 SP1 build 30729 count=15",
+                    "[---] Unmarked objects count=196",
+                    "[C++] VS2008 build 21022 count=1",
+                    "[ C ] VS2008 SP1 build 30729 count=1",
+                    "id: 0x7b, version: 40816 count=2",
+                    "id: 0xbd, version: 30716 count=2",
+                    "id: 0xac, version: 20804 count=1",
+                    "id: 0xb7, version: 30716 count=1",
+                    "id: 0xba, version: 30716 count=1"
+                ],
+                "rich_pe_header_hash":"dd6dab9e4119786e8120fb250bcf6515",
+                "import_list":[
+                    {
+                        "library_name":"ADVAPI32.dll",
+                        "imported_functions":[
+                            "AdjustTokenPrivileges",
+                            "CloseServiceHandle",
+                            "LookupPrivilegeValueW",
+                            "OpenProcessToken",
+                            "OpenSCManagerW",
+                            "OpenServiceW",
+                            "QueryServiceStatusEx",
+                            "RegCloseKey",
+                            "RegisterServiceCtrlHandlerExW",
+                            "RegOpenKeyExW",
+                            "RegOpenKeyW",
+                            "RegQueryValueExW",
+                            "SetServiceStatus",
+                            "StartServiceCtrlDispatcherW",
+                            "StartServiceW"
+                        ]
+                    },
+                    {
+                        "library_name":"KERNEL32.dll",
+                        "imported_functions":[
+                            "CloseHandle",
+                            "CompareStringW",
+                            "CreateDirectoryW",
+                            "CreateEventW",
+                            "CreateFileW",
+                            "CreateRemoteThread",
+                            "CreateThread",
+                            "CreateToolhelp32Snapshot",
+                            "DebugBreak",
+                            "DecodePointer",
+                            "DeleteFileW",
+                            "EncodePointer",
+                            "EnterCriticalSection",
+                            "ExitProcess",
+                            "ExpandEnvironmentStringsW",
+                            "FindClose",
+                            "FindFirstFileW",
+                            "FindNextFileW",
+                            "FlushFileBuffers",
+                            "FormatMessageW",
+                            "FreeLibrary",
+                            "GetComputerNameW",
+                            "GetCurrentProcess",
+                            "GetCurrentProcessId",
+                            "GetCurrentThreadId",
+                            "GetEnvironmentVariableW",
+                            "GetExitCodeThread",
+                            "GetFileAttributesW",
+                            "GetFileSize",
+                            "GetLastError",
+                            "GetModuleFileNameW",
+                            "GetModuleHandleW",
+                            "GetPrivateProfileStringW",
+                            "GetProcAddress",
+                            "GetProcessHeap",
+                            "GetSystemInfo",
+                            "GetSystemTimeAsFileTime",
+                            "GetTickCount",
+                            "GetVersionExW",
+                            "HeapAlloc",
+                            "HeapFree",
+                            "HeapReAlloc",
+                            "InitializeCriticalSectionAndSpinCount",
+                            "IsDebuggerPresent",
+                            "LeaveCriticalSection",
+                            "LoadLibraryA",
+                            "LoadLibraryExW",
+                            "LocalAlloc",
+                            "lstrlenW",
+                            "OpenProcess",
+                            "OpenThread",
+                            "QueryPerformanceCounter",
+                            "RaiseException",
+                            "ReadFile",
+                            "ReadProcessMemory",
+                            "ResumeThread",
+                            "RtlCaptureContext",
+                            "RtlLookupFunctionEntry",
+                            "RtlVirtualUnwind",
+                            "SetConsoleCtrlHandler",
+                            "SetEnvironmentVariableW",
+                            "SetEvent",
+                            "SetFilePointer",
+                            "SetLastError",
+                            "SetUnhandledExceptionFilter",
+                            "Sleep",
+                            "SleepEx",
+                            "SuspendThread",
+                            "TerminateProcess",
+                            "Thread32First",
+                            "Thread32Next",
+                            "UnhandledExceptionFilter",
+                            "VirtualAlloc",
+                            "VirtualAllocEx",
+                            "VirtualFree",
+                            "VirtualFreeEx",
+                            "VirtualQuery",
+                            "WaitForSingleObject",
+                            "WriteFile",
+                            "WriteProcessMemory"
+                        ]
+                    },
+                    {
+                        "library_name":"MSVCR100.dll",
+                        "imported_functions":[
+                            "??2@YAPEAX_K@Z",
+                            "??3@YAXPEAX@Z",
+                            "?terminate@@YAXXZ",
+                            "__C_specific_handler",
+                            "__crt_debugger_hook",
+                            "__dllonexit",
+                            "__set_app_type",
+                            "__setusermatherr",
+                            "__wgetmainargs",
+                            "__winitenv",
+                            "_amsg_exit",
+                            "_cexit",
+                            "_commode",
+                            "_configthreadlocale",
+                            "_errno",
+                            "_exit",
+                            "_fmode",
+                            "_gmtime64_s",
+                            "_initterm",
+                            "_initterm_e",
+                            "_lock",
+                            "_onexit",
+                            "_stricmp",
+                            "_swscanf_s_l",
+                            "_time64",
+                            "_unlock",
+                            "_vsnwprintf",
+                            "_wcsicmp",
+                            "_wgetenv",
+                            "_wmakepath_s",
+                            "_wremove",
+                            "_wsplitpath_s",
+                            "_wstrdate_s",
+                            "_wstrtime_s",
+                            "_wtoi",
+                            "_XcptFilter",
+                            "exit",
+                            "memcpy",
+                            "memset",
+                            "qsort",
+                            "swscanf_s",
+                            "wcschr",
+                            "wcsncmp",
+                            "wcsnlen",
+                            "wcsrchr",
+                            "wcstoul",
+                            "wprintf"
+                        ]
+                    },
+                    {
+                        "library_name":"dbghelp.dll",
+                        "imported_functions":[
+                            "ImageNtHeader",
+                            "MiniDumpWriteDump"
+                        ]
+                    },
+                    {
+                        "library_name":"PSAPI.DLL",
+                        "imported_functions":[
+                            "EnumProcessModules",
+                            "GetModuleBaseNameA",
+                            "GetModuleFileNameExW",
+                            "GetModuleInformation"
+                        ]
+                    },
+                    {
+                        "library_name":"RPCRT4.dll",
+                        "imported_functions":[
+                            "RpcStringFreeW",
+                            "UuidCreate",
+                            "UuidFromStringW",
+                            "UuidToStringW"
+                        ]
+                    },
+                    {
+                        "library_name":"IPHLPAPI.DLL",
+                        "imported_functions":[
+                            "GetExtendedTcpTable"
+                        ]
+                    },
+                    {
+                        "library_name":"WS2_32.dll",
+                        "imported_functions":[
+                            "ntohs"
+                        ]
+                    },
+                    {
+                        "library_name":"VERSION.dll",
+                        "imported_functions":[
+                            "GetFileVersionInfoSizeW",
+                            "GetFileVersionInfoW",
+                            "VerQueryValueW"
+                        ]
+                    }
+                ]
+            },
+            "type_tags":[
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "peexe"
+            ],
+            "reputation":51,
+            "vhash":"0150565d15551510f8z5cz4049z33z12z2f1z",
+            "detectiteasy":{
+                "filetype":"PE64",
+                "values":[
+                    {
+                        "info":"C++",
+                        "version":"16.10.30716",
+                        "type":"Compiler",
+                        "name":"Microsoft Visual C/C++"
+                    },
+                    {
+                        "version":"10.10.30716",
+                        "type":"Linker",
+                        "name":"Microsoft Linker"
+                    },
+                    {
+                        "type":"Tool",
+                        "name":"Visual Studio"
+                    },
+                    {
+                        "info":"PKCS #7",
+                        "version":"2.0",
+                        "type":"Sign tool",
+                        "name":"Windows Authenticode"
+                    }
+                ]
+            },
+            "last_modification_date":1753967405,
+            "last_analysis_date":1753967295,
+            "first_seen_itw_date":1328904857,
+            "last_submission_date":1742417561,
+            "trusted_verdict":{
+                "organization":"Microsoft Corporation",
+                "verdict":"goodware",
+                "filename":"sqldumper.exe"
+            },
+            "monitor_info":{
+                "organizations":[
+                    "Microsoft"
+                ],
+                "filenames":[
+                    "sqldumper.exe-963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b"
+                ]
+            },
+            "authentihash":"3563aaae569cf17420e8adab39c8e87da56fefc7b4ab1222567c2095c1b54bbb",
+            "magic":"PE32+ executable (console) x86-64, for MS Windows",
+            "creation_date":1328933657,
+            "magika":"PEBIN",
+            "sha1":"8b30a4b163fef5d2441de1e4d34aee6d55e93668",
+            "tags":[
+                "64bits",
+                "idle",
+                "trusted",
+                "lolbin",
+                "assembly",
+                "overlay",
+                "signed",
+                "known-distributor",
+                "invalid-signature",
+                "peexe",
+                "detect-debug-environment"
+            ],
+            "total_votes":{
+                "harmless":2,
+                "malicious":1
+            },
+            "names":[
+                "SQLDumper",
+                "SQLDumper.exe",
+                "SqlDumper.exe",
+                "c468ra2c.exe",
+                "C468RA2C.EXE",
+                "ENG_SEI_SqlDumper_exe_64",
+                "963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b.exe",
+                "865613661.exe",
+                "87965770.exe",
+                "322317160.exe",
+                "559129908.exe",
+                "SQLDUMPER.EXE",
+                "executable.exe",
+                "17c92fd6d266f99a1244040e9547f653ce6b93555f6771509f79a58f0f2ec36c.exe",
+                "963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b-dropped.bin",
+                "trfkqdm08.dll",
+                "bita4b2.tmp",
+                "b523.exe",
+                "1d1cdf.rbf",
+                "3a85fa32267ae2a3acbe9956e89a970f.exes",
+                "c468ra2c-{21be96c4-2586-40db-87fa-24ef235e66eb}-v48395.exe",
+                "AS_SQLDumper_exe_64",
+                "bitd0b.tmp"
+            ],
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":72,
+                "harmless":0,
+                "timeout":0,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":4
+            },
+            "known_distributors":{
+                "distributors":[
+                    "Microsoft"
+                ],
+                "filenames":[
+                    "c468ra2c.exe",
+                    "ENG_SEI_SqlDumper_exe_64",
+                    "AS_SQLDumper_exe_64",
+                    "sqldumper.exe",
+                    "sqldumper.exe-963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b"
+                ],
+                "products":[
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220615",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220415",
+                    "439EACB60EB2A466F87CF06FF4EA0CD2B38437A4",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220513",
+                    "CE83D90F800A9456B036E9AB391085FF79D351BD",
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220314",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220615",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220624",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220615",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220314",
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220210",
+                    "82120DE2CA5055521F6655A1D5DF2645940574AE",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220314",
+                    "D80CE2BCB592D63CB9C64A92ACBA00F51F1F5359",
+                    "8DE271ED94166AE0915236A0C8F8A287AFE04EF4",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220210",
+                    "D19D0178823F55AF944FA5FFF55A16FBA52A203F",
+                    "Microsoft SQL Server 2012 Developer",
+                    "SQLServer2012-KB3045318-x64.exe",
+                    "Avid Broadcast Graphics | Sports",
+                    "3907D610C8617006511645EF893519FA561BF20D",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220119",
+                    "58C45506605B17150983123CA1A3E020928D84B9",
+                    "C162BA5B7F84DD1A5469EBD137ECF443BE7E129C",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220119",
+                    "MSDN Disc 5003.02",
+                    "MSDN disc 5003.03",
+                    "MSDN Disc 5095",
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220415",
+                    "6EECEA3E7AC48443AF38CCBEBD07F271F38EC647",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220624",
+                    "windows-sql-cloud-sql-2012-standard-windows-2012-r2-dc-v20220513",
+                    "windows-sql-cloud-sql-2012-web-windows-2012-r2-dc-v20220210",
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220513",
+                    "windows-sql-cloud-sql-2012-enterprise-windows-2012-r2-dc-v20220624"
+                ],
+                "data_sources":[
+                    "Microsoft Corporation",
+                    "HashDB",
+                    "National Software Reference Library (NSRL)",
+                    "monitor_hashdb_microsoft"
+                ]
+            },
+            "last_analysis_results":{
+                "Bkav":{
+                    "method":"blacklist",
+                    "engine_name":"Bkav",
+                    "engine_version":"2.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Lionic":{
+                    "method":"blacklist",
+                    "engine_name":"Lionic",
+                    "engine_version":"8.16",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AVG":{
+                    "method":"blacklist",
+                    "engine_name":"AVG",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Elastic":{
+                    "method":"blacklist",
+                    "engine_name":"Elastic",
+                    "engine_version":"4.0.219",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MicroWorld-eScan":{
+                    "method":"blacklist",
+                    "engine_name":"MicroWorld-eScan",
+                    "engine_version":"14.0.409.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CTX":{
+                    "method":"blacklist",
+                    "engine_name":"CTX",
+                    "engine_version":"2024.8.29.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CAT-QuickHeal":{
+                    "method":"blacklist",
+                    "engine_name":"CAT-QuickHeal",
+                    "engine_version":"22.00",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Skyhigh":{
+                    "method":"blacklist",
+                    "engine_name":"Skyhigh",
+                    "engine_version":"v2021.2.0+4045",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ALYac":{
+                    "method":"blacklist",
+                    "engine_name":"ALYac",
+                    "engine_version":"2.0.0.10",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Malwarebytes":{
+                    "method":"blacklist",
+                    "engine_name":"Malwarebytes",
+                    "engine_version":"4.5.5.54",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zillya":{
+                    "method":"blacklist",
+                    "engine_name":"Zillya",
+                    "engine_version":"2.0.0.5414",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sangfor":{
+                    "method":"blacklist",
+                    "engine_name":"Sangfor",
+                    "engine_version":"2.22.3.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7AntiVirus":{
+                    "method":"blacklist",
+                    "engine_name":"K7AntiVirus",
+                    "engine_version":"12.250.56545",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Alibaba":{
+                    "method":"blacklist",
+                    "engine_name":"Alibaba",
+                    "engine_version":"0.3.0.5",
+                    "engine_update":"20190527",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7GW":{
+                    "method":"blacklist",
+                    "engine_name":"K7GW",
+                    "engine_version":"12.250.56546",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CrowdStrike":{
+                    "method":"blacklist",
+                    "engine_name":"CrowdStrike",
+                    "engine_version":"1.0",
+                    "engine_update":"20231026",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Baidu":{
+                    "method":"blacklist",
+                    "engine_name":"Baidu",
+                    "engine_version":"1.0.0.2",
+                    "engine_update":"20190318",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VirIT":{
+                    "method":"blacklist",
+                    "engine_name":"VirIT",
+                    "engine_version":"9.5.1009",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Symantec":{
+                    "method":"blacklist",
+                    "engine_name":"Symantec",
+                    "engine_version":"1.22.0.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "tehtris":{
+                    "method":"blacklist",
+                    "engine_name":"tehtris",
+                    "engine_version":"v0.1.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ESET-NOD32":{
+                    "method":"blacklist",
+                    "engine_name":"ESET-NOD32",
+                    "engine_version":"31616",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cynet":{
+                    "method":"blacklist",
+                    "engine_name":"Cynet",
+                    "engine_version":"4.0.3.4",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "APEX":{
+                    "method":"blacklist",
+                    "engine_name":"APEX",
+                    "engine_version":"6.681",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Paloalto":{
+                    "method":"blacklist",
+                    "engine_name":"Paloalto",
+                    "engine_version":"0.9.0.1003",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ClamAV":{
+                    "method":"blacklist",
+                    "engine_name":"ClamAV",
+                    "engine_version":"1.4.3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kaspersky":{
+                    "method":"blacklist",
+                    "engine_name":"Kaspersky",
+                    "engine_version":"22.0.1.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "BitDefender":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefender",
+                    "engine_version":"7.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "NANO-Antivirus":{
+                    "method":"blacklist",
+                    "engine_name":"NANO-Antivirus",
+                    "engine_version":"1.0.170.26895",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SUPERAntiSpyware":{
+                    "method":"blacklist",
+                    "engine_name":"SUPERAntiSpyware",
+                    "engine_version":"5.6.0.1032",
+                    "engine_update":"20250730",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avast":{
+                    "method":"blacklist",
+                    "engine_name":"Avast",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Tencent":{
+                    "method":"blacklist",
+                    "engine_name":"Tencent",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Emsisoft":{
+                    "method":"blacklist",
+                    "engine_name":"Emsisoft",
+                    "engine_version":"2024.8.0.61147",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "F-Secure":{
+                    "method":"blacklist",
+                    "engine_name":"F-Secure",
+                    "engine_version":"18.10.1547.307",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DrWeb":{
+                    "method":"blacklist",
+                    "engine_name":"DrWeb",
+                    "engine_version":"7.0.69.6040",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VIPRE":{
+                    "method":"blacklist",
+                    "engine_name":"VIPRE",
+                    "engine_version":"6.0.0.35",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "McAfeeD":{
+                    "method":"blacklist",
+                    "engine_name":"McAfeeD",
+                    "engine_version":"1.2.0.10275",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SentinelOne":{
+                    "method":"blacklist",
+                    "engine_name":"SentinelOne",
+                    "engine_version":"25.1.1.1",
+                    "engine_update":"20250114",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Trapmine":{
+                    "method":"blacklist",
+                    "engine_name":"Trapmine",
+                    "engine_version":"4.0.4.0",
+                    "engine_update":"20250721",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CMC":{
+                    "method":"blacklist",
+                    "engine_name":"CMC",
+                    "engine_version":"2.4.2022.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sophos":{
+                    "method":"blacklist",
+                    "engine_name":"Sophos",
+                    "engine_version":"3.0.3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Ikarus":{
+                    "method":"blacklist",
+                    "engine_name":"Ikarus",
+                    "engine_version":"6.4.16.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "GData":{
+                    "method":"blacklist",
+                    "engine_name":"GData",
+                    "engine_version":"GD:27.41254AVA:64.29573",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Jiangmin":{
+                    "method":"blacklist",
+                    "engine_name":"Jiangmin",
+                    "engine_version":"16.0.100",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Webroot":{
+                    "method":"blacklist",
+                    "engine_name":"Webroot",
+                    "engine_version":"1.10.0.2",
+                    "engine_update":"20250227",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Varist":{
+                    "method":"blacklist",
+                    "engine_name":"Varist",
+                    "engine_version":"6.6.1.3",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avira":{
+                    "method":"blacklist",
+                    "engine_name":"Avira",
+                    "engine_version":"8.3.3.22",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Antiy-AVL":{
+                    "method":"blacklist",
+                    "engine_name":"Antiy-AVL",
+                    "engine_version":"3.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kingsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Kingsoft",
+                    "engine_version":"None",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Gridinsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Gridinsoft",
+                    "engine_version":"1.0.222.174",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Xcitium":{
+                    "method":"blacklist",
+                    "engine_name":"Xcitium",
+                    "engine_version":"37922",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Arcabit":{
+                    "method":"blacklist",
+                    "engine_name":"Arcabit",
+                    "engine_version":"2025.0.0.23",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ViRobot":{
+                    "method":"blacklist",
+                    "engine_name":"ViRobot",
+                    "engine_version":"2014.3.20.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ZoneAlarm":{
+                    "method":"blacklist",
+                    "engine_name":"ZoneAlarm",
+                    "engine_version":"6.18-106783055",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Microsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Microsoft",
+                    "engine_version":"1.1.25060.6",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Google":{
+                    "method":"blacklist",
+                    "engine_name":"Google",
+                    "engine_version":"1753961443",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AhnLab-V3":{
+                    "method":"blacklist",
+                    "engine_name":"AhnLab-V3",
+                    "engine_version":"3.28.0.10568",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Acronis":{
+                    "method":"blacklist",
+                    "engine_name":"Acronis",
+                    "engine_version":"1.2.0.121",
+                    "engine_update":"20240328",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VBA32":{
+                    "method":"blacklist",
+                    "engine_name":"VBA32",
+                    "engine_version":"5.3.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TACHYON":{
+                    "method":"blacklist",
+                    "engine_name":"TACHYON",
+                    "engine_version":"2025-07-31.02",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cylance":{
+                    "method":"blacklist",
+                    "engine_name":"Cylance",
+                    "engine_version":"3.0.0.0",
+                    "engine_update":"20250710",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Panda":{
+                    "method":"blacklist",
+                    "engine_name":"Panda",
+                    "engine_version":"4.6.4.2",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro-HouseCall":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro-HouseCall",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Rising":{
+                    "method":"blacklist",
+                    "engine_name":"Rising",
+                    "engine_version":"25.0.0.28",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Yandex":{
+                    "method":"blacklist",
+                    "engine_name":"Yandex",
+                    "engine_version":"5.5.2.24",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrellixENS":{
+                    "method":"blacklist",
+                    "engine_name":"TrellixENS",
+                    "engine_version":"6.0.6.653",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "huorong":{
+                    "method":"blacklist",
+                    "engine_name":"huorong",
+                    "engine_version":"de8581b:de8581b:9c4201a:9c4201a",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MaxSecure":{
+                    "method":"blacklist",
+                    "engine_name":"MaxSecure",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Fortinet":{
+                    "method":"blacklist",
+                    "engine_name":"Fortinet",
+                    "engine_version":"7.0.30.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zoner":{
+                    "method":"blacklist",
+                    "engine_name":"Zoner",
+                    "engine_version":"2.2.2.0",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DeepInstinct":{
+                    "method":"blacklist",
+                    "engine_name":"DeepInstinct",
+                    "engine_version":"5.0.0.8",
+                    "engine_update":"20250731",
+                    "category":"undetected",
+                    "result":null
+                },
+                "alibabacloud":{
+                    "method":"blacklist",
+                    "engine_name":"alibabacloud",
+                    "engine_version":"2.2.0",
+                    "engine_update":"20250321",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avast-Mobile":{
+                    "method":"blacklist",
+                    "engine_name":"Avast-Mobile",
+                    "engine_version":"250731-02",
+                    "engine_update":"20250731",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "SymantecMobileInsight":{
+                    "method":"blacklist",
+                    "engine_name":"SymantecMobileInsight",
+                    "engine_version":"2.0",
+                    "engine_update":"20250124",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "BitDefenderFalx":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefenderFalx",
+                    "engine_version":"2.0.936",
+                    "engine_update":"20250416",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "Trustlook":{
+                    "method":"blacklist",
+                    "engine_name":"Trustlook",
+                    "engine_version":"1.0",
+                    "engine_update":"20250731",
+                    "category":"type-unsupported",
+                    "result":null
+                }
+            },
+            "type_description":"Win32 EXE",
+            "sandbox_verdicts":{
+                "Zenbox":{
+                    "category":"harmless",
+                    "sandbox_name":"Zenbox",
+                    "malware_classification":[
+                        "CLEAN"
+                    ]
+                }
+            },
+            "tlsh":"T154B3F68177F90094F5B7AA748AF241166AB739996B38D7CF0118C58A2F33BD18D38727",
+            "first_submission_date":1360351509,
+            "size":109656,
+            "meaningful_name":"SQLDumper.exe",
+            "sha256":"963330d951ab6331bb17ef0f6530b1443f5ba27578509543ad7d5fb48c49f21b",
+            "ssdeep":"1536:6j43OBTJ7QWC1mqVeCigMTV5qhzBB5BJPaf5x0Gfy4HGx7nUZj09:6j43OBTld/Cijm1r52R1fxHGx7n6w9",
+            "unique_sources":32,
+            "md5":"3a85fa32267ae2a3acbe9956e89a970f",
+            "trid":[
+                {
+                    "file_type":"Microsoft Visual C++ compiled executable (generic)",
+                    "probability":43.3
+                },
+                {
+                    "file_type":"Win64 Executable (generic)",
+                    "probability":27.6
+                },
+                {
+                    "file_type":"Win16 NE executable (generic)",
+                    "probability":13.2
+                },
+                {
+                    "file_type":"OS/2 Executable (generic)",
+                    "probability":5.3
+                },
+                {
+                    "file_type":"Generic Win/DOS Executable",
+                    "probability":5.2
+                }
+            ],
+            "signature_info":{
+                "product":"Microsoft SQL Server",
+                "verified":"Signed",
+                "description":"SQL External minidumper",
+                "file version":"2011.0110.2100.060 ((SQL11_RTM).120210-1917 )",
+                "signing date":"04:53 PM 02/11/2012",
+                "x509":[
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"461D45A26F86953C60C66034F0C228AB1A7B09106D8368CAEB935711EA8A433F",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"4AB0B8F7E9D6E89F9BD2635617FA20A9",
+                        "valid from":"2011-11-01 22:39:17",
+                        "valid to":"2013-02-01 22:49:17",
+                        "serial number":"61 1A F5 EA 00 00 00 00 00 6A",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"8849D1C0F147A3C8327B4038783AEC3E06C76F5B"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"11A09963E0A8C2A0241CCCF2F6B568C1357ED3C7EBC84AFA3A3B67633C652DC5",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"F3D4BED6174A6B34152A91AF0ADC8B34",
+                        "valid from":"2011-07-25 20:42:19",
+                        "valid to":"2012-10-25 20:42:19",
+                        "serial number":"61 05 19 96 00 00 00 00 00 1B",
+                        "cert issuer":"Microsoft Time-Stamp PCA",
+                        "thumbprint":"234C7AEA9C8C7E8C3FD2DB39318FA2AC99A72342"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"4F987BBE4E0D1DCF48FCEFC9239AC6E62EE9DF38CAC2D32993B8533CD95C2E49",
+                        "name":"Microsoft Time-Stamp PCA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"411B93904E0E5F593B721320E97E80FF",
+                        "valid from":"2007-04-03 12:53:09",
+                        "valid to":"2021-04-03 13:03:09",
+                        "serial number":"61 16 68 34 00 00 00 00 00 1C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"375FCB825C3DC3752A02E34EB70993B4997191EF"
+                    },
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"930C1E42359239558ADCE064B019473DB84DD09B9F3FC6586D099DC222A5A392",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"7E6279197DEECE56194574EEA5D0A915",
+                        "valid from":"2006-01-25 23:22:32",
+                        "valid to":"2017-01-25 23:32:32",
+                        "serial number":"61 15 08 27 00 00 00 00 00 0C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"FDD1314ED3268A95E198603BA8316FA63CBCD82D"
+                    },
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"A89965662DA484D08F7DFAF9771C74B29E64EBEF6CD1BA0C134D17D56BB5B2AE",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"AF9697726C29104A664AE081A1614613",
+                        "valid from":"2011-10-10 20:45:24",
+                        "valid to":"2013-01-10 20:55:24",
+                        "serial number":"61 05 49 55 00 00 00 00 00 0B",
+                        "cert issuer":"Microsoft Code Signing PCA 2010",
+                        "thumbprint":"FFDA25B1E0CB3F86844BE280D7B61E8529E2E99F"
+                    },
+                    {
+                        "thumbprint_sha256":"9AAD6C1A83A1B974BA574A995AF35B8CA772DA919270DB1605A8B81E1BBC896F",
+                        "name":"Microsoft Code Signing PCA 2010",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"B7A7B4605E33389F48B33D17CAE73006",
+                        "valid from":"2010-07-06 20:40:17",
+                        "valid to":"2025-07-06 20:50:17",
+                        "serial number":"61 0C 52 4C 00 00 00 00 00 03",
+                        "cert issuer":"Microsoft Root Certificate Authority 2010",
+                        "thumbprint":"8BFE3107712B3C886B1C96AAEC89984914DC9B6B"
+                    },
+                    {
+                        "thumbprint_sha256":"86EC118D1EE69670A46E2BE29C4B4208BE043E36600D4E1DD3F3D515CA119020",
+                        "name":"Microsoft Time-Stamp PCA 2010",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"02F4BF5A04D8EA2321537D606C55507D",
+                        "valid from":"2010-07-01 21:36:55",
+                        "valid to":"2025-07-01 21:46:55",
+                        "serial number":"61 09 81 2A 00 00 00 00 00 02",
+                        "cert issuer":"Microsoft Root Certificate Authority 2010",
+                        "thumbprint":"2AA752FE64C49ABE82913C463529CF10FF2F04EE"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"93F2E7DAF8E922B73E9E48C00F0006B2E695107E3D656002D6B9B09AC6C1752B",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"0F446F53D83F875F0DBFBA8AB90E57AE",
+                        "valid from":"2011-12-15 03:10:31",
+                        "valid to":"2013-03-15 03:20:31",
+                        "serial number":"61 07 4E AA 00 00 00 00 00 09",
+                        "cert issuer":"Microsoft Time-Stamp PCA 2010",
+                        "thumbprint":"A75E24EA33FD2B8E6220E1786308190DD68173EC"
+                    }
+                ],
+                "original name":"SQLDumper.exe",
+                "comments":"SQL",
+                "counter signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "valid from":"08:42 PM 07/25/2011",
+                        "valid to":"08:42 PM 10/25/2012",
+                        "serial number":"61 05 19 96 00 00 00 00 00 1B",
+                        "cert issuer":"Microsoft Time-Stamp PCA",
+                        "thumbprint":"234C7AEA9C8C7E8C3FD2DB39318FA2AC99A72342"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Time-Stamp PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"12:53 PM 04/03/2007",
+                        "valid to":"01:03 PM 04/03/2021",
+                        "serial number":"61 16 68 34 00 00 00 00 00 1C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"375FCB825C3DC3752A02E34EB70993B4997191EF"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Certificate Authority",
+                        "algorithm":"sha1RSA",
+                        "valid from":"11:19 PM 05/09/2001",
+                        "valid to":"11:28 PM 05/09/2021",
+                        "serial number":"79 AD 16 A1 4A A0 A5 AD 4C 73 58 F4 07 13 2E 65",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"CDD4EEAE6000AC7F40C3802C171E30148030C072"
+                    }
+                ],
+                "counter signers":"Microsoft Time-Stamp Service; Microsoft Time-Stamp PCA; Microsoft Root Certificate Authority",
+                "signers":"Microsoft Corporation; Microsoft Code Signing PCA; Microsoft Root Certificate Authority",
+                "internal name":"SQLDumper",
+                "copyright":"Microsoft Corp. All rights reserved.",
+                "signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid., The certificate or one of the certificates in the certificate chain does not have a valid signature., The revocation status of the certificate or one of the certificates in the certificate chain is unknown., The revocation status of the certificate or one of the certificates in the certificate chain is either offline or stale.",
+                        "valid usage":"Code Signing",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "valid from":"10:39 PM 11/01/2011",
+                        "valid to":"10:49 PM 02/01/2013",
+                        "serial number":"61 1A F5 EA 00 00 00 00 00 6A",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"8849D1C0F147A3C8327B4038783AEC3E06C76F5B"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Code Signing",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"11:22 PM 01/25/2006",
+                        "valid to":"11:32 PM 01/25/2017",
+                        "serial number":"61 15 08 27 00 00 00 00 00 0C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"FDD1314ED3268A95E198603BA8316FA63CBCD82D"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Certificate Authority",
+                        "algorithm":"sha1RSA",
+                        "valid from":"11:19 PM 05/09/2001",
+                        "valid to":"11:28 PM 05/09/2021",
+                        "serial number":"79 AD 16 A1 4A A0 A5 AD 4C 73 58 F4 07 13 2E 65",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"CDD4EEAE6000AC7F40C3802C171E30148030C072"
+                    }
+                ],
+                "pkcs7":{
+                    "opusinfo":[
+                        {
+                            "moreInfo":"http://www.microsoft.com/sql",
+                            "programName":"SQL Server 2012"
+                        }
+                    ]
+                }
+            },
+            "type_tag":"peexe",
+            "filecondis":{
+                "raw_md5":"cd692dce943ab3f5ec6eb63537af515a",
+                "dhash":"787e7a3e5e525600"
+            },
+            "times_submitted":65,
+            "type_extension":"exe"
+        }
+    }
+}

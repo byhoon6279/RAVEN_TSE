@@ -1,0 +1,1254 @@
+{
+    "data":{
+        "id":"809bb93af12ab0735cb76578c0cf7014cc84fadfcbf2a0daad5a73a239d94441",
+        "type":"file",
+        "links":{
+            "self":"https://www.virustotal.com/api/v3/files/809bb93af12ab0735cb76578c0cf7014cc84fadfcbf2a0daad5a73a239d94441"
+        },
+        "attributes":{
+            "creation_date":1343348777,
+            "vhash":"2340365515170c2320010",
+            "trid":[
+                {
+                    "file_type":"Generic CIL Executable (.NET, Mono, etc.)",
+                    "probability":71.1
+                },
+                {
+                    "file_type":"Win64 Executable (generic)",
+                    "probability":10.2
+                },
+                {
+                    "file_type":"Win32 Dynamic Link Library (generic)",
+                    "probability":6.3
+                },
+                {
+                    "file_type":"Win32 Executable (generic)",
+                    "probability":4.3
+                },
+                {
+                    "file_type":"Windows Icons Library (generic)",
+                    "probability":2.0
+                }
+            ],
+            "last_modification_date":1753785547,
+            "filecondis":{
+                "raw_md5":"ff6c969b0039fdc0c033e4babfcb82a9",
+                "dhash":"fcf2fcdc4c488000"
+            },
+            "md5":"6ad7e36df2187ea1216d78211d0ce626",
+            "meaningful_name":"TfsAdmin.exe",
+            "sha1":"fcb8227adb0585ba52517a13da7a2586b7d8e866",
+            "names":[
+                "TfsAdmin.exe",
+                "809bb93af12ab0735cb76578c0cf7014cc84fadfcbf2a0daad5a73a239d94441.exe",
+                "a255.exe",
+                "sbs_ve_ambr_20160429081444.411_    210907",
+                "nava885.tmp",
+                "sbs_ve_ambr_20160112052003.813_    233730",
+                "._cache_%SAMPLENAME%",
+                "._cache_28ec6e2eedeb01ebbc974cf169ff3ae9.exe",
+                "sbs_ve_ambr_20160125215838.458_   1099703",
+                "sbs_ve_ambr_20150622205404.624_   1036301",
+                "sbs_ve_ambr_20151112001721.897_   1345579",
+                "sbs_ve_ambr_20160205003318.891_   1366622",
+                "sbs_ve_ambr_20150922181252.961_    353966",
+                "sbs_ve_ambr_20150624205939.209_   1036688",
+                "6ad7e36df2187ea1216d78211d0ce626.exes",
+                "sbs_ve_ambr_20150712211007.101_   1050615",
+                "sbs_ve_ambr_20160001002323.725_   1366797",
+                "sbs_ve_ambr_20150927212820.694_   1075017",
+                "sbs_ve_ambr_20160120051836.242_    281098",
+                "sbs_ve_ambr_20160117002412.862_   1416979",
+                "sbs_ve_ambr_20160117214605.310_    223338",
+                "sbs_ve_ambr_20160624091450.818_    202469",
+                "B1933.ben",
+                "tfsadmin.exe",
+                "fl_tfsadmin.exe_tfsclienttools"
+            ],
+            "last_analysis_results":{
+                "Bkav":{
+                    "method":"blacklist",
+                    "engine_name":"Bkav",
+                    "engine_version":"2.0.0.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Lionic":{
+                    "method":"blacklist",
+                    "engine_name":"Lionic",
+                    "engine_version":"8.16",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Elastic":{
+                    "method":"blacklist",
+                    "engine_name":"Elastic",
+                    "engine_version":"4.0.218",
+                    "engine_update":"20250724",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MicroWorld-eScan":{
+                    "method":"blacklist",
+                    "engine_name":"MicroWorld-eScan",
+                    "engine_version":"14.0.409.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CMC":{
+                    "method":"blacklist",
+                    "engine_name":"CMC",
+                    "engine_version":"2.4.2022.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CAT-QuickHeal":{
+                    "method":"blacklist",
+                    "engine_name":"CAT-QuickHeal",
+                    "engine_version":"22.00",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ALYac":{
+                    "method":"blacklist",
+                    "engine_name":"ALYac",
+                    "engine_version":"2.0.0.10",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cylance":{
+                    "method":"blacklist",
+                    "engine_name":"Cylance",
+                    "engine_version":"3.0.0.0",
+                    "engine_update":"20250710",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VIPRE":{
+                    "method":"blacklist",
+                    "engine_name":"VIPRE",
+                    "engine_version":"6.0.0.35",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sangfor":{
+                    "method":"blacklist",
+                    "engine_name":"Sangfor",
+                    "engine_version":"2.22.3.0",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7AntiVirus":{
+                    "method":"blacklist",
+                    "engine_name":"K7AntiVirus",
+                    "engine_version":"12.250.56518",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "BitDefender":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefender",
+                    "engine_version":"7.2",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "K7GW":{
+                    "method":"blacklist",
+                    "engine_name":"K7GW",
+                    "engine_version":"12.250.56517",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CrowdStrike":{
+                    "method":"blacklist",
+                    "engine_name":"CrowdStrike",
+                    "engine_version":"1.0",
+                    "engine_update":"20231026",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Baidu":{
+                    "method":"blacklist",
+                    "engine_name":"Baidu",
+                    "engine_version":"1.0.0.2",
+                    "engine_update":"20190318",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VirIT":{
+                    "method":"blacklist",
+                    "engine_name":"VirIT",
+                    "engine_version":"9.5.1006",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Symantec":{
+                    "method":"blacklist",
+                    "engine_name":"Symantec",
+                    "engine_version":"1.22.0.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "tehtris":{
+                    "method":"blacklist",
+                    "engine_name":"tehtris",
+                    "engine_version":"v0.1.4",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ESET-NOD32":{
+                    "method":"blacklist",
+                    "engine_name":"ESET-NOD32",
+                    "engine_version":"31603",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zoner":{
+                    "method":"blacklist",
+                    "engine_name":"Zoner",
+                    "engine_version":"2.2.2.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro-HouseCall":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro-HouseCall",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Paloalto":{
+                    "method":"blacklist",
+                    "engine_name":"Paloalto",
+                    "engine_version":"0.9.0.1003",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Cynet":{
+                    "method":"blacklist",
+                    "engine_name":"Cynet",
+                    "engine_version":"4.0.3.4",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kaspersky":{
+                    "method":"blacklist",
+                    "engine_name":"Kaspersky",
+                    "engine_version":"22.0.1.28",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Alibaba":{
+                    "method":"blacklist",
+                    "engine_name":"Alibaba",
+                    "engine_version":"0.3.0.5",
+                    "engine_update":"20190527",
+                    "category":"undetected",
+                    "result":null
+                },
+                "NANO-Antivirus":{
+                    "method":"blacklist",
+                    "engine_name":"NANO-Antivirus",
+                    "engine_version":"1.0.170.26895",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ViRobot":{
+                    "method":"blacklist",
+                    "engine_name":"ViRobot",
+                    "engine_version":"2014.3.20.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avast":{
+                    "method":"blacklist",
+                    "engine_name":"Avast",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Tencent":{
+                    "method":"blacklist",
+                    "engine_name":"Tencent",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Emsisoft":{
+                    "method":"blacklist",
+                    "engine_name":"Emsisoft",
+                    "engine_version":"2024.8.0.61147",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "F-Secure":{
+                    "method":"blacklist",
+                    "engine_name":"F-Secure",
+                    "engine_version":"18.10.1547.307",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DrWeb":{
+                    "method":"blacklist",
+                    "engine_name":"DrWeb",
+                    "engine_version":"7.0.69.6040",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Zillya":{
+                    "method":"blacklist",
+                    "engine_name":"Zillya",
+                    "engine_version":"2.0.0.5412",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TrendMicro":{
+                    "method":"blacklist",
+                    "engine_name":"TrendMicro",
+                    "engine_version":"24.550.0.1002",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "McAfeeD":{
+                    "method":"blacklist",
+                    "engine_name":"McAfeeD",
+                    "engine_version":"1.2.0.10275",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SentinelOne":{
+                    "method":"blacklist",
+                    "engine_name":"SentinelOne",
+                    "engine_version":"25.1.1.1",
+                    "engine_update":"20250114",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Trapmine":{
+                    "method":"blacklist",
+                    "engine_name":"Trapmine",
+                    "engine_version":"4.0.4.0",
+                    "engine_update":"20250721",
+                    "category":"undetected",
+                    "result":null
+                },
+                "CTX":{
+                    "method":"blacklist",
+                    "engine_name":"CTX",
+                    "engine_version":"2024.8.29.1",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Sophos":{
+                    "method":"blacklist",
+                    "engine_name":"Sophos",
+                    "engine_version":"3.0.3.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Ikarus":{
+                    "method":"blacklist",
+                    "engine_name":"Ikarus",
+                    "engine_version":"6.4.16.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Jiangmin":{
+                    "method":"blacklist",
+                    "engine_name":"Jiangmin",
+                    "engine_version":"16.0.100",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Webroot":{
+                    "method":"blacklist",
+                    "engine_name":"Webroot",
+                    "engine_version":"1.9.0.8",
+                    "engine_update":"20250227",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Google":{
+                    "method":"blacklist",
+                    "engine_name":"Google",
+                    "engine_version":"1753777839",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Avira":{
+                    "method":"blacklist",
+                    "engine_name":"Avira",
+                    "engine_version":"8.3.3.22",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Antiy-AVL":{
+                    "method":"blacklist",
+                    "engine_name":"Antiy-AVL",
+                    "engine_version":"3.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Kingsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Kingsoft",
+                    "engine_version":"None",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Microsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Microsoft",
+                    "engine_version":"1.1.25060.6",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Gridinsoft":{
+                    "method":"blacklist",
+                    "engine_name":"Gridinsoft",
+                    "engine_version":"1.0.222.174",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Xcitium":{
+                    "method":"blacklist",
+                    "engine_name":"Xcitium",
+                    "engine_version":"37916",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Arcabit":{
+                    "method":"blacklist",
+                    "engine_name":"Arcabit",
+                    "engine_version":"2025.0.0.23",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "SUPERAntiSpyware":{
+                    "method":"blacklist",
+                    "engine_name":"SUPERAntiSpyware",
+                    "engine_version":"5.6.0.1032",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "ZoneAlarm":{
+                    "method":"blacklist",
+                    "engine_name":"ZoneAlarm",
+                    "engine_version":"6.18-106782965",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "GData":{
+                    "method":"blacklist",
+                    "engine_name":"GData",
+                    "engine_version":"GD:27.41228AVA:64.29557",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Varist":{
+                    "method":"blacklist",
+                    "engine_name":"Varist",
+                    "engine_version":"6.6.1.3",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AhnLab-V3":{
+                    "method":"blacklist",
+                    "engine_name":"AhnLab-V3",
+                    "engine_version":"3.28.0.10568",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Acronis":{
+                    "method":"blacklist",
+                    "engine_name":"Acronis",
+                    "engine_version":"1.2.0.121",
+                    "engine_update":"20240328",
+                    "category":"undetected",
+                    "result":null
+                },
+                "VBA32":{
+                    "method":"blacklist",
+                    "engine_name":"VBA32",
+                    "engine_version":"5.3.2",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "TACHYON":{
+                    "method":"blacklist",
+                    "engine_name":"TACHYON",
+                    "engine_version":"2025-07-29.02",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Malwarebytes":{
+                    "method":"blacklist",
+                    "engine_name":"Malwarebytes",
+                    "engine_version":"4.5.5.54",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Panda":{
+                    "method":"blacklist",
+                    "engine_name":"Panda",
+                    "engine_version":"4.6.4.2",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "APEX":{
+                    "method":"blacklist",
+                    "engine_name":"APEX",
+                    "engine_version":"6.680",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Rising":{
+                    "method":"blacklist",
+                    "engine_name":"Rising",
+                    "engine_version":"25.0.0.28",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Yandex":{
+                    "method":"blacklist",
+                    "engine_name":"Yandex",
+                    "engine_version":"5.5.2.24",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "huorong":{
+                    "method":"blacklist",
+                    "engine_name":"huorong",
+                    "engine_version":"b14b224:b14b224:1995682:1995682",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "MaxSecure":{
+                    "method":"blacklist",
+                    "engine_name":"MaxSecure",
+                    "engine_version":"1.0.0.1",
+                    "engine_update":"20250728",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Fortinet":{
+                    "method":"blacklist",
+                    "engine_name":"Fortinet",
+                    "engine_version":"7.0.30.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "AVG":{
+                    "method":"blacklist",
+                    "engine_name":"AVG",
+                    "engine_version":"23.9.8494.0",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "DeepInstinct":{
+                    "method":"blacklist",
+                    "engine_name":"DeepInstinct",
+                    "engine_version":"5.0.0.8",
+                    "engine_update":"20250729",
+                    "category":"undetected",
+                    "result":null
+                },
+                "alibabacloud":{
+                    "method":"blacklist",
+                    "engine_name":"alibabacloud",
+                    "engine_version":"2.2.0",
+                    "engine_update":"20250321",
+                    "category":"undetected",
+                    "result":null
+                },
+                "Skyhigh":{
+                    "method":"blacklist",
+                    "engine_name":"Skyhigh",
+                    "engine_version":null,
+                    "engine_update":"20250728",
+                    "category":"timeout",
+                    "result":null
+                },
+                "ClamAV":{
+                    "method":"blacklist",
+                    "engine_name":"ClamAV",
+                    "engine_version":"1.4.3.0",
+                    "engine_update":"20250729",
+                    "category":"timeout",
+                    "result":null
+                },
+                "TrellixENS":{
+                    "method":"blacklist",
+                    "engine_name":"TrellixENS",
+                    "engine_version":"6.0.6.653",
+                    "engine_update":"20250728",
+                    "category":"timeout",
+                    "result":null
+                },
+                "Trustlook":{
+                    "method":"blacklist",
+                    "engine_name":"Trustlook",
+                    "engine_version":"1.0",
+                    "engine_update":"20250729",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "SymantecMobileInsight":{
+                    "method":"blacklist",
+                    "engine_name":"SymantecMobileInsight",
+                    "engine_version":"2.0",
+                    "engine_update":"20250124",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "BitDefenderFalx":{
+                    "method":"blacklist",
+                    "engine_name":"BitDefenderFalx",
+                    "engine_version":"2.0.936",
+                    "engine_update":"20250416",
+                    "category":"type-unsupported",
+                    "result":null
+                },
+                "Avast-Mobile":{
+                    "method":"blacklist",
+                    "engine_name":"Avast-Mobile",
+                    "engine_version":"250729-00",
+                    "engine_update":"20250729",
+                    "category":"type-unsupported",
+                    "result":null
+                }
+            },
+            "last_analysis_date":1753785444,
+            "ssdeep":"384:NHrMdx6EPZeWY7W3sz1ae00GftpBjC6BQdPFtAHRN7Hoh9lG9Oqs:Nux6UiDxasiw6BQiL9k",
+            "type_description":"Win32 EXE",
+            "packers":{
+                "PEiD":".NET executable"
+            },
+            "total_votes":{
+                "harmless":0,
+                "malicious":0
+            },
+            "type_tag":"peexe",
+            "type_extension":"exe",
+            "authentihash":"f665db17f725f3ebee9cdd76ffc6dfdcd47e542f40b3899c3c65ee641b4b41e6",
+            "dot_net_guids":{
+                "mvid":"7e498522-9309-4fc5-9a59-78d1f8d68870"
+            },
+            "magic":"PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+            "times_submitted":31,
+            "known_distributors":{
+                "distributors":[
+                    "Microsoft"
+                ],
+                "filenames":[
+                    "FL_TfsAdmin.exe_TFSClientTools"
+                ],
+                "products":[
+                    "MSDN Disc 5097",
+                    "MSDN Disc 5095"
+                ],
+                "data_sources":[
+                    "National Software Reference Library (NSRL)"
+                ]
+            },
+            "tags":[
+                "peexe",
+                "known-distributor",
+                "overlay",
+                "assembly",
+                "signed"
+            ],
+            "signature_info":{
+                "product":"Microsoft\u00ae Visual Studio\u00ae 2012",
+                "verified":"Signed",
+                "description":"TfsAdmin.exe",
+                "file version":"11.0.50727.1",
+                "signing date":"01:47 AM 07/27/2012",
+                "x509":[
+                    {
+                        "valid usage":"Code Signing",
+                        "thumbprint_sha256":"CA314F179711DE4A98F73EF51F5AE9785858EC05B94B7304353CE02368F8461B",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"EB0016980D9926492BCF1F34610059F5",
+                        "valid from":"2011-10-10 20:32:25",
+                        "valid to":"2013-01-10 20:32:25",
+                        "serial number":"61 19 CC 93 00 01 00 00 00 66",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"19F8F76F4655074509769C20349FFAECCECD217D"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"0426CE47DDB8D2B9B4362C5CAE894380A5299F39E8DEAC997BF9F95369EB34C6",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"2B90170E9C87325B12FB2450AF8D2057",
+                        "valid from":"2011-07-25 20:42:17",
+                        "valid to":"2012-10-25 20:42:17",
+                        "serial number":"61 05 13 36 00 00 00 00 00 1A",
+                        "cert issuer":"Microsoft Time-Stamp PCA",
+                        "thumbprint":"FC33104FAE31FB538749D5F2D17FA0ECB819EAE5"
+                    },
+                    {
+                        "thumbprint_sha256":"9CBF22FAE0DD53A7395556CE6154AA14A0D03360AA8C51CFEA05D1FD8819E043",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"839A3145057932596326B0129D44A1D5",
+                        "valid from":"2010-08-31 22:19:32",
+                        "valid to":"2020-08-31 22:29:32",
+                        "serial number":"61 33 26 1A 00 00 00 00 00 31",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"3CAF9BA2DB5570CAF76942FF99101B993888E257"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"4F987BBE4E0D1DCF48FCEFC9239AC6E62EE9DF38CAC2D32993B8533CD95C2E49",
+                        "name":"Microsoft Time-Stamp PCA",
+                        "algorithm":"sha1RSA",
+                        "thumbprint_md5":"411B93904E0E5F593B721320E97E80FF",
+                        "valid from":"2007-04-03 12:53:09",
+                        "valid to":"2021-04-03 13:03:09",
+                        "serial number":"61 16 68 34 00 00 00 00 00 1C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"375FCB825C3DC3752A02E34EB70993B4997191EF"
+                    },
+                    {
+                        "valid usage":"Code Signing, 0.4.1.311.76.8",
+                        "thumbprint_sha256":"72F61E456F4C891D8DF91236A489B5E7D348B31D2855EFC5AD8D6EABC3EFB13B",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"C546749AF9C611A573703F50BC932F4F",
+                        "valid from":"2012-07-07 00:14:32",
+                        "valid to":"2013-10-07 00:14:32",
+                        "serial number":"33 00 00 00 08 E2 79 FA 0D 25 58 45 EA 00 00 00 00 00 08",
+                        "cert issuer":"Microsoft Code Signing PCA 2011",
+                        "thumbprint":"BCA0A72FBF7C3A6666CBB15EEB450A3AE6F14A48"
+                    },
+                    {
+                        "thumbprint_sha256":"56DA8722AFD94066FFE1E4595473A4854892B843A0827D53FB7D8F4AEED1E18B",
+                        "name":"Microsoft Code Signing PCA 2011",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"CE02A0499711D1F1A3FCFC3C699A6C97",
+                        "valid from":"2011-07-08 20:59:09",
+                        "valid to":"2026-07-08 21:09:09",
+                        "serial number":"61 0E 90 D2 00 00 00 00 00 03",
+                        "cert issuer":"Microsoft Root Certificate Authority 2011",
+                        "thumbprint":"F252E794FE438E35ACE6E53762C0A234A2C52135"
+                    },
+                    {
+                        "thumbprint_sha256":"86EC118D1EE69670A46E2BE29C4B4208BE043E36600D4E1DD3F3D515CA119020",
+                        "name":"Microsoft Time-Stamp PCA 2010",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"02F4BF5A04D8EA2321537D606C55507D",
+                        "valid from":"2010-07-01 21:36:55",
+                        "valid to":"2025-07-01 21:46:55",
+                        "serial number":"61 09 81 2A 00 00 00 00 00 02",
+                        "cert issuer":"Microsoft Root Certificate Authority 2010",
+                        "thumbprint":"2AA752FE64C49ABE82913C463529CF10FF2F04EE"
+                    },
+                    {
+                        "valid usage":"Timestamp Signing",
+                        "thumbprint_sha256":"1A4D71FD0236E55DFCAF414AC52F10E92CB5D0B2531F3A580BE4149C1327DF7E",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha256RSA",
+                        "thumbprint_md5":"4E91C3B210E8DBAB3C5004185D566386",
+                        "valid from":"2012-01-09 21:35:37",
+                        "valid to":"2013-04-09 21:45:37",
+                        "serial number":"61 07 EA 3E 00 00 00 00 00 10",
+                        "cert issuer":"Microsoft Time-Stamp PCA 2010",
+                        "thumbprint":"C9231E0C550F956D32EADD6E731A173831F345FF"
+                    }
+                ],
+                "original name":"TfsAdmin.exe",
+                "comments":"TfsAdmin.exe",
+                "counter signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Time-Stamp Service",
+                        "algorithm":"sha1RSA",
+                        "valid from":"08:42 PM 07/25/2011",
+                        "valid to":"08:42 PM 10/25/2012",
+                        "serial number":"61 05 13 36 00 00 00 00 00 1A",
+                        "cert issuer":"Microsoft Time-Stamp PCA",
+                        "thumbprint":"FC33104FAE31FB538749D5F2D17FA0ECB819EAE5"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Timestamp Signing",
+                        "name":"Microsoft Time-Stamp PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"12:53 PM 04/03/2007",
+                        "valid to":"01:03 PM 04/03/2021",
+                        "serial number":"61 16 68 34 00 00 00 00 00 1C",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"375FCB825C3DC3752A02E34EB70993B4997191EF"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Certificate Authority",
+                        "algorithm":"sha1RSA",
+                        "valid from":"11:19 PM 05/09/2001",
+                        "valid to":"11:28 PM 05/09/2021",
+                        "serial number":"79 AD 16 A1 4A A0 A5 AD 4C 73 58 F4 07 13 2E 65",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"CDD4EEAE6000AC7F40C3802C171E30148030C072"
+                    }
+                ],
+                "counter signers":"Microsoft Time-Stamp Service; Microsoft Time-Stamp PCA; Microsoft Root Certificate Authority",
+                "signers":"Microsoft Corporation; Microsoft Code Signing PCA; Microsoft Root Certificate Authority",
+                "internal name":"TfsAdmin.exe",
+                "copyright":"\u00a9 Microsoft Corporation. All rights reserved.",
+                "signers details":[
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"Code Signing",
+                        "name":"Microsoft Corporation",
+                        "algorithm":"sha1RSA",
+                        "valid from":"08:32 PM 10/10/2011",
+                        "valid to":"08:32 PM 01/10/2013",
+                        "serial number":"61 19 CC 93 00 01 00 00 00 66",
+                        "cert issuer":"Microsoft Code Signing PCA",
+                        "thumbprint":"19F8F76F4655074509769C20349FFAECCECD217D"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Code Signing PCA",
+                        "algorithm":"sha1RSA",
+                        "valid from":"10:19 PM 08/31/2010",
+                        "valid to":"10:29 PM 08/31/2020",
+                        "serial number":"61 33 26 1A 00 00 00 00 00 31",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"3CAF9BA2DB5570CAF76942FF99101B993888E257"
+                    },
+                    {
+                        "status":"This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage":"All",
+                        "name":"Microsoft Root Certificate Authority",
+                        "algorithm":"sha1RSA",
+                        "valid from":"11:19 PM 05/09/2001",
+                        "valid to":"11:28 PM 05/09/2021",
+                        "serial number":"79 AD 16 A1 4A A0 A5 AD 4C 73 58 F4 07 13 2E 65",
+                        "cert issuer":"Microsoft Root Certificate Authority",
+                        "thumbprint":"CDD4EEAE6000AC7F40C3802C171E30148030C072"
+                    }
+                ],
+                "pkcs7":{
+                    "opusinfo":[
+                        {
+                            "moreInfo":"http://microsoft.com",
+                            "programName":"TfsAdmin.exe"
+                        }
+                    ]
+                }
+            },
+            "sha256":"809bb93af12ab0735cb76578c0cf7014cc84fadfcbf2a0daad5a73a239d94441",
+            "pe_info":{
+                "timestamp":1343348777,
+                "imphash":"f34d5f2d4577ed6d9ceec516c1f5a744",
+                "machine_type":332,
+                "entry_point":12926,
+                "resource_details":[
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":43025.8,
+                        "filetype":"unknown",
+                        "entropy":2.550896406173706,
+                        "sha256":"fc100b88d99e80e25620939264ba54bc94b27d927ae3037c154c25320b1f637b",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":19030.27,
+                        "filetype":"unknown",
+                        "entropy":2.618424892425537,
+                        "sha256":"9afd365e123191141017f9a86a4b504fe55b4d70d3f4ca74e63fdfecf19fc792",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":214658.14,
+                        "filetype":"unknown",
+                        "entropy":1.9833296537399292,
+                        "sha256":"b3930ae91a0413a9f2c141ad064bd3cdd0f924579de491455ea9a529b8387216",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":228132.28,
+                        "filetype":"unknown",
+                        "entropy":1.2673547267913818,
+                        "sha256":"409f97a13f6cc6649a07da2721621b31399095f5ec1710b6892b40a29a4e44c4",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":244040.5,
+                        "filetype":"unknown",
+                        "entropy":2.4406940937042236,
+                        "sha256":"c9bf83be60987a1a46373098ba3bf7cb2c0e2dc2d4b43f5892ae4431196a1232",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":61283.34,
+                        "filetype":"unknown",
+                        "entropy":2.5423028469085693,
+                        "sha256":"40a3d5f4b94661c7d8359524ae7c906188a9ed0cbe34361dcf4c05de75804d4c",
+                        "type":"RT_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":6150.71,
+                        "filetype":"ICO",
+                        "entropy":2.719639778137207,
+                        "sha256":"8d71a8482d826cbebb4f7453d41958027a2a41260b7824f3dcc0250c8f2b5604",
+                        "type":"RT_GROUP_ICON"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":75561.89,
+                        "filetype":"unknown",
+                        "entropy":3.406212329864502,
+                        "sha256":"79d38f8f43b2507a8325516d6aadae6a13685dd30a3aa5cd2ffec87cfc33e511",
+                        "type":"RT_VERSION"
+                    },
+                    {
+                        "lang":"NEUTRAL",
+                        "chi2":11163.9,
+                        "filetype":"unknown",
+                        "entropy":5.152791500091553,
+                        "sha256":"cd71ddb4d012b11486fef04e39e4b6251a5211370b5e9a023bc9112f6be9f268",
+                        "type":"RT_MANIFEST"
+                    }
+                ],
+                "resource_langs":{
+                    "NEUTRAL":9
+                },
+                "resource_types":{
+                    "RT_ICON":6,
+                    "RT_MANIFEST":1,
+                    "RT_VERSION":1,
+                    "RT_GROUP_ICON":1
+                },
+                "overlay":{
+                    "chi2":21668.7,
+                    "filetype":"unknown",
+                    "entropy":7.422771453857422,
+                    "offset":19456,
+                    "md5":"d1a892618469265ebaa294ef887e1ba3",
+                    "size":15816
+                },
+                "sections":[
+                    {
+                        "name":".text",
+                        "chi2":108497.2,
+                        "virtual_address":8192,
+                        "entropy":5.53,
+                        "raw_size":5120,
+                        "flags":"rx",
+                        "virtual_size":4740,
+                        "md5":"49e34db2012bb097d7234147287f8f94"
+                    },
+                    {
+                        "name":".rsrc",
+                        "chi2":602113.44,
+                        "virtual_address":16384,
+                        "entropy":3.76,
+                        "raw_size":13312,
+                        "flags":"r",
+                        "virtual_size":12856,
+                        "md5":"1ee53cb0ad900730ad36fabf22e84287"
+                    },
+                    {
+                        "name":".reloc",
+                        "chi2":128522.0,
+                        "virtual_address":32768,
+                        "entropy":0.08,
+                        "raw_size":512,
+                        "flags":"r",
+                        "virtual_size":12,
+                        "md5":"800853871f5d68c5a722718b0f3aa3da"
+                    }
+                ],
+                "import_list":[
+                    {
+                        "library_name":"mscoree.dll",
+                        "imported_functions":[
+                            "_CorExeMain"
+                        ]
+                    }
+                ]
+            },
+            "first_submission_date":1358301636,
+            "magika":"PEBIN",
+            "unique_sources":16,
+            "last_analysis_stats":{
+                "malicious":0,
+                "suspicious":0,
+                "undetected":69,
+                "harmless":0,
+                "timeout":3,
+                "confirmed-timeout":0,
+                "failure":0,
+                "type-unsupported":4
+            },
+            "reputation":0,
+            "last_submission_date":1742417507,
+            "dot_net_assembly":{
+                "entry_point_rva":0,
+                "metadata_header_rva":8644,
+                "assembly_name":"TfsAdmin.exe",
+                "resources_va":0,
+                "assembly_flags":9,
+                "strongname_va":256,
+                "external_assemblies":{
+                    "System.Drawing":{
+                        "version":"4.0.0.0"
+                    },
+                    "mscorlib":{
+                        "version":"4.0.0.0"
+                    },
+                    "Microsoft.TeamFoundation.Client":{
+                        "version":"11.0.0.0"
+                    },
+                    "Microsoft.TeamFoundation.Sync.Admin.Framework":{
+                        "version":"11.0.0.0"
+                    }
+                },
+                "entry_point_token":100663297,
+                "tables_rows_map":"11e300070502001300001000101100000001004000000000",
+                "streams":{
+                    "#GUID":{
+                        "chi2":240.0,
+                        "md5":"18428685a5b29499932163ec4b7cd3ff",
+                        "entropy":4.0,
+                        "size":16
+                    },
+                    "#Blob":{
+                        "chi2":10272.1123046875,
+                        "md5":"a7104342fe8ea7ef06cb7cc9792cde50",
+                        "entropy":5.7039384841918945,
+                        "size":1480
+                    },
+                    "#US":{
+                        "chi2":9909.82421875,
+                        "md5":"a3353cec9d5b9c1910bc59559cc81cfc",
+                        "entropy":3.0505573749542236,
+                        "size":140
+                    },
+                    "#~":{
+                        "chi2":50242.390625,
+                        "md5":"d42015662ea67a8f57a58e87e34e69c9",
+                        "entropy":4.1083502769470215,
+                        "size":864
+                    },
+                    "#Strings":{
+                        "chi2":15421.396484375,
+                        "md5":"d1d9f62c2850cb9bb209405b8684d6b8",
+                        "entropy":4.682035446166992,
+                        "size":1284
+                    }
+                },
+                "tables_present":13,
+                "assembly_flags_txt":"COMIMAGE_FLAGS_ILONLY, COMIMAGE_FLAGS_STRONGNAMESIGNED",
+                "assembly_data":{
+                    "majorversion":11,
+                    "minorversion":0,
+                    "hashalgid":32772,
+                    "flags_text":"afPublicKey ",
+                    "buildnumber":0,
+                    "flags":1,
+                    "revisionnumber":0,
+                    "name":"TfsAdmin"
+                },
+                "clr_version":"v4.0.30319",
+                "tables_present_map":"901a21547",
+                "clr_meta_version":"1.1",
+                "tables_rows_map_log":"4756577444445",
+                "type_definition_list":[
+                    {
+                        "namespace":"System",
+                        "type_definitions":[
+                            "Object",
+                            "CLSCompliantAttribute",
+                            "AppDomain",
+                            "Environment"
+                        ]
+                    },
+                    {
+                        "namespace":"Microsoft.TeamFoundation.Client.CommandLine",
+                        "type_definitions":[
+                            "CommandLine"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Drawing",
+                        "type_definitions":[
+                            "Icon"
+                        ]
+                    },
+                    {
+                        "namespace":"Microsoft.TeamFoundation.Client",
+                        "type_definitions":[
+                            "LogCategory"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Runtime.InteropServices",
+                        "type_definitions":[
+                            "OutAttribute",
+                            "ComVisibleAttribute"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Runtime.Versioning",
+                        "type_definitions":[
+                            "TargetFrameworkAttribute"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Reflection",
+                        "type_definitions":[
+                            "AssemblyTitleAttribute",
+                            "AssemblyDescriptionAttribute",
+                            "AssemblyDefaultAliasAttribute",
+                            "AssemblyCompanyAttribute",
+                            "AssemblyProductAttribute",
+                            "AssemblyCopyrightAttribute",
+                            "AssemblyVersionAttribute",
+                            "AssemblyFileVersionAttribute",
+                            "AssemblyInformationalVersionAttribute",
+                            "AssemblyDelaySignAttribute",
+                            "AssemblyKeyFileAttribute",
+                            "AssemblySignatureKeyAttribute",
+                            "Assembly"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Resources",
+                        "type_definitions":[
+                            "SatelliteContractVersionAttribute",
+                            "NeutralResourcesLanguageAttribute"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Runtime.CompilerServices",
+                        "type_definitions":[
+                            "RuntimeCompatibilityAttribute",
+                            "CompilationRelaxationsAttribute"
+                        ]
+                    },
+                    {
+                        "namespace":"System.Diagnostics",
+                        "type_definitions":[
+                            "DebuggableAttribute"
+                        ]
+                    },
+                    {
+                        "namespace":"uncategorized",
+                        "type_definitions":[
+                            "DebuggingModes"
+                        ]
+                    },
+                    {
+                        "namespace":"Microsoft.TeamFoundation.Sync.Admin.Framework",
+                        "type_definitions":[
+                            "Host"
+                        ]
+                    }
+                ]
+            },
+            "tlsh":"T18BF2F73F8A5C804FCC5AB9F1229DD6772DF9A3DF0820456620E5EE89CC467C5BE13629",
+            "type_tags":[
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "peexe"
+            ],
+            "size":35272,
+            "first_seen_itw_date":1342001877,
+            "detectiteasy":{
+                "filetype":"PE32",
+                "values":[
+                    {
+                        "version":"v4.0.30319",
+                        "type":"Library",
+                        "name":".NET"
+                    },
+                    {
+                        "version":"11.0",
+                        "type":"Linker",
+                        "name":"Microsoft Linker"
+                    },
+                    {
+                        "info":"PKCS #7",
+                        "version":"2.0",
+                        "type":"Sign tool",
+                        "name":"Windows Authenticode"
+                    }
+                ]
+            }
+        }
+    }
+}
