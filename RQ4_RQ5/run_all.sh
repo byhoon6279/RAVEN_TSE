@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Reproduce the TSE extension analyses (RQ4 strategy effects and family-label loss).
-# Run from this directory (Extension/). Raw VT reports are read from ../Data (read-only).
+# Run from this directory (RQ4_RQ5/). Raw VT reports are read from ../Data (read-only).
 set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p work results figures

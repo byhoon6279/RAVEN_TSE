@@ -17,8 +17,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 
 csv_candidates = [
-    os.path.join(REPO_ROOT, "Data", "RQ4", "rq4_latency_with_transitions.csv"),
-    os.path.join(REPO_ROOT, "Data", "RQ4", "rq4_latency_with_transitions.csv.gz"),
+    os.path.join(REPO_ROOT, "Data", "RQ6", "rq4_latency_with_transitions.csv"),
+    os.path.join(REPO_ROOT, "Data", "RQ6", "rq4_latency_with_transitions.csv.gz"),
 ]
 csv_path = next((path for path in csv_candidates if os.path.isfile(path)), None)
 if csv_path is None:
@@ -107,5 +107,5 @@ cbar_ax.set_position([
     heatmap_pos.height 
 ])
 
-plt.savefig(os.path.join(SCRIPT_DIR, "RQ4_fig8.pdf"), format="pdf", bbox_inches="tight")
+plt.savefig(os.path.join(SCRIPT_DIR, "RQ6_fig12.pdf"), format="pdf", bbox_inches="tight")
 plt.show()

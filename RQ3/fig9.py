@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
@@ -13,8 +14,10 @@ mpl.rcParams["ps.fonttype"] = 42
 # =========================
 # Paths
 # =========================
-rq2_csv_path = "../Data/RQ3/rq3_av_perturbation_matrix_equal_eval.csv"
-sota_path = "../Data/RQ3/SOTA_4_heatmap.csv"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+rq2_csv_path = os.path.join(REPO_ROOT, "Data", "RQ3", "rq3_av_perturbation_matrix_equal_eval.csv")
+sota_path = os.path.join(REPO_ROOT, "Data", "RQ3", "SOTA_4_heatmap.csv")
 
 # =========================
 # 0) Desired AV order (fixed)
@@ -133,6 +136,6 @@ cbar_ax.tick_params(labelsize=10)
 
 plt.subplots_adjust(left=0.05, right=0.97, top=0.98, bottom=0.35)
 
-out_pdf = "RQ3_fig7.pdf"
+out_pdf = os.path.join(SCRIPT_DIR, "RQ3_fig9.pdf")
 plt.savefig(out_pdf, format="pdf", bbox_inches="tight")
 print(f"Save: {out_pdf}")

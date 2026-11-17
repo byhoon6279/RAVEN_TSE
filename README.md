@@ -11,24 +11,24 @@ It contains the perturbation framework, the VirusTotal (VT) and ClamAV scan repo
 
 ## Research Questions and Artifact Map
 
-The TSE article adds two RQs (RQ4 and RQ5) to the conference paper; the conference RQ4 on resilience becomes RQ6.
-Directory names `RQ1/`–`RQ4/` follow the conference numbering.
+Directory, script, and output names follow the RQ, figure, and table numbering of the TSE article.
+The TSE article adds RQ4 and RQ5 to the conference paper; the conference RQ4 on resilience is RQ6 in the TSE article.
 
-| TSE RQ | Topic | Code | Data | Conference RQ |
+| RQ | Topic | Code | Data | Paper element |
 |---|---|---|---|---|
-| RQ1 | Perturbation impact | `RQ1/` | `Data/RQ1_and_2/` | RQ1 |
-| RQ2 | AV specificity (ASR–FPR trade-offs) | `RQ2/` | `Data/RQ1_and_2/` | RQ2 |
-| RQ3 | Multi-perturbation strategies and comparison with SOTA frameworks | `RQ3/` | `Data/RQ3/` | RQ3 |
-| RQ4 | Strategy effects: paired evasion gains/losses and engine-level changes | `Extension/` | `Data/RQ1_and_2/`, `Data/RQ3/` | new |
-| RQ5 | Family-label retention under continued detection | `Extension/` | `Data/RQ1_and_2/`, `Data/RQ3/` | new |
-| RQ6 | Resilience: 15-day longitudinal rescans | `RQ4/` | `Data/RQ4/` | RQ4 |
-| Validation | Behavioral sanity check of original/AE pairs | `sanity_check/` | `sanity_check/` | supplement |
+| RQ1 | Perturbation impact | `RQ1/` | `Data/RQ1_and_2/` | Fig. 6 |
+| RQ2 | AV specificity (ASR–FPR trade-offs) | `RQ2/` | `Data/RQ1_and_2/` | Fig. 7 |
+| RQ3 | Multi-perturbation strategies and comparison with SOTA frameworks | `RQ3/` | `Data/RQ3/` | Fig. 9 |
+| RQ4 | Strategy effects: paired evasion gains/losses and engine-level changes | `RQ4_RQ5/` | `Data/RQ1_and_2/`, `Data/RQ3/` | Figs. 10–11 |
+| RQ5 | Family-label retention under continued detection | `RQ4_RQ5/` | `Data/RQ1_and_2/`, `Data/RQ3/` | Table VIII |
+| RQ6 | Resilience: 15-day longitudinal rescans | `RQ6/` | `Data/RQ6/` | Fig. 12 |
+| Validation | Behavioral sanity check of original/AE pairs | `sanity_check/` | `sanity_check/` | Section V-A |
 
 RQ4 and RQ5 reuse the existing scan reports; no new VT scans were performed for the extension.
 
 ## Requirements
 
-The conference analyses were tested on Ubuntu 20.04.6 with Python 3.10; the extension analyses (`Extension/`) were also run on macOS with Python 3.13.
+The conference analyses were tested on Ubuntu 20.04.6 with Python 3.10; the RQ4 and RQ5 analyses (`RQ4_RQ5/`) were also run on macOS with Python 3.13.
 
 | Purpose | Python packages |
 |---|---|
@@ -42,9 +42,7 @@ pip install matplotlib seaborn
 
 ## Data Access
 
-Large data files may not be available directly from this repository. Download the complete artifacts from
-[Google Drive](https://drive.google.com/drive/folders/1P4KIVouHTfKtIl6QqFnjtWyBcfVIL-k8?usp=drive_link)
-and unzip each archive into the corresponding subdirectory under `Data/`.
+All scripts expect the data under `Data/` with the layout below.
 
 | Path | Contents |
 |---|---|
@@ -56,8 +54,8 @@ and unzip each archive into the corresponding subdirectory under `Data/`.
 | `Data/RQ3/SOTA_report/` | VT reports for AEs from Gym-Malware, MAB-Malware, MalwareMakeover, and MalGuise |
 | `Data/RQ3/clamav_result/` | ClamAV results for RQ3 |
 | `Data/RQ3/rq3_av_perturbation_matrix_equal_eval.csv`, `SOTA_4_heatmap.csv` | Aggregates for RQ3 |
-| `Data/RQ4/report/` | Daily VT reports for the longitudinal AEs (TSE RQ6) |
-| `Data/RQ4/rq4_latency_with_transitions.csv.gz` | Detection latency and state transitions (TSE RQ6) |
+| `Data/RQ6/report/` | Daily VT reports for the longitudinal AEs (RQ6) |
+| `Data/RQ6/rq4_latency_with_transitions.csv.gz` | Detection latency and state transitions (RQ6) |
 
 The family of each sample is given by its directory name (AVClass2 labeling).
 In report filenames and multi-perturbation strategy names, `RC` (`resource_change`) denotes the PSC operator in the paper.
@@ -71,13 +69,15 @@ RAVEN_TSE/
 │   ├── input/                     Benign example PE binaries
 │   ├── RQ1_modifier.py            Generate single-perturbation AEs (RQ1, RQ2)
 │   ├── RQ3_modifier.py            Generate multi-perturbation AEs (RQ3)
-│   └── RQ4_modifier.py            Generate fixed four-perturbation AEs for the longitudinal study (TSE RQ6)
+│   └── RQ6_modifier.py            Generate fixed four-perturbation AEs for the longitudinal study (RQ6)
 ├── Data/                          Scan reports and aggregates (see Data Access)
-├── RQ1/fig5.py                    TSE RQ1 figure
-├── RQ2/fig6.py                    TSE RQ2 figure
-├── RQ3/fig7.py                    TSE RQ3 figure
-├── RQ4/fig8.py                    TSE RQ6 figure
-├── Extension/                     TSE RQ4 and RQ5 (see Extension/README.md)
+│   ├── RQ1_and_2/
+│   ├── RQ3/
+│   └── RQ6/
+├── RQ1/fig6.py                    Fig. 6
+├── RQ2/fig7.py                    Fig. 7
+├── RQ3/fig9.py                    Fig. 9
+├── RQ4_RQ5/                       RQ4 (Figs. 10–11) and RQ5 (Table VIII); see RQ4_RQ5/README.md
 │   ├── run_all.sh                 Reproduce all extension results and figures
 │   ├── src/                       Analysis and figure scripts
 │   ├── results/                   Result tables (CSV)
@@ -94,33 +94,31 @@ Run all commands from the repository root after placing the data under `Data/`.
 
 ### RQ1–RQ3 and RQ6
 
-| TSE RQ | Command | Output |
+| RQ | Command | Output |
 |---|---|---|
-| RQ1 | `python RQ1/fig5.py` | `RQ1/RQ1_fig_5.pdf` |
-| RQ2 | `python RQ2/fig6.py` | `RQ2/RQ2_fig6.pdf` |
-| RQ3 | `python RQ3/fig7.py` | `RQ3/RQ3_fig7.pdf` |
-| RQ6 | `python RQ4/fig8.py` | `RQ4/RQ4_fig8.pdf` |
+| RQ1 | `python RQ1/fig6.py` | `RQ1/RQ1_fig6.pdf` (Fig. 6) |
+| RQ2 | `python RQ2/fig7.py` | `RQ2/RQ2_fig7.pdf` (Fig. 7) |
+| RQ3 | `python RQ3/fig9.py` | `RQ3/RQ3_fig9.pdf` (Fig. 9) |
+| RQ6 | `python RQ6/fig12.py` | `RQ6/RQ6_fig12.pdf` (Fig. 12) |
 
-Output filenames follow the conference figure numbering.
-
-### RQ4 and RQ5 (TSE extension)
+### RQ4 and RQ5
 
 ```bash
-cd Extension
+cd RQ4_RQ5
 ./run_all.sh
 ```
 
-The script reads `../Data` without modifying it, writes intermediate files to `Extension/work/` (git-ignored), result tables to `Extension/results/`, and figures to `Extension/figures/`. It runs in about one minute, and bootstrap seeds are fixed, so the outputs are deterministic.
+The script reads `../Data` without modifying it, writes intermediate files to `RQ4_RQ5/work/` (git-ignored), result tables to `RQ4_RQ5/results/`, and figures to `RQ4_RQ5/figures/`. It runs in about one minute, and bootstrap seeds are fixed, so the outputs are deterministic.
 
 | Output | Paper element |
 |---|---|
-| `figures/strategy_transitions.pdf`, `results/B_paired_transitions.csv` | RQ4: evasion gains, losses, and ASR changes for the 28 comparisons that add one perturbation |
-| `figures/engine_strategy_changes.pdf`, `results/B_engine_primary_bonf.csv` | RQ4: engine-level ASR changes (PSC+IC+JOB → PSC+IC+JOB+CS, Bonferroni-adjusted) |
+| `figures/strategy_transitions.pdf`, `results/B_paired_transitions.csv` | RQ4, Fig. 10: evasion gains, losses, and ASR changes for the 28 comparisons that add one perturbation |
+| `figures/engine_strategy_changes.pdf`, `results/B_engine_primary_bonf.csv` | RQ4, Fig. 11: engine-level ASR changes (PSC+IC+JOB → PSC+IC+JOB+CS, Bonferroni-adjusted) |
 | `results/B_cs_label_evidence.csv` | RQ4: label context for the engine-level decreases |
-| `results/B2_paired_vs_baseline.csv` | RQ5: family-label mismatch rates vs. the original-rescan baseline (table) |
+| `results/B2_paired_vs_baseline.csv` | RQ5, Table VIII: family-label mismatch rates vs. the original-rescan baseline |
 | `results/B2_categories_counts.csv`, `results/B2_old_vs_new.csv` | RQ5: outcome categories and the effect of alias normalization |
 
-Definitions, sample selection, and the AVClass2 version (commit and SHA-256) are documented in [Extension/README.md](Extension/README.md).
+Definitions, sample selection, and the AVClass2 version (commit and SHA-256) are documented in [RQ4_RQ5/README.md](RQ4_RQ5/README.md).
 
 ## Behavioral Sanity-Check Traces
 
@@ -156,7 +154,7 @@ See [sanity_check/README.md](sanity_check/README.md) for details.
 
 ## Interpretation Notes
 
-- Single-perturbation AEs were scanned in April–May 2025 and multi-perturbation AEs in June 2025. Comparisons that span the two campaigns (TSE RQ4) describe trends within the collected reports rather than exact comparisons.
+- Single-perturbation AEs were scanned in April–May 2025 and multi-perturbation AEs in June 2025. Comparisons that span the two campaigns (RQ4) describe trends within the collected reports rather than exact comparisons.
 - VT verdicts and labels reflect engine outputs at scan time and may differ if the same files are rescanned today.
 - Engine labels describe outputs only; they do not establish internal detection mechanisms.
 

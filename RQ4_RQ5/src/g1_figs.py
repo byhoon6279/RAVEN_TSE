@@ -1,5 +1,5 @@
 # Strategy-effect figures (RQ4_tse): strategy_transitions.pdf, engine_strategy_changes.pdf
-# usage (from Extension/): python3 src/g1_figs.py work/B.pkl results figures
+# usage (from RQ4_RQ5/): python3 src/g1_figs.py work/B.pkl results figures
 import sys, os, pickle, numpy as np, pandas as pd, matplotlib
 matplotlib.use('pdf')
 import matplotlib.pyplot as plt

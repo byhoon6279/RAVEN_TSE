@@ -1,4 +1,4 @@
-# RAVEN Open Science: Perturbation Generation Scripts (RQ1 / RQ3 / RQ4)
+# RAVEN Open Science: Perturbation Generation Scripts (RQ1 / RQ3 / RQ6)
 
 This repository includes Python scripts that generate **semantics-preserving PE perturbations** used in the paper’s measurement pipelines.
 Each script batch-processes `.exe` files under an input directory and writes perturbed binaries into an output directory using a deterministic naming convention.
@@ -157,10 +157,10 @@ It deletes this temp tree when `--cleanup` is enabled (default behavior in the s
 
 ---
 
-# Script 3) `RQ4_modifier.py` (Fixed 4-perturbation chain for RQ4)
+# Script 3) `RQ6_modifier.py` (Fixed 4-perturbation chain for RQ6, longitudinal study)
 
 ## What it does
-`RQ4_modifier.py` is a specialization of the RQ3 pipeline for RQ4.  
+`RQ6_modifier.py` is a specialization of the RQ3 pipeline for RQ6 (the longitudinal study; RQ4 in the conference paper).  
 It applies **only the full 4-perturbation chain**:
 
 ```
@@ -171,12 +171,12 @@ It keeps the same retry logic (permutation fallback) and multiprocessing structu
 
 ## Usage
 ```bash
-python RQ4_modifier.py -i <INPUT_DIR> -o <OUTPUT_DIR> -l debug_output.txt
+python RQ6_modifier.py -i <INPUT_DIR> -o <OUTPUT_DIR> -l debug_output.txt
 ```
 
 Dry-run:
 ```bash
-python RQ4_modifier.py -i <INPUT_DIR> -o <OUTPUT_DIR> --dry-run
+python RQ6_modifier.py -i <INPUT_DIR> -o <OUTPUT_DIR> --dry-run
 ```
 
 ## Output directory structure

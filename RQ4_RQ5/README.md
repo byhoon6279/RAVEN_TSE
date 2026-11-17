@@ -1,10 +1,10 @@
-# RAVEN TSE Extension Analyses
+# RAVEN TSE RQ4 and RQ5 Analyses
 
 This directory contains the analysis code, result tables, and figures added for the TSE extension of RAVEN.
 All analyses reuse the VirusTotal reports already released under `../Data`; no new scans were performed.
 
 - **RQ4 (strategy effects):** paired evasion gains and losses when one perturbation is added to a strategy, and engine-level ASR changes.
-- **Family-label loss:** whether AEs that remain detected still carry the ground-truth family name in engine labels.
+- **RQ5 (family-label retention):** whether AEs that remain detected still carry the ground-truth family name in engine labels.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Python 3.10+ with `numpy`, `pandas`, and `matplotlib`.
 ## Reproduce
 
 ```bash
-cd Extension
+cd RQ4_RQ5
 ./run_all.sh
 ```
 

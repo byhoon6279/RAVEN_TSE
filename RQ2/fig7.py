@@ -174,5 +174,5 @@ fig.legend(handles, labels,
            columnspacing=1.2, handletextpad=0.6, borderaxespad=0.0)
 
 fig.tight_layout(rect=[0, 0, 1, 0.92])
-fig.savefig(os.path.join(SCRIPT_DIR, "RQ2_fig6.pdf"), dpi=300, bbox_inches="tight")
+fig.savefig(os.path.join(SCRIPT_DIR, "RQ2_fig7.pdf"), dpi=300, bbox_inches="tight")
 plt.show()

@@ -182,6 +182,6 @@ ax.set_ylabel("Perturbation", fontsize=16)
 ax.set_xticklabels(ax.get_xticklabels(), rotation=90, ha='center')
 ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 
-output_path = os.path.join(SCRIPT_DIR, "RQ1_fig_5.pdf")
+output_path = os.path.join(SCRIPT_DIR, "RQ1_fig6.pdf")
 plt.savefig(output_path, format="pdf", bbox_inches="tight")
 print(f"Save: {output_path}")
