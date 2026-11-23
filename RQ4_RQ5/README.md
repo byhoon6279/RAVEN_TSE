@@ -46,6 +46,7 @@ The family ground truth is the directory name (100 families).
 | 7 | `src/f3_cslabels.py` | `results/B_cs_label_evidence.csv` |
 | 8 | `src/f4_b2.py` | `results/B2_categories_counts.csv`, `results/B2_old_vs_new.csv` |
 | 9 | `src/f5_b2paired.py` | `results/B2_paired_vs_baseline.csv` |
+| 9b | `src/f6_mismatch_types.py` | `results/B2_mismatch_types.{csv,tex}` |
 | 10 | `src/g1_figs.py` | `figures/strategy_transitions.{pdf,csv}`, `figures/engine_strategy_changes.{pdf,csv}` |
 
 ## Definitions
@@ -58,7 +59,7 @@ The family ground truth is the directory name (100 families).
 
 **Engine-level analysis.** For PSC+IC+JOB → PSC+IC+JOB+CS, engines with at least 500 pairs (70 engines) are tested with Bonferroni-adjusted intervals (α = 0.05/70, i.e., 99.93% percentile intervals, 20,000 resamples). An engine is a decrease/increase when its adjusted interval excludes zero.
 
-**Family-label loss.** Labels are lower-cased and split on non-alphanumeric characters (tokens of length ≥ 3); each token is mapped to its canonical name through AVClass2 aliases. Detected labels are classified as same family, other family (AVClass2 FAM or dataset families), generic (AVClass2 GEN plus a small list in `f4_b2.py`), or unclassified. Targets are pairs whose original label contains the ground-truth family. The metric is the share of still-detected AEs whose label no longer contains the ground-truth family; the baseline is the June rescan of the original.
+**Family-label loss.** Labels are lower-cased and split on non-alphanumeric characters (tokens of length ≥ 3); each token is mapped to its canonical name through AVClass2 aliases. Detected labels are classified as same family, other family (AVClass2 FAM or dataset families), generic (AVClass2 GEN plus a small list in `f4_b2.py`), or unclassified. Targets are pairs whose original label contains the ground-truth family. The metric is the share of still-detected AEs whose label no longer contains the ground-truth family; the baseline is the June rescan of the original. Mismatch types (generic, other family, unclassified) in the supplementary table are counted within the same shared set as the paired comparison (the engine detects both the rescanned original and the AE), so they share its denominator.
 
 ## AVClass2 data
 

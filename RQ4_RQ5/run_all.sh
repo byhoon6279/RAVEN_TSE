@@ -12,5 +12,6 @@ python3 src/f2_engines.py                               # 5. (supplementary) per
 python3 src/f2b_bonf.py                                 # 6. per-engine PSC+IC+JOB -> +CS, Bonferroni (70 engines)
 python3 src/f3_cslabels.py                              # 7. label context for CS-added losses
 python3 src/f4_b2.py                                    # 8. family-label loss (AVClass2 aliases), categories
-python3 src/f5_b2paired.py                              # 9. family-label loss, paired vs. original rescan
+python3 src/f5_b2paired.py                              # 9. family-label loss, paired vs. original rescan (+ mismatch types)
+python3 src/f6_mismatch_types.py                         # 9b. supplementary table: mismatch types in the Table VIII set
 python3 src/g1_figs.py work/B.pkl results figures       # 10. figures (vector PDF, TrueType fonts)
